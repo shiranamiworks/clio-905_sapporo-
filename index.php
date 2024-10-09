@@ -396,7 +396,8 @@ $(window).scroll(function () {
         <h4 class="CormorantGaramond fade-in fade-in-up">Pick Up</h4>
         <div class="swiper-pickup fade-in fade-in-up">
           <div class="swiper-wrapper">
-            <!-- <div class="swiper-slide"> <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank" class="gtm_click_trg" id="view_gallery">
+            <!-- <div class="swiper-slide"> 
+              <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank" class="gtm_click_trg" id="view_gallery">
               <div class="inner_card">
                 <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/gallery/bnr.jpg" alt="竣工物件ギャラリー"> </div>
                 <div class="txtarea">
@@ -431,9 +432,10 @@ $(window).scroll(function () {
                   <p class="more EBgaramond">view more</p>
                 </div>
               </div>
-              </a> </div>
+              </a>
+            </div>
           </div>
-          <!-- <div class="swiper-scrollbar"></div>  -->
+          <div class="swiper-scrollbar"></div> 
         </div>
       </div>
     </section>
@@ -457,67 +459,100 @@ $(window).scroll(function () {
   </section>
   
   <!-------- footer ----------------------------------------------------------------> 
-  <script type="text/javascript">
+ <script type="text/javascript">
   includeHTML("include/footer.html","./");
-</script> 
-  <script type="text/javascript">
+ </script> 
+ <script type="text/javascript">
 //Cookie
-$(function(){
-  // 1回目のアクセス
-  if($.cookie("access") == undefined) {
-      $.cookie("access","onece");
-    $("#splash").css("display","block")
-  // 2回目以降
-  } else {
-    $("#splash").css("display","none");
-    $("#video video").css("display","none");
-    $("#video img").css("display","block");
-  }
-});       
-</script> 
+    $(function(){
+      // 1回目のアクセス
+      if($.cookie("access") == undefined) {
+          $.cookie("access","onece");
+        $("#splash").css("display","block")
+      // 2回目以降
+      } else {
+        $("#splash").css("display","none");
+        $("#video video").css("display","none");
+        $("#video img").css("display","block");
+      }
+    });       
+  </script> 
   <script type="text/javascript">
-  $(function () {
-  $('.swiper-scroll').each(function(){
-    $(this).scroll(function(e){
-    var scrL = $(this).scrollLeft();
-    $(this).find('.swipe-icon').fadeOut();
+      $(function () {
+      $('.swiper-scroll').each(function(){
+        $(this).scroll(function(e){
+        var scrL = $(this).scrollLeft();
+        $(this).find('.swipe-icon').fadeOut();
+        });
+      });
     });
-  });
-});
-</script> 
+  </script> 
   <script type="text/javascript" src="common/js/fade-in.js" charset="UTF-8"></script> 
   <script>
-var width = $(window).width();
-if(width > 767){
-    luxy.init({
-        wrapper: '.luxy',
-        targets : '.luxy-el',
-        wrapperSpeed:  0.08
-    });
-}
-</script> 
+    var width = $(window).width();
+    if(width > 767){
+        luxy.init({
+            wrapper: '.luxy',
+            targets : '.luxy-el',
+            wrapperSpeed:  0.08
+        });
+    }
+  </script> 
   <script>         
-var images = document.getElementsByClassName('Parallax');
-new simpleParallax(images, {
-    delay: 0.3,
-    scale: 1.2
-}); 
+    var images = document.getElementsByClassName('Parallax');
+    new simpleParallax(images, {
+        delay: 0.3,
+        scale: 1.2
+    }); 
     
-var image = document.getElementsByClassName('Parallax_r');
-new simpleParallax(image, {
-    delay: 0.3,
-    scale: 1.2,
-	orientation: 'right'
-});
+    var image = document.getElementsByClassName('Parallax_r');
+    new simpleParallax(image, {
+        delay: 0.3,
+        scale: 1.2,
+      orientation: 'right'
+    });
+        
+    var image = document.getElementsByClassName('Parallax_l');
+    new simpleParallax(image, {
+        delay: 0.3,
+        scale: 1.2,
+      orientation: 'left'
+    });
     
-var image = document.getElementsByClassName('Parallax_l');
-new simpleParallax(image, {
-    delay: 0.3,
-    scale: 1.2,
-	orientation: 'left'
-});
-    
-</script> 
+  </script>
+  
+  <script type="text/javascript">
+
+		var mySwiper = new Swiper('.swiper-pickup', {
+			initialSlide: 0,
+			centeredSlides: false,
+			slidesPerView: 3,
+			spaceBetween: 1,
+			loop: false,
+			speed: 3000,
+			  autoplay: {
+			  	delay: 3000,
+			  },
+			centeredSlidesBounds: false,
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				hide: false,
+				draggable: true,
+				snapOnRelease: true,
+			},
+			breakpoints: {
+				1000: {
+					slidesPerView: 2,
+				},
+				640: {
+					slidesPerView: 1,
+				}
+			  }
+		});
+
+
+	</script>
+  
   
   <!-- 解析タグここから --> 
   <!-- WebAntenna --> 

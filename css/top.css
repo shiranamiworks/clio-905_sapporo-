@@ -1986,9 +1986,18 @@ padding: 1em
   right: auto;
   transform: translateX(-50%);
 }
+.sec-pickup .swiper-pickup {
+  padding-bottom: 30px;
+}
+
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide{
+  position: relative;
+  transition: all .8s;
+}
 
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a {
   display: block;
+  padding: 0 0 12px 0;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .imgBox {
   background: #fff;
@@ -2039,3 +2048,4 @@ padding: 1em
 .pageTop {
   display: none !important;
 }
+

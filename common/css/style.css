@@ -829,7 +829,7 @@ body.fixed {
 .footerarea .foot-contact-area .contact_in {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in {
@@ -857,33 +857,37 @@ body.fixed {
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area {
-    display: flex;
-    flex-direction: column-reverse;
+    display: block;
+    /* flex-direction: column-reverse; */
     margin: 0 auto;
     width: 100%;
   }
 }
 .footerarea .foot-contact-area .contact_in .cv-area .siteLink {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   margin-bottom: 10px;
+  float: right;
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .siteLink {
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
-      letter-spacing: 0.1em;
+    align-items: center; */
+    letter-spacing: 0.1em;
+    float: none;
+    text-align: center;
   }
 }
 .footerarea .foot-contact-area .contact_in .cv-area .siteLink li.map {
   margin-right: 15px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1000px) {
 .footerarea .foot-contact-area .contact_in .cv-area .siteLink li.map {
   margin-right: 0;
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 }
 
@@ -897,32 +901,37 @@ body.fixed {
   opacity: 0.6;
 }
 .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  float: right;
+  width: 38%;
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn {
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-bottom: 10px;
+    float: none;
+    width: auto;
   }
 }
 .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li {
-  width: calc((100% - 20px) / 3);
+  width: calc((100% - 20px) / 1);
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li {
     width: 80%;
+    margin: auto;
   }
 }
-.footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li:nth-child(-n+2) {
+/* .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li:nth-child(-n+2) {
   margin-right: 10px;
-}
+} */
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li:nth-child(-n+2) {
-    margin-right: 0;
+    margin-right: auto;
     margin-bottom: 10px;
   }
 }
