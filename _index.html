@@ -22,16 +22,17 @@ require "../cookie.php";
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta property="og:url" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/">
+<meta property="og:image" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/common/imgs/ogimage.jpg" />
 <meta property="og:type" content="website">
 <meta property="og:title" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション">
-<meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。">
+<meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション5駅4路線利用可能。">
 <meta property="og:site_name" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション">
-<meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,札幌市,東区,明和地所">
-<meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。">
+<meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所">
+<meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション5駅4路線利用可能。">
 <link rel="canonical" href="https://www.meiwajisyo.co.jp/clio/905_Sapporo/">
 
 <!-- title -->
-<title>クリオ札幌グランクラス 【公式HP】｜札幌市東区の新築・分譲マンション</title>
+<title>クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション</title>
 
 <!-- preload -->
 <link rel="preload" href="img/main_movie.mp4" as="video" media="(min-width: 601px)">
@@ -52,12 +53,12 @@ require "../cookie.php";
 <script type="text/javascript" src="common/js/util.js" id="utilJS" charset="UTF-8"></script> 
 <script type="text/javascript" src="common/js/main.js" id="mainJS" charset="UTF-8"></script> 
 <script type="text/javascript" src="common/js/common.js" id="commonJS" charset="UTF-8"></script> 
-<script type="text/javascript" src="js/top.js" id="topJS" charset="UTF-8"></script> 
+<script type="text/javascript" src="js/_top.js" id="topJS" charset="UTF-8"></script> 
 <script type="text/javascript" src="common/js/swiper.min.js" charset="UTF-8"></script> 
 <script type="text/javascript" src="common/js/luxy.min.js" charset="UTF-8"></script> 
 <script src="js/simpleParallax.min.js"></script> 
 <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script> 
-<script src="js/loading.js"></script>
+<script src="js/_loading.js"></script>
     
 <script>
 /* ローンシミュレーションページへのリンク生成 */
@@ -104,14 +105,14 @@ $("#ls_bnr a").attr("href", ls_url)
 </script> 
 
 <!-- top-cv-btn -->
-<div class="_top-cv-btn_fadein pc">
+ <div class="_top-cv-btn_fadein pc">
   <div class="top-cv-btn pc">
     <ul>
       <li> <a href="https://www.meiwajisyo.co.jp/form/request/?bunjo_number=2000233M2220050" class="gtm_cv_request_trg" id="cv_top_request" target="_blank">資料請求</a> </li>
       <!-- <li> <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" class="gtm_cv_reserve_trg" id="cv_top_reserve" target="_blank">来場予約</a> </li>
-      <li> <a href="https://www.meiwajisyo.co.jp/form/remotecoming/?bunjo_number=2000233M2220050" class="gtm_cv_remote_trg" id="cv_top_remote" target="_blank">WEB接客予約</a> </li> -->
+      <li> <a href="https://www.meiwajisyo.co.jp/form/remotecoming/?bunjo_number=2000233M2220050" class="gtm_cv_remote_trg" id="cv_top_remote" target="_blank">WEB接客予約</a> </li>  -->
     </ul>
-  </div>
+  </div> 
 </div>
 <!-- top-cv-btn -->
 
@@ -119,9 +120,26 @@ $("#ls_bnr a").attr("href", ls_url)
   
   <!-- main visual -->
   <main class="mv-wrap fade">
-    <div class="mv-bg"></div>
+    <div class="mv-bg" id="mv"></div>
+    <div class="swiper-main">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide mv01">
+         <img src="imgs/mv_pc01.jpg" class="pc">
+         <img src="imgs/mv_pc01.jpg" class="tb">
+         <img src="imgs/mv_sp01.jpg" class="sp">
+         <p class="cap">エントランスアプローチ完成予想図</p>
+        </div>
+        <div class="swiper-slide mv02">
+          <img src="imgs/mv_pc02.jpg" class="pc">
+          <img src="imgs/mv_pc02.jpg" class="tb">
+          <img src="imgs/mv_sp02.jpg" class="sp">
+          <p class="cap">エントランスアプローチ完成予想図</p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="mv-bg"></div>
     <div id="video"></div>
-    <p class="cap">借景外観完成予想図</p>
+    <p class="cap">エントランスアプローチ完成予想図</p> -->
   </main>
   
   <!-- usp -->
@@ -299,7 +317,7 @@ $(window).scroll(function () {
           <h2>アクセス</h2>
           <p>北海道最大のターミナル駅<br />
             「札幌」駅を最寄り駅に<br>
-            5駅4路線<sup>※3</sup>のアクセスが可能。</p>
+            5駅4路線<sup>※1</sup>のアクセスが可能。</p>
           <p class="btn pc"><a href="access/" class="gtm_cv_reserve_trg" id="cv_access">VIEW DETAIL</a></p>
           <p class="colorbar"><img src="img/colorbar.svg"></p>
         </div>
@@ -396,7 +414,8 @@ $(window).scroll(function () {
         <h4 class="CormorantGaramond fade-in fade-in-up">Pick Up</h4>
         <div class="swiper-pickup fade-in fade-in-up">
           <div class="swiper-wrapper">
-            <!-- <div class="swiper-slide"> <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank" class="gtm_click_trg" id="view_gallery">
+            <!-- <div class="swiper-slide"> 
+              <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank" class="gtm_click_trg" id="view_gallery">
               <div class="inner_card">
                 <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/gallery/bnr.jpg" alt="竣工物件ギャラリー"> </div>
                 <div class="txtarea">
@@ -431,93 +450,128 @@ $(window).scroll(function () {
                   <p class="more EBgaramond">view more</p>
                 </div>
               </div>
-              </a> </div>
+              </a>
+            </div>
           </div>
-          <!-- <div class="swiper-scrollbar"></div>  -->
+          <div class="swiper-scrollbar"></div> 
         </div>
       </div>
     </section>
     <section class="foot-caption inner">
+        ※掲載のエントランスアプローチ完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては省略しています。
       <!-- <p>※1.地下鉄東豊線・南北線「さっぽろ」駅「新設出入口」より徒歩6分（約430m）2023年12月完成予定／出典 北8西1地区第一種市街地再開発事業ホームページ。新設出入口を利用しない場合は地下鉄東豊線・南北線「さっぽろ」駅16番出入口まで徒歩7分（約560m）。<br> -->
         <!-- ※2.無償セレクトプランには申し込み期限がございますので、詳しくは係員にお尋ねください。<br> -->
-        ※1. 5駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線「さっぽろ」駅徒歩6分、地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。<br>
-        ※2. 2023年1月末時点 株式会社日本経済広告社調べ。<br>
-        ※3.サービス対象期間は鍵の引き渡しから 15 年間、当社アフターサービス期間を含みます。<br>
+        <br>※1.5駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線「さっぽろ」駅徒歩6分、地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。<br>
+        ※2.2023年1月末時点 株式会社日本経済広告社調べ。<br>
+        ※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。<br>
         <br>
-        ※掲載の借景外観完成予想図は現地 10 階相当の眺望写真（ 2022年8月撮影）に設計段階の図面を基に描き起こした外観完成予想図をＣＧ合成したもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。
+        ※掲載の借景外観完成予想図は現地10階相当の眺望写真（2022年8月撮影）に設計段階の図面を基に描き起こした外観完成予想図をCG合成したもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。
         周辺の建物の位置、高さ等については実際のものと異なる場合があります。眺望は将来に渡って保証するものでは有りません。<br>
         ※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道<br>
         ※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合<br>
         ※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業<br>
-        ※掲載の航空写真は現地周辺を撮影（2021年10月）した写真を CG 加工したもので実際とは異なります。また現地の位置を表現した光は、建物の規模や高さを示すものではございません。周辺環境は将来にわたり保証されるものではございません。<br>
-        ※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。 <br>
+        ※掲載の航空写真は現地周辺を撮影（2021年10月）した写真をCG加工したもので実際とは異なります。また現地の位置を表現した光は、建物の規模や高さを示すものではございません。周辺環境は将来にわたり保証されるものではございません。<br>
+        ※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。<br>
         ※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ12階／有償設計変更プラン）は、設計段階の図面を基に描き起こしたものに現地12階相当の眺望写真（2022年7月撮影）をCG合成したもので、形状・色等は実際とは異なる場合があります。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
       </p>
     </section>
   </section>
   
   <!-------- footer ----------------------------------------------------------------> 
-  <script type="text/javascript">
+ <script type="text/javascript">
   includeHTML("include/footer.html","./");
-</script> 
-  <script type="text/javascript">
+ </script> 
+ <script type="text/javascript">
 //Cookie
-$(function(){
-  // 1回目のアクセス
-  if($.cookie("access") == undefined) {
-      $.cookie("access","onece");
-    $("#splash").css("display","block")
-  // 2回目以降
-  } else {
-    $("#splash").css("display","none");
-    $("#video video").css("display","none");
-    $("#video img").css("display","block");
-  }
-});       
-</script> 
+    $(function(){
+      // 1回目のアクセス
+      if($.cookie("access") == undefined) {
+          $.cookie("access","onece");
+        $("#splash").css("display","block")
+      // 2回目以降
+      } else {
+        $("#splash").css("display","none");
+        $("#video video").css("display","none");
+        $("#video img").css("display","block");
+      }
+    });       
+  </script> 
   <script type="text/javascript">
-  $(function () {
-  $('.swiper-scroll').each(function(){
-    $(this).scroll(function(e){
-    var scrL = $(this).scrollLeft();
-    $(this).find('.swipe-icon').fadeOut();
+      $(function () {
+      $('.swiper-scroll').each(function(){
+        $(this).scroll(function(e){
+        var scrL = $(this).scrollLeft();
+        $(this).find('.swipe-icon').fadeOut();
+        });
+      });
     });
-  });
-});
-</script> 
+  </script> 
   <script type="text/javascript" src="common/js/fade-in.js" charset="UTF-8"></script> 
   <script>
-var width = $(window).width();
-if(width > 767){
-    luxy.init({
-        wrapper: '.luxy',
-        targets : '.luxy-el',
-        wrapperSpeed:  0.08
-    });
-}
-</script> 
+    var width = $(window).width();
+    if(width > 767){
+        luxy.init({
+            wrapper: '.luxy',
+            targets : '.luxy-el',
+            wrapperSpeed:  0.08
+        });
+    }
+  </script> 
   <script>         
-var images = document.getElementsByClassName('Parallax');
-new simpleParallax(images, {
-    delay: 0.3,
-    scale: 1.2
-}); 
+    var images = document.getElementsByClassName('Parallax');
+    new simpleParallax(images, {
+        delay: 0.3,
+        scale: 1.2
+    }); 
     
-var image = document.getElementsByClassName('Parallax_r');
-new simpleParallax(image, {
-    delay: 0.3,
-    scale: 1.2,
-	orientation: 'right'
-});
+    var image = document.getElementsByClassName('Parallax_r');
+    new simpleParallax(image, {
+        delay: 0.3,
+        scale: 1.2,
+      orientation: 'right'
+    });
+        
+    var image = document.getElementsByClassName('Parallax_l');
+    new simpleParallax(image, {
+        delay: 0.3,
+        scale: 1.2,
+      orientation: 'left'
+    });
     
-var image = document.getElementsByClassName('Parallax_l');
-new simpleParallax(image, {
-    delay: 0.3,
-    scale: 1.2,
-	orientation: 'left'
-});
-    
-</script> 
+  </script>
+  
+  <script type="text/javascript">
+
+		var mySwiper = new Swiper('.swiper-pickup', {
+			initialSlide: 0,
+			centeredSlides: false,
+			slidesPerView: 3,
+			spaceBetween: 1,
+			loop: false,
+			speed: 3000,
+			  autoplay: {
+			  	delay: 3000,
+			  },
+			centeredSlidesBounds: false,
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				hide: false,
+				draggable: true,
+				snapOnRelease: true,
+			},
+			breakpoints: {
+				1000: {
+					slidesPerView: 2,
+				},
+				640: {
+					slidesPerView: 1,
+				}
+			  }
+		});
+
+
+	</script>
+  
   
   <!-- 解析タグここから --> 
   <!-- WebAntenna --> 

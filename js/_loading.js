@@ -45,17 +45,19 @@ if(ua.indexOf("iPhone") > 0 || ua.indexOf("Android") > 0 && ua.indexOf("Mobile")
     
 var target = document.getElementById("video");
 var video = document.createElement("video");
+var target = document.getElementById("mv");
+var target = document.createElement("mv");
 video.src = "img/main_movie_sp.mp4";
 video.style.width = "100%";
 video.autoplay = true;
 video.setAttribute('playsinline', '');
-video.setAttribute('muted', '');
+video.muted = true;
 video.controlslist = "nodownload";
 video.preload = "metadata";
-video.poster = "img/main_jpg_sp.png";
+video.poster = "img/main_jpg_sp.jpg";
 
 var img = document.createElement("img");
-img.src = "img/main_jpg_sp.png";
+img.src = "img/main_jpg_sp.jpg";
 img.style.display = "none";
 
 video.addEventListener("ended", function() {
@@ -63,7 +65,7 @@ video.addEventListener("ended", function() {
   img.style.display = "block";
 });
 
-target.appendChild(video);
+target.appendChild(mv);
 target.appendChild(img);
       
       
@@ -71,17 +73,20 @@ target.appendChild(img);
 
 var target = document.getElementById("video");
 var video = document.createElement("video");
-video.src = "img/main_movie_sp.mp4";
+var target = document.getElementById("mv");
+var target = document.createElement("mv");
+video.src = "img/main_movie.mp4";
 video.style.width = "100%";
 video.autoplay = true;
 video.setAttribute('playsinline', '');
-video.setAttribute('muted', '');
+video.muted = true;
 video.controlslist = "nodownload";
 video.preload = "metadata";
-video.poster = "img/main_jpg_sp.png";
+video.poster = "img/main_jpg.jpg";
 
 var img = document.createElement("img");
-img.src = "img/main_jpg_sp.png";
+img.src = "img/main_jpg.jpg";
+img.style.width = "100%";
 img.style.display = "none";
 
 video.addEventListener("ended", function() {
@@ -95,6 +100,8 @@ target.appendChild(img);
   }else{
 var target = document.getElementById("video");
 var video = document.createElement("video");
+var target = document.getElementById("mv");
+var target = document.createElement("mv");
 video.src = "img/main_movie.mp4";
 video.style.width = "100%";
 video.autoplay = true;
@@ -102,10 +109,10 @@ video.controlslist = "nodownload";
 video.preload = "metadata";
 video.playsinline = true;
 video.muted = true;
-video.poster = "img/main_jpg.png";
+video.poster = "img/main_jpg.jpg";
 
 var img = document.createElement("img");
-img.src = "img/main_jpg.png";
+img.src = "img/main_jpg.jpg";
 img.style.width = "100%";
 img.style.display = "none";
 
@@ -114,7 +121,7 @@ video.addEventListener("ended", function() {
   img.style.display = "block";
 });
 
-target.appendChild(video);
+target.appendChild(mv);
 target.appendChild(img);
       
       

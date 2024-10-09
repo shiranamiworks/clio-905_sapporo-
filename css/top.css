@@ -105,10 +105,11 @@ border: 1px solid #79C266;
 
 #contentsWrap main {
   position: relative;
-  height: 100vh;
-     max-height: 980px;
-overflow: hidden;
+  height: 100%;
+  max-height: 980px;
+  overflow: hidden;
 }
+
 
 #contentsWrap main .swiper-wrapper .swiper-slide {
   position: relative;
@@ -172,7 +173,7 @@ overflow: hidden;
   width: 100%;
   height: 100%
     } 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
 #contentsWrap main {max-height: 760px;}  
 #contentsWrap .mv-wrap .mv-bg {max-height: 760px;}    
 #contentsWrap .mv-wrap #video {max-height: 760px;}      
@@ -199,7 +200,7 @@ overflow: hidden;
   height: 100%
     }    
     
-#contentsWrap .mv-wrap video {height: 50vh;}    
+#contentsWrap .mv-wrap video {height: 50vh;}     */
     
     
     
