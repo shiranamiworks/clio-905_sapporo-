@@ -236,7 +236,7 @@ $("#ls_bnr a").attr("href", ls_url)
         刻一刻と進化する風景と、<br class="sp">
         住まう人々の人生が響き合う<br class="tbsp">
         新たな都心邸宅の誕生です。</span></span>
-        </h3>
+      </p>
     </div>
     <div class="vision-text fadein">
       <h3 class="ttl"><span class="smoothText"><span class="smoothTextTrigger">進化する都心、<br class="tbsp">
@@ -363,11 +363,11 @@ $(window).scroll(function () {
     <section id="sec-menu" class="sec-menu fade-in fade-in-up">
       <div class="menu_con">
         <ul>
-          <li class="link_box">
+          <!-- <li class="link_box">
             <p class="menu_title">セレクトシステム</p>
             <p class="menu_eng CormorantGaramond">SELECT SYSTEM</p>
             <p class="cap">クリオ ライフスタイルサロン札幌 展示スペース（2020年7月撮影）</p>
-            <a href="select/">詳細</a> </li>
+            <a href="select/">詳細</a> </li> -->
           <li class="link_box">
             <p class="menu_title">分譲実績</p>
             <p class="menu_eng CormorantGaramond">RESULT</p>
