@@ -653,10 +653,11 @@ padding-top: 10px;
 
 .plan-detail__img__caption {
     width: 100%;
+    max-width: 555px;
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
-    margin-top: 80px;
+    margin: 80px auto 0;
 }
 
 .plan-detail__img__caption li  {
