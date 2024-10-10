@@ -25,10 +25,10 @@ require "../cookie.php";
 <meta property="og:image" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/common/imgs/ogimage.jpg" />
 <meta property="og:type" content="website">
 <meta property="og:title" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション">
-<meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション5駅4路線利用可能。">
+<meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。">
 <meta property="og:site_name" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション">
 <meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所">
-<meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション5駅4路線利用可能。">
+<meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。">
 <link rel="canonical" href="https://www.meiwajisyo.co.jp/clio/905_Sapporo/">
 
 <!-- title -->
@@ -317,7 +317,7 @@ $("#ls_bnr a").attr("href", ls_url)
           <h2>アクセス</h2>
           <p>北海道最大のターミナル駅<br />
             「札幌」駅を最寄り駅に<br>
-            5駅4路線<sup>※1</sup>のアクセスが可能。</p>
+            4駅4路線<sup>※1</sup>のアクセスが可能。</p>
           <p class="btn pc"><a href="access/" class="gtm_cv_reserve_trg" id="cv_access">VIEW DETAIL</a></p>
           <p class="colorbar"><img src="img/colorbar.svg"></p>
         </div>
@@ -459,7 +459,7 @@ $("#ls_bnr a").attr("href", ls_url)
     </section>
     <section class="foot-caption inner">
       <p>※掲載のエントランス完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
-      <br>※1.5駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線「さっぽろ」駅徒歩6分、地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。
+      <br>※1.4駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線・地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。
       <br>※2.2024年7月末時点 株式会社日本経済広告社調べ。
       <br>※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。
       <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
