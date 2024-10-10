@@ -45,8 +45,8 @@ if(ua.indexOf("iPhone") > 0 || ua.indexOf("Android") > 0 && ua.indexOf("Mobile")
     
 var target = document.getElementById("video");
 var video = document.createElement("video");
-var target = document.getElementById("mv");
-var target = document.createElement("mv");
+// var target = document.getElementById("mv");
+// var target = document.createElement("mv");
 video.src = "img/main_movie_sp.mp4";
 video.style.width = "100%";
 video.autoplay = true;
@@ -73,8 +73,8 @@ target.appendChild(img);
 
 var target = document.getElementById("video");
 var video = document.createElement("video");
-var target = document.getElementById("mv");
-var target = document.createElement("mv");
+// var target = document.getElementById("mv");
+// var target = document.createElement("mv");
 video.src = "img/main_movie.mp4";
 video.style.width = "100%";
 video.autoplay = true;
@@ -100,8 +100,8 @@ target.appendChild(img);
   }else{
 var target = document.getElementById("video");
 var video = document.createElement("video");
-var target = document.getElementById("mv");
-var target = document.createElement("mv");
+// var target = document.getElementById("mv");
+// var target = document.createElement("mv");
 video.src = "img/main_movie.mp4";
 video.style.width = "100%";
 video.autoplay = true;

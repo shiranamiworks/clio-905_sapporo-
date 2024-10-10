@@ -120,8 +120,11 @@ $("#ls_bnr a").attr("href", ls_url)
   
   <!-- main visual -->
   <main class="mv-wrap fade">
-    <div class="mv-bg" id="video"></div>
-    <div class="_swiper-main">
+    <div class="mv-bg"></div>
+    <div id="video"></div>
+    <div id="mv"></div>
+    <p class="cap">エントランス完成予想図</p>
+    <!-- <div class="_swiper-main">
       <div class="swiper-wrapper">
         <div class="swiper-slide mv01">
          <img src="img/main_jpg.jpg" class="pc">
@@ -129,16 +132,14 @@ $("#ls_bnr a").attr("href", ls_url)
          <img src="img/main_jpg_sp.jpg" class="sp">
          <p class="cap">エントランス完成予想図</p>
         </div>
-        <!-- <div class="swiper-slide mv02">
+        <div class="swiper-slide mv02">
           <img src="imgs/mv_pc02.jpg" class="pc">
           <img src="imgs/mv_pc02.jpg" class="tb">
           <img src="imgs/mv_sp02.jpg" class="sp">
           <p class="cap"></p>
-        </div> -->
+        </div>
       </div>
-    </div>
-    <!-- <div id="mv"></div>
-    <p class="cap">エントランス完成予想図</p> -->
+    </div> -->
   </main>
   
   <!-- usp -->
