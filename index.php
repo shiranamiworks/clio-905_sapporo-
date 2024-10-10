@@ -122,7 +122,6 @@ $("#ls_bnr a").attr("href", ls_url)
   <main class="mv-wrap fade">
     <div class="mv-bg"></div>
     <div id="video"></div>
-    <div id="mv"></div>
     <p class="cap">エントランス完成予想図</p>
     <!-- <div class="_swiper-main">
       <div class="swiper-wrapper">
