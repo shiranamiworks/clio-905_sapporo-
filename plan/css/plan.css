@@ -639,7 +639,7 @@ padding-top: 10px;
 }
 
 .plan-detail__img .imgBox.atype {
-    width: 840px;
+    max-width: 840px;
     margin: auto;
 }
 .plan-detail__img .imgBox.dtype {
@@ -776,6 +776,8 @@ border-left: 40px rgba(137, 156, 123, .2) solid;
     width: 100%;
     /* padding-left: 10px; */
     font-size: 14px;
+    text-align: center;
+    margin: auto;
 }
 
 .plan-detail__spec__area span strong {
