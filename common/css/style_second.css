@@ -440,7 +440,7 @@ border: 1px solid #81A0CE;
   margin-bottom: 40px;
 }
 
-.sec-pickup h4::after {
+/* .sec-pickup h4::after {
     content: "";
     height: 1px;
     width: 80px;
@@ -450,7 +450,7 @@ border: 1px solid #81A0CE;
       left: 50%;
   right: auto;
   transform: translateX(-50%);
-}
+} */
 
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a {
   display: block;
@@ -498,5 +498,5 @@ border: 1px solid #81A0CE;
 
 .foot-caption {
     margin-bottom: 80px;
+    font-size: 11px;
 }
-

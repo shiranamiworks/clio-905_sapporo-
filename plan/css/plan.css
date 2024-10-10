@@ -559,7 +559,8 @@ color: #EFEFEF;
 
 /*plan-detail__spec-top*/
 .plan-detail__spec-top {
-    display: flex;
+    display: block;
+    text-align: center;
     border-bottom: 1px solid #7590A6;
 }
 
@@ -575,7 +576,7 @@ color: #EFEFEF;
 }
 
 .plan-detail__spec__plan {
-    width: calc(100% - 156px);
+    /* width: calc(100% - 156px); */
     padding-left: 40px;
     font-size: 45px;
 }
@@ -596,10 +597,10 @@ padding-top: 10px;
 }
 
 .plan-detail__spec__type {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-   flex-direction: column;
+    flex-direction: column;
     width: 156px;
     font-size: 76px;
     line-height: 1;
@@ -611,12 +612,13 @@ padding-top: 10px;
 }
 
 .plan-detail__spec__area {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     flex-wrap: wrap;
-    width: calc(100% - 156px);
-    padding-left: 40px;
+    width: calc(100% - 272px);
+    /* padding-left: 40px; */
     font-size: 19px;
+    margin: auto;
 }
 
 .plan-detail__spec__area span strong {
@@ -633,11 +635,11 @@ padding-top: 10px;
 }
 
 .plan-detail__img .inner {
-    max-width: 840px;
+    max-width: 930px;
 }
 
 .plan-detail__img .imgBox.atype {
-    width: 100%;
+    width: 840px;
     margin: auto;
 }
 .plan-detail__img .imgBox.dtype {
@@ -771,8 +773,8 @@ border-left: 40px rgba(137, 156, 123, .2) solid;
 }
 
 .plan-detail__spec__area {
-    width: calc(100% - 90px);
-    padding-left: 10px;
+    width: 100%;
+    /* padding-left: 10px; */
     font-size: 14px;
 }
 

@@ -122,7 +122,7 @@ $("#ls_bnr a").attr("href", ls_url)
   <main class="mv-wrap fade">
     <div class="mv-bg"></div>
     <div id="video"></div>
-    <p class="cap">エントランスアプローチ完成予想図</p>
+    <p class="cap">エントランス完成予想図</p>
   </main>
   
   <!-- usp -->
@@ -216,81 +216,82 @@ $("#ls_bnr a").attr("href", ls_url)
 
 <!-- sec-vision -->
 <section class="sec-vision2">
-<div class="sec-vision_con">
-  <div class="video-wrap fade">
-    <div class="video">
-      <div class="video-musk fadein_bg"></div>
-      <div class="view-bg"></div>
-      <video id="view-video" src="img/plx_movie.mp4" playsinline preload autoplay muted loop playsinlin ></video>
-    </div>
-    <div class="vision-text sp_harf fadein">
-      <h3 class="ttl fadein scroll-in"><img src="img/vision_txt.svg" alt="SAPPORO NEXT VISION"></h3>
-    </div>
-    <div class="vision-text sp_harf fadein">
-      <p class="vision_read"><span class="smoothText"><span class="smoothTextTrigger">新たな時代に向けて、<br class="sp">
-        大きく生まれ変わり始めた札幌都心。<br />
-        そのメインステージとなる<br class="sp">
-        J R「札幌」駅前エリアを目前に、<br />
-        潤いに満たされた66邸の<br class="sp">
-        未来が拓かれます。<br />
-        刻一刻と進化する風景と、<br class="sp">
-        住まう人々の人生が響き合う<br class="tbsp">
-        新たな都心邸宅の誕生です。</span></span>
-      </p>
-    </div>
-    <div class="vision-text fadein">
-      <h3 class="ttl"><span class="smoothText"><span class="smoothTextTrigger">進化する都心、<br class="tbsp">
-        その中心地「札幌」駅前。</span></span></h3>
-    </div>
-    <div class="vision-photo">
-      <div id="" class="photo_con order-effect luxy">
-        <div class="photo photo03 fadein luxy-el" data-speed-y="-3">
-          <p>いまJR「札幌」駅前では北海道新幹線の<br class="sp">札幌延伸をきっかけに<br class="pc">数々の再開発事業・<br class="sp">地区計画が進行中。<br>
-            交通拠点として整備されるだけでなく<br class="pcsp">商業・医療などの新施設も予定されており、<br class="pcsp">駅前エリアにさらなる賑わいが<br class="sp">もたらされることでしょう。</p>
-          <p class="caption pctb">写真1：札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅南口北4西3地区市街地再開発準備組合<br />
-            写真2：北5西1・西2地区市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅交流拠点北5西1・西2地区市街地開発準備組合<br />
-            写真3：Image photo</p>
-        </div>
-        <div class="photo photo02 luxy-el" data-speed-y="1"> <img class="fadein" src="img/vision_img02.png" alt="Image Photo">
-          <p class="cap">写真2</p>
-        </div>
-        <div class="photo photo01 luxy-el" data-speed-y="-2"> <img class="fadein" src="img/vision_img01.png" alt="Image Photo">
-          <p class="cap">写真1</p>
-        </div>
-        <div class="photo photo04 luxy-el" data-speed-y="4"> <img class="fadein" src="img/vision_img04.png" alt="Image Photo">
-          <p class="cap">写真3</p>
+  <div class="sec-vision_con">
+    <div class="video-wrap fade">
+      <div class="video">
+        <div class="video-musk fadein_bg"></div>
+        <div class="view-bg"></div>
+        <video id="view-video" src="img/plx_movie.mp4" playsinline preload autoplay muted loop playsinlin ></video>
+      </div>
+      <div class="vision-text sp_harf fadein">
+        <h3 class="ttl fadein scroll-in"><img src="img/vision_txt.svg" alt="SAPPORO NEXT VISION"></h3>
+      </div>
+      <div class="vision-text sp_harf fadein">
+        <p class="vision_read"><span class="smoothText"><span class="smoothTextTrigger">新たな時代に向けて、<br class="sp">
+          大きく生まれ変わり始めた札幌都心。<br />
+          そのメインステージとなる<br class="sp">
+          J R「札幌」駅前エリアを目前に、<br />
+          潤いに満たされた66邸の<br class="sp">
+          未来が拓かれます。<br />
+          刻一刻と進化する風景と、<br class="sp">
+          住まう人々の人生が響き合う<br class="tbsp">
+          新たな都心邸宅の誕生です。</span></span>
+        </p>
+      </div>
+      <div class="vision-text fadein">
+        <h3 class="ttl"><span class="smoothText"><span class="smoothTextTrigger">進化する都心、<br class="tbsp">
+          その中心地「札幌」駅前。</span></span></h3>
+     </div>
+      <div class="vision-photo">
+        <div id="" class="photo_con order-effect luxy">
+          <div class="photo photo03 fadein luxy-el" data-speed-y="-3">
+            <p>いまJR「札幌」駅前では北海道新幹線の<br class="sp">札幌延伸をきっかけに<br class="pc">数々の再開発事業・<br class="sp">地区計画が進行中。<br>
+              交通拠点として整備されるだけでなく<br class="pcsp">商業・医療などの新施設も予定されており、<br class="pcsp">駅前エリアにさらなる賑わいが<br class="sp">もたらされることでしょう。</p>
+            <p class="caption pctb">写真1：札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅南口北4西3地区市街地再開発準備組合<br />
+              写真2：北5西1・西2地区市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅交流拠点北5西1・西2地区市街地開発準備組合<br />
+              写真3：Image photo</p>
+          </div>
+          <div class="photo photo02 luxy-el" data-speed-y="1"> <img class="fadein" src="img/vision_img02.png" alt="Image Photo">
+            <p class="cap">写真2</p>
+          </div>
+          <div class="photo photo01 luxy-el" data-speed-y="-2"> <img class="fadein" src="img/vision_img01.png" alt="Image Photo">
+            <p class="cap">写真1</p>
+          </div>
+          <div class="photo photo04 luxy-el" data-speed-y="4"> <img class="fadein" src="img/vision_img04.png" alt="Image Photo">
+            <p class="cap">写真3</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="vision-text vision-end sp_harf fadein">
-      <p class="caption sp">写真1：札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅南口北4西3地区市街地再開発準備組合<br />
+      <div class="vision-text vision-end sp_harf fadein">
+        <p class="caption sp">写真1：札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅南口北4西3地区市街地再開発準備組合<br />
         写真2：北5西1・西2地区市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅交流拠点北5西1・西2地区市街地開発準備組合<br />
         写真3：Image photo</p>
+      </div>
     </div>
+    <script>
+      // smoothTriggerにsmoothTextAppearというクラス名を付ける定義
+      function SmoothTextAnime() {
+        $('.smoothTextTrigger').each(function(){ //smoothTextTriggerというクラス名が
+          var elemPos = $(this).offset().top + 10;//要素より、50px上の
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          if (scroll >= elemPos - windowHeight){
+          $(this).addClass('smoothTextAppear');// 画面内に入ったらsmoothTextAppearというクラス名を追記
+          }else{
+          $(this).removeClass('smoothTextAppear');// 画面外に出たらsmoothTextAppearというクラス名を外す
+          }
+          }); 
+      }
+
+      // 画面をスクロールをしたら動かしたい場合の記述
+      $(window).scroll(function () {
+        SmoothTextAnime();/* アニメーション用の関数を呼ぶ*/
+      });// ここまで画面をスクロールをしたら動かしたい場合の記述
+
+    </script>
   </div>
-  <script>
-    // smoothTriggerにsmoothTextAppearというクラス名を付ける定義
-function SmoothTextAnime() {
-  $('.smoothTextTrigger').each(function(){ //smoothTextTriggerというクラス名が
-    var elemPos = $(this).offset().top + 10;//要素より、50px上の
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight){
-    $(this).addClass('smoothTextAppear');// 画面内に入ったらsmoothTextAppearというクラス名を追記
-    }else{
-    $(this).removeClass('smoothTextAppear');// 画面外に出たらsmoothTextAppearというクラス名を外す
-    }
-    }); 
-}
-
-// 画面をスクロールをしたら動かしたい場合の記述
-$(window).scroll(function () {
-  SmoothTextAnime();/* アニメーション用の関数を呼ぶ*/
-});// ここまで画面をスクロールをしたら動かしたい場合の記述
-
-</script>
-  </section>
-  <section id="contentsWrap"> 
+</section>
+<section id="contentsWrap"> 
     
     <!-- /access -->
     <section id="access" class="sec-access fade-in fade-in-up">
@@ -350,7 +351,7 @@ $(window).scroll(function () {
         </div>
         <div class="right">
           <div class="photo"> <img src="img/plan_img.jpg" alt="Image Photo" class="Parallax_r">
-            <p class="cap">リビング・ダイニング・キッチン完成予想図（Aタイプ·12階／有償設計変更プラン）</p>
+            <p class="cap">リビング・ダイニング・キッチン完成予想図(Aタイプ／有償設計変更プラン)</p>
           </div>
           <div class="bg_white"></div>
           <div class="bg_green slidein"></div>
@@ -441,21 +442,16 @@ $(window).scroll(function () {
       </div>
     </section>
     <section class="foot-caption inner">
-        ※掲載のエントランスアプローチ完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては省略しています。
-      <!-- <p>※1.地下鉄東豊線・南北線「さっぽろ」駅「新設出入口」より徒歩6分（約430m）2023年12月完成予定／出典 北8西1地区第一種市街地再開発事業ホームページ。新設出入口を利用しない場合は地下鉄東豊線・南北線「さっぽろ」駅16番出入口まで徒歩7分（約560m）。<br> -->
-        <!-- ※2.無償セレクトプランには申し込み期限がございますので、詳しくは係員にお尋ねください。<br> -->
-        <br>※1.5駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線「さっぽろ」駅徒歩6分、地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。<br>
-        ※2.2023年1月末時点 株式会社日本経済広告社調べ。<br>
-        ※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。<br>
-        <br>
-        ※掲載の借景外観完成予想図は現地10階相当の眺望写真（2022年8月撮影）に設計段階の図面を基に描き起こした外観完成予想図をCG合成したもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。
-        周辺の建物の位置、高さ等については実際のものと異なる場合があります。眺望は将来に渡って保証するものでは有りません。<br>
-        ※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道<br>
-        ※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合<br>
-        ※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業<br>
-        ※掲載の航空写真は現地周辺を撮影（2021年10月）した写真をCG加工したもので実際とは異なります。また現地の位置を表現した光は、建物の規模や高さを示すものではございません。周辺環境は将来にわたり保証されるものではございません。<br>
-        ※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。<br>
-        ※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ12階／有償設計変更プラン）は、設計段階の図面を基に描き起こしたものに現地12階相当の眺望写真（2022年7月撮影）をCG合成したもので、形状・色等は実際とは異なる場合があります。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
+      <p>※掲載のエントランス完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
+      <br>※1.5駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線「さっぽろ」駅徒歩6分、地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。
+      <br>※2.2024年7月末時点 株式会社日本経済広告社調べ。
+      <br>※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。
+      <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
+      <br>※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合
+      <br>※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
+      <br>※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
+      <br>※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
+      <br>※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
       </p>
     </section>
   </section>
@@ -463,7 +459,11 @@ $(window).scroll(function () {
   <!-------- footer ----------------------------------------------------------------> 
  <script type="text/javascript">
   includeHTML("include/footer.html","./");
- </script> 
+ </script>
+
+</div><!-- / .page -->
+
+
  <script type="text/javascript">
 //Cookie
     $(function(){
@@ -585,6 +585,5 @@ $(window).scroll(function () {
   </noscript> -->
   <!-- end YTM --> 
   
-</div>
 </body>
 </html>
