@@ -120,7 +120,7 @@ $("#ls_bnr a").attr("href", ls_url)
   
   <!-- main visual -->
   <main class="mv-wrap fade">
-    <div class="mv-bg" id="mv"></div>
+    <div class="mv-bg" id="video"></div>
     <div class="_swiper-main">
       <div class="swiper-wrapper">
         <div class="swiper-slide mv01">
