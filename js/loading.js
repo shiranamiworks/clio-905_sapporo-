@@ -65,7 +65,7 @@ video.addEventListener("ended", function() {
   img.style.display = "block";
 });
 
-target.appendChild(mv);
+target.appendChild(video);
 target.appendChild(img);
       
       
@@ -94,7 +94,7 @@ video.addEventListener("ended", function() {
   img.style.display = "block";
 });
 
-target.appendChild(mv);
+target.appendChild(video);
 target.appendChild(img);
       
   }else{
@@ -121,7 +121,7 @@ video.addEventListener("ended", function() {
   img.style.display = "block";
 });
 
-target.appendChild(mv);
+target.appendChild(video);
 target.appendChild(img);
       
       
