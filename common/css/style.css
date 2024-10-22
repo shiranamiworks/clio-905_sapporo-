@@ -1207,7 +1207,7 @@ body.fixed {
   justify-content: flex-end;
   flex-wrap: wrap; */
   float: right;
-  width: 58%;
+  width: 70%;
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn {
@@ -1220,11 +1220,25 @@ body.fixed {
   }
 }
 .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li {
-  width: calc((55% - 20px) / 1);
+  width: 30%;
+  display: inline-block;
+}
+.footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li:last-child {
+  width: 38%;
   display: inline-block;
 }
 @media (max-width: 1000px) {
   .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  .footerarea
+    .foot-contact-area
+    .contact_in
+    .cv-area
+    .foot-cv-btn
+    li:last-child {
     width: 80%;
     margin: auto;
     display: block;
@@ -1246,11 +1260,11 @@ body.fixed {
 }
 .footerarea .foot-contact-area .contact_in .cv-area .foot-cv-btn li a {
   display: block;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #fff;
   line-height: 2;
   letter-spacing: 0.1em;
-  padding: 3px 20px 5px;
+  padding: 5px 20px 7px;
   border: 1px solid #fff;
   text-align: center;
   transition: 0.3s;
