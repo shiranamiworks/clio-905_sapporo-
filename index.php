@@ -26,125 +26,41 @@ require "../cookie.php";
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta
-      property="og:url"
-      content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/"
-    />
-    <meta
-      property="og:image"
-      content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/common/imgs/ogimage.jpg"
-    />
+    <meta property="og:url" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/" />
+    <meta property="og:image" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/common/imgs/ogimage.jpg" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション"
-    />
-    <meta
-      property="og:description"
-      content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。"
-    />
-    <meta
-      property="og:site_name"
-      content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション"
-    />
-    <meta
-      name="Keywords"
-      content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所"
-    />
-    <meta
-      name="Description"
-      content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。"
-    />
-    <link
-      rel="canonical"
-      href="https://www.meiwajisyo.co.jp/clio/905_Sapporo/"
-    />
+    <meta property="og:title" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション" />
+    <meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。" />
+    <meta property="og:site_name" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション" />
+    <meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所" />
+    <meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング1LDK〜3LDK。快適な都心ポジション4駅4路線利用可能。" />
+    <link rel="canonical" href="https://www.meiwajisyo.co.jp/clio/905_Sapporo/" />
 
     <!-- title -->
-    <title>
-      クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション
-    </title>
+    <title>クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション</title>
 
     <!-- preload -->
-    <link
-      rel="preload"
-      href="img/main_movie.mp4"
-      as="video"
-      media="(min-width: 601px)"
-    />
+    <link rel="preload" href="img/main_movie.mp4" as="video" media="(min-width: 601px)" />
     <link rel="preload" href="img/plx_movie.mp4" as="video" />
-    <link
-      rel="preload"
-      href="img/main_movie_sp.mp4"
-      as="video"
-      media="(max-width: 600px)"
-    />
+    <link rel="preload" href="img/main_movie_sp.mp4" as="video" media="(max-width: 600px)" />
 
     <!-- link -->
     <link rel="start" href="/" title="ホーム" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-      href="common/css/swiper.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-      href="common/css/main.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-      href="common/css/style.css"
-    />
+    <link rel="stylesheet" type="text/css" media="all" href="common/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="common/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="common/css/style.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/top.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/para.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/loading.css" />
     <!-- js -->
-    <script
-      type="text/javascript"
-      src="common/js/jquery.js"
-      id="jqueryJS"
-      charset="UTF-8"
-    ></script>
+    <script type="text/javascript" src="common/js/jquery.js" id="jqueryJS" charset="UTF-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script
-      type="text/javascript"
-      src="common/js/util.js"
-      id="utilJS"
-      charset="UTF-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="common/js/main.js"
-      id="mainJS"
-      charset="UTF-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="common/js/common.js"
-      id="commonJS"
-      charset="UTF-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="js/top.js"
-      id="topJS"
-      charset="UTF-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="common/js/swiper.min.js"
-      charset="UTF-8"
-    ></script>
-    <script
-      type="text/javascript"
-      src="common/js/luxy.min.js"
-      charset="UTF-8"
-    ></script>
+    <script type="text/javascript" src="common/js/util.js" id="utilJS" charset="UTF-8"></script>
+    <script type="text/javascript" src="common/js/main.js" id="mainJS" charset="UTF-8"></script>
+    <script type="text/javascript" src="common/js/common.js" id="commonJS" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/top.js" id="topJS" charset="UTF-8"></script>
+    <script type="text/javascript" src="common/js/swiper.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="common/js/luxy.min.js" charset="UTF-8"></script>
     <script src="js/simpleParallax.min.js"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src="js/loading.js"></script>
@@ -153,43 +69,23 @@ require "../cookie.php";
       /* ローンシミュレーションページへのリンク生成 */
       $(function () {
         var ls_title = $("title").text();
-        var ls_url =
-          "https://www.meiwajisyo.co.jp/form/simulation/?title=" + ls_title;
+        var ls_url = "https://www.meiwajisyo.co.jp/form/simulation/?title=" + ls_title;
         $("#ls_bnr a").attr("href", ls_url);
       });
     </script>
 
     <!-- init -->
     <!-- <link rel="stylesheet" type="text/css" href="common/css/import/accessibility.css" media="screen" id="noscriptCSS" /> -->
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="common/js/init.js"
-      id="InitJS"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://www.meiwajisyo.co.jp/bukken/topics-dist.js"
-      charset="UTF-8"
-    ></script>
+    <script type="text/javascript" charset="UTF-8" src="common/js/init.js" id="InitJS"></script>
+    <script type="text/javascript" src="https://www.meiwajisyo.co.jp/bukken/topics-dist.js" charset="UTF-8"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </head>
 
   <body class="base">
     <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KR9NHLL"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KR9NHLL" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <noscript>
@@ -220,31 +116,13 @@ require "../cookie.php";
         <div class="top-cv-btn pc">
           <ul>
             <li>
-              <a
-                href="https://www.meiwajisyo.co.jp/form/request/?bunjo_number=2000233M2220050"
-                class="gtm_cv_request_trg"
-                id="cv_top_request"
-                target="_blank"
-                >資料請求</a
-              >
+              <a href="https://www.meiwajisyo.co.jp/form/request/?bunjo_number=2000233M2220050" class="gtm_cv_request_trg" id="cv_top_request" target="_blank">資料請求</a>
             </li>
             <li>
-              <a
-                href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050"
-                class="gtm_cv_reserve_trg"
-                id="cv_top_reserve"
-                target="_blank"
-                >来場予約</a
-              >
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" class="gtm_cv_reserve_trg" id="cv_top_reserve" target="_blank">来場予約</a>
             </li>
             <li>
-              <a
-                href="https://www.meiwajisyo.co.jp/form/remotecoming/?bunjo_number=2000233M2220050"
-                class="gtm_cv_remote_trg"
-                id="cv_top_remote"
-                target="_blank"
-                >WEB接客予約</a
-              >
+              <a href="https://www.meiwajisyo.co.jp/form/remotecoming/?bunjo_number=2000233M2220050" class="gtm_cv_remote_trg" id="cv_top_remote" target="_blank">WEB接客予約</a>
             </li>
           </ul>
         </div>
@@ -278,25 +156,13 @@ require "../cookie.php";
         <!-- usp -->
         <section class="uspWrap">
           <div class="bg-color">
-            <div class="obi">
-              <img
-                src="img/merit-obi-pc.svg"
-                alt="様々なライフスタイルに応えるプランニング1LDK〜3LDK、快適な都心ポジション5駅4路線利用可能、住宅設備保障「CLIO SUPPORT15」業界最長の15年保証"
-                class="pctb"
-              /><img
-                src="img/merit-obi-sp.svg"
-                alt="様々なライフスタイルに応えるプランニング1LDK〜3LDK、快適な都心ポジション5駅4路線利用可能、住宅設備保障「CLIO SUPPORT15」業界最長の15年保証"
-                class="sp"
-              />
-            </div>
+            <div class="obi"><img src="img/merit-obi-pc.svg" alt="様々なライフスタイルに応えるプランニング1LDK〜3LDK、快適な都心ポジション5駅4路線利用可能、住宅設備保障「CLIO SUPPORT15」業界最長の15年保証" class="pctb" /><img src="img/merit-obi-sp.svg" alt="様々なライフスタイルに応えるプランニング1LDK〜3LDK、快適な都心ポジション5駅4路線利用可能、住宅設備保障「CLIO SUPPORT15」業界最長の15年保証" class="sp" /></div>
           </div>
         </section>
 
         <!-- sec-information -->
         <section class="sec-information inner ac">
-          <p class="caution mb40">
-            ※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。
-          </p>
+          <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
           <div class="fade-in fade-in-up">
             <p class="lead"></p>
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
@@ -306,11 +172,9 @@ require "../cookie.php";
               <!--<p class="open-time">2023年<span class="num">1</span>月<span class="num">7</span>日(土)より</p>-->
               <!-- <p class="txt-open"><span class="d-inline-block">「クリオ ライフスタイルサロン札幌」<br class="sp">
           公開中</span></p> -->
-              <p class="entend-time">
-                2024年11月2日(土)より<br>「クリオ ライフスタイルサロン札幌」オープン
-              </p>
+              <p class="entend-time">2024年11月2日(土)より<br />「クリオ ライフスタイルサロン札幌」オープン</p>
               <p class="reserve-time mt15">
-                <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
+                <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br />①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
               </p>
             </div>
             <div class="yokoku mt40">
@@ -329,18 +193,9 @@ require "../cookie.php";
         </div> -->
             <!-- /yokoku -->
 
-            <p class="text-nextday" style="font-size: 1.6em">
-              次回更新予定⽇：<span id="nextDay"></span>
-            </p>
+            <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
             <p class="btn mb50">
-              <a
-                href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050"
-                target="_blank"
-                class="gtm_cv_reserve_trg"
-                id="cv_reserve"
-                target="_blank"
-                >来場予約</a
-              >
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve" target="_blank">来場予約</a>
             </p>
           </div>
           <div class="infotokyo_con fade-in fade-in-up">
@@ -359,49 +214,33 @@ require "../cookie.php";
               </p>
               <p class="reserve-time mt30">
                 <span class="note d-block">〈ご案内場所〉</span><br />
-                <span class="note d-block"
-                  >クリオ ライフスタイルサロン銀座</span
-                >
+                <span class="note d-block">クリオ ライフスタイルサロン銀座</span>
               </p>
             </div>
             <p class="btn tokyo_btn">
-              <a
-                href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050"
-                target="_blank"
-                class="gtm_cv_reserve_trg"
-                id="cv_reserve"
-                target="_blank"
-              >
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve" target="_blank">
                 銀座案内会の<br class="sp" />
                 ご予約はこちら
-                <span
-                  >※銀座での案内をご希望の方は、来場予約の自由記入欄に「銀座希望」とご記入ください。</span
-                >
+                <span>※銀座での案内をご希望の方は、来場予約の自由記入欄に「銀座希望」とご記入ください。</span>
               </a>
             </p>
             <ul class="tokyo_list">
               <li>
-                <h3 class="ttl">
-                  <span class="CormorantGaramond">case</span> 1
-                </h3>
+                <h3 class="ttl"><span class="CormorantGaramond">case</span> 1</h3>
                 <p>
                   移住先をご検討中の<br class="pctb" />
                   首都圏在住の方
                 </p>
               </li>
               <li>
-                <h3 class="ttl">
-                  <span class="CormorantGaramond">case</span> 2
-                </h3>
+                <h3 class="ttl"><span class="CormorantGaramond">case</span> 2</h3>
                 <p>
                   ビジネス等で<br class="pctb" />
                   マルチ拠点をお探しの方
                 </p>
               </li>
               <li>
-                <h3 class="ttl">
-                  <span class="CormorantGaramond">case</span> 3
-                </h3>
+                <h3 class="ttl"><span class="CormorantGaramond">case</span> 3</h3>
                 <p>
                   投資対象として<br class="pctb" />
                   お考えの方
@@ -411,22 +250,12 @@ require "../cookie.php";
           </div>
           <div class="top-banner">
             <div class="bnrs cs15_bnr">
-              <a
-                href="https://www.meiwajisyo.co.jp/special/gallery/"
-                target="_blank"
-                ><img
-                  src="https://www.meiwajisyo.co.jp/clio/banner/gallery/bnr.jpg"
-                  alt="竣工物件ギャラリー"
-              /></a>
+              <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank"><img src="https://www.meiwajisyo.co.jp/clio/banner/gallery/bnr.jpg" alt="竣工物件ギャラリー" /></a>
             </div>
           </div>
           <div class="top-banner">
             <div class="bnrs cs15_bnr">
-              <a
-                href="https://www.meiwajisyo.co.jp/sapporoclass/"
-                target="_blank"
-                ><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう"
-              /></a>
+              <a href="https://www.meiwajisyo.co.jp/sapporoclass/" target="_blank"><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう" /></a>
             </div>
           </div>
           <!-- /top-banner -->
@@ -448,16 +277,7 @@ require "../cookie.php";
             <div class="video">
               <div class="video-musk fadein_bg"></div>
               <div class="view-bg"></div>
-              <video
-                id="view-video"
-                src="img/plx_movie.mp4"
-                playsinline
-                preload
-                autoplay
-                muted
-                loop
-                playsinlin
-              ></video>
+              <video id="view-video" src="img/plx_movie.mp4" playsinline preload autoplay muted loop playsinlin></video>
             </div>
             <div class="vision-text sp_harf fadein">
               <h3 class="ttl fadein scroll-in">
@@ -495,18 +315,8 @@ require "../cookie.php";
               <div id="" class="photo_con order-effect luxy">
                 <div class="photo photo03 fadein luxy-el" data-speed-y="-3">
                   <p>
-                    いまJR「札幌」駅前では北海道新幹線の<br
-                      class="sp"
-                    />札幌延伸をきっかけに<br class="pc" />数々の再開発事業・<br
-                      class="sp"
-                    />地区計画が進行中。<br />
-                    交通拠点として整備されるだけでなく<br
-                      class="pcsp"
-                    />商業・医療などの新施設も予定されており、<br
-                      class="pcsp"
-                    />駅前エリアにさらなる賑わいが<br
-                      class="sp"
-                    />もたらされることでしょう。
+                    いまJR「札幌」駅前では北海道新幹線の<br class="sp" />札幌延伸をきっかけに<br class="pc" />数々の再開発事業・<br class="sp" />地区計画が進行中。<br />
+                    交通拠点として整備されるだけでなく<br class="pcsp" />商業・医療などの新施設も予定されており、<br class="pcsp" />駅前エリアにさらなる賑わいが<br class="sp" />もたらされることでしょう。
                   </p>
                   <p class="caption pctb">
                     写真1：札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）完成予想図／提供：札幌駅南口北4西3地区市街地再開発準備組合<br />
@@ -515,27 +325,15 @@ require "../cookie.php";
                   </p>
                 </div>
                 <div class="photo photo02 luxy-el" data-speed-y="1">
-                  <img
-                    class="fadein"
-                    src="img/vision_img02.png"
-                    alt="Image Photo"
-                  />
+                  <img class="fadein" src="img/vision_img02.png" alt="Image Photo" />
                   <p class="cap">写真2</p>
                 </div>
                 <div class="photo photo01 luxy-el" data-speed-y="-2">
-                  <img
-                    class="fadein"
-                    src="img/vision_img01.png"
-                    alt="Image Photo"
-                  />
+                  <img class="fadein" src="img/vision_img01.png" alt="Image Photo" />
                   <p class="cap">写真1</p>
                 </div>
                 <div class="photo photo04 luxy-el" data-speed-y="4">
-                  <img
-                    class="fadein"
-                    src="img/vision_img04.png"
-                    alt="Image Photo"
-                  />
+                  <img class="fadein" src="img/vision_img04.png" alt="Image Photo" />
                   <p class="cap">写真3</p>
                 </div>
               </div>
@@ -586,27 +384,19 @@ require "../cookie.php";
                 4駅4路線<sup>※1</sup>のアクセスが可能。
               </p>
               <p class="btn pc">
-                <a href="access/" class="gtm_cv_reserve_trg" id="cv_access"
-                  >VIEW DETAIL</a
-                >
+                <a href="access/" class="gtm_cv_reserve_trg" id="cv_access">VIEW DETAIL</a>
               </p>
               <p class="colorbar"><img src="img/colorbar.svg" /></p>
             </div>
             <div class="right">
               <div class="photo">
-                <img
-                  src="img/access_img.png"
-                  alt="Image Photo"
-                  class="Parallax_l"
-                />
+                <img src="img/access_img.png" alt="Image Photo" class="Parallax_l" />
                 <p class="cap">空撮写真</p>
               </div>
               <div class="bg_white"></div>
               <div class="bg_green slidein"></div>
               <p class="btn tbsp">
-                <a href="access/" class="gtm_cv_reserve_trg" id="cv_access"
-                  >VIEW DETAIL</a
-                >
+                <a href="access/" class="gtm_cv_reserve_trg" id="cv_access">VIEW DETAIL</a>
               </p>
             </div>
           </div>
@@ -620,22 +410,13 @@ require "../cookie.php";
             </p>
             <div class="left">
               <div class="photo">
-                <img
-                  src="img/location_img.png"
-                  alt="Image Photo"
-                  class="Parallax_r"
-                />
+                <img src="img/location_img.png" alt="Image Photo" class="Parallax_r" />
                 <p class="cap">JRタワー（徒歩10分／約740m）</p>
               </div>
               <div class="bg_white"></div>
               <div class="bg_green slidein slidein_r"></div>
               <p class="btn tbsp">
-                <a
-                  href="location/"
-                  class="gtm_cv_reserve_trg"
-                  id="cv_location02"
-                  >VIEW DETAIL</a
-                >
+                <a href="location/" class="gtm_cv_reserve_trg" id="cv_location02">VIEW DETAIL</a>
               </p>
             </div>
             <div class="right">
@@ -645,9 +426,7 @@ require "../cookie.php";
                 期待高まる札幌駅前エリア。
               </p>
               <p class="btn pc">
-                <a href="location/" class="gtm_cv_reserve_trg" id="cv_location"
-                  >VIEW DETAIL</a
-                >
+                <a href="location/" class="gtm_cv_reserve_trg" id="cv_location">VIEW DETAIL</a>
               </p>
               <p class="colorbar"><img src="img/colorbar.svg" /></p>
             </div>
@@ -667,29 +446,19 @@ require "../cookie.php";
                 緑の風景と開放感あふれる暮らし
               </p>
               <p class="btn pc">
-                <a href="plan/" class="gtm_cv_reserve_trg" id="cv_plan"
-                  >VIEW DETAIL</a
-                >
+                <a href="plan/" class="gtm_cv_reserve_trg" id="cv_plan">VIEW DETAIL</a>
               </p>
               <p class="colorbar"><img src="img/colorbar.svg" /></p>
             </div>
             <div class="right">
               <div class="photo">
-                <img
-                  src="img/plan_img.jpg"
-                  alt="Image Photo"
-                  class="Parallax_r"
-                />
-                <p class="cap">
-                  リビング・ダイニング・キッチン完成予想図(Aタイプ／有償設計変更プラン)
-                </p>
+                <img src="img/plan_img.jpg" alt="Image Photo" class="Parallax_r" />
+                <p class="cap">リビング・ダイニング・キッチン完成予想図(Aタイプ／有償設計変更プラン)</p>
               </div>
               <div class="bg_white"></div>
               <div class="bg_green slidein"></div>
               <p class="btn tbsp">
-                <a href="plan/" class="gtm_cv_reserve_trg" id="cv_location"
-                  >VIEW DETAIL</a
-                >
+                <a href="plan/" class="gtm_cv_reserve_trg" id="cv_location">VIEW DETAIL</a>
               </p>
             </div>
           </div>
@@ -712,27 +481,15 @@ require "../cookie.php";
               </li>
               <li class="link_box">
                 <p class="menu_title">住宅設備15年保証</p>
-                <p class="menu_eng">
-                  <span class="CormorantGaramond">CLIO SUPPORT</span> 15
-                </p>
+                <p class="menu_eng"><span class="CormorantGaramond">CLIO SUPPORT</span> 15</p>
                 <p class="cap">Image photo</p>
-                <a
-                  href="support/index.html"
-                  class="support gtm_click_trg"
-                  id="sec-menu_15year"
-                  >住宅設備15年保証</a
-                >
+                <a href="support/index.html" class="support gtm_click_trg" id="sec-menu_15year">住宅設備15年保証</a>
               </li>
               <li class="link_box">
                 <p class="menu_title">よくある質問</p>
                 <p class="menu_eng CormorantGaramond">FAQ</p>
                 <p class="cap">Image photo</p>
-                <a
-                  href="faq/index.html"
-                  class="faq gtm_click_trg"
-                  id="sec-menu_faq"
-                  >よくある質問</a
-                >
+                <a href="faq/index.html" class="faq gtm_click_trg" id="sec-menu_faq">よくある質問</a>
               </li>
             </ul>
           </div>
@@ -761,12 +518,7 @@ require "../cookie.php";
               </div>
               </a> </div> -->
                 <div class="swiper-slide">
-                  <a
-                    href="https://www.meiwajisyo.co.jp/app/"
-                    target="_blank"
-                    class="gtm_click_trg"
-                    id="view_clioapp"
-                  >
+                  <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
                     <div class="inner_card">
                       <div class="imgBox">
                         <img src="imgs/bnr_pickup01.jpg" alt="CLIO APP" />
@@ -779,12 +531,7 @@ require "../cookie.php";
                   </a>
                 </div>
                 <div class="swiper-slide">
-                  <a
-                    href="https://www.meiwajisyo.co.jp/club/"
-                    target="_blank"
-                    class="gtm_click_trg"
-                    id="view_lifestyleclub"
-                  >
+                  <a href="https://www.meiwajisyo.co.jp/club/" target="_blank" class="gtm_click_trg" id="view_lifestyleclub">
                     <div class="inner_card">
                       <div class="imgBox">
                         <img src="imgs/bnr_pickup02.jpg" alt="LIFESTYLE CLUB" />
@@ -797,18 +544,10 @@ require "../cookie.php";
                   </a>
                 </div>
                 <div class="swiper-slide">
-                  <a
-                    href="http://www.meiwajisyo.co.jp/corp/pdf/meiwa_SUUMOAWARD2024.pdf"
-                    target="_blank"
-                    class="gtm_click_trg"
-                    id="view_suumoaward2022"
-                  >
+                  <a href="http://www.meiwajisyo.co.jp/corp/pdf/meiwa_SUUMOAWARD2024.pdf" target="_blank" class="gtm_click_trg" id="view_suumoaward2022">
                     <div class="inner_card">
                       <div class="imgBox">
-                        <img
-                          src="https://www.meiwajisyo.co.jp/clio/banner/suumo/suumo-award2024.jpg"
-                          alt="AWARD 2024"
-                        />
+                        <img src="https://www.meiwajisyo.co.jp/clio/banner/suumo/suumo-award2024.jpg" alt="AWARD 2024" />
                       </div>
                       <div class="txtarea">
                         <p class="ttl EBgaramond">SUUMO AWARD 2024</p>
@@ -825,14 +564,7 @@ require "../cookie.php";
         <section class="foot-caption inner">
           <p>
             ※掲載のエントランス完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
-            <br />※1.4駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線・地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。
-            <br />※2.2024年7月末時点 株式会社日本経済広告社調べ。
-            <br />※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。
-            <br />※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
-            <br />※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合
-            <br />※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
-            <br />※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
-            <br />※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
+            <br />※1.4駅4路線とは、JR函館本線および千歳線「札幌」駅徒歩10分、地下鉄東豊線・地下鉄南北線「さっぽろ」駅徒歩6分、地下鉄東豊線「北13条東」駅徒歩6分、地下鉄南北線「北12条」駅徒歩8分となります。 <br />※2.2024年7月末時点 株式会社日本経済広告社調べ。 <br />※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。 <br />※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道 <br />※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合 <br />※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業 <br />※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。 <br />※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
             <br />※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
           </p>
         </section>
@@ -870,11 +602,7 @@ require "../cookie.php";
         });
       });
     </script>
-    <script
-      type="text/javascript"
-      src="common/js/fade-in.js"
-      charset="UTF-8"
-    ></script>
+    <script type="text/javascript" src="common/js/fade-in.js" charset="UTF-8"></script>
     <script>
       var width = $(window).width();
       if (width > 767) {
@@ -938,10 +666,7 @@ require "../cookie.php";
 
     <!-- 解析タグここから -->
     <!-- WebAntenna -->
-    <script
-      type="text/javascript"
-      src="//tr.webantenna.info/js/webantenna.js"
-    ></script>
+    <script type="text/javascript" src="//tr.webantenna.info/js/webantenna.js"></script>
     <script type="text/javascript">
       if (typeof webantenna == "function") {
         _wa.account = "WAYtKo-1";
@@ -949,12 +674,7 @@ require "../cookie.php";
       }
     </script>
     <noscript>
-      <img
-        width="1"
-        height="1"
-        alt=""
-        src="//tr.webantenna.info/_webantenna.png?ga=WAYtKo-1&amp;jse=0"
-      />
+      <img width="1" height="1" alt="" src="//tr.webantenna.info/_webantenna.png?ga=WAYtKo-1&amp;jse=0" />
     </noscript>
     <!-- end WebAntenna -->
 
