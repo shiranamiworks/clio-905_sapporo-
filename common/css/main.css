@@ -438,7 +438,7 @@ a{
 	box-sizing: border-box;
 	border-left: 1px solid #E1E1E1;
 	display: inline-block;
-	width: 33.333333%;
+	width: 33%;
 }
 #gFooter .meiwaLink li:first-child {
 	border-left: none;

@@ -307,14 +307,10 @@ require "../cookie.php";
               <!-- <p class="txt-open"><span class="d-inline-block">「クリオ ライフスタイルサロン札幌」<br class="sp">
           公開中</span></p> -->
               <p class="entend-time">
-                11/2(土)より「クリオ ライフスタイルサロン札幌」オープン
+                2024年11月2日(土)より<br>「クリオ ライフスタイルサロン札幌」オープン
               </p>
               <p class="reserve-time mt15">
-                <span class="note d-block"
-                  ><span class="num">事前案内会開催</span
-                  ><br />＜完全予約制＞</span
-                ><br />
-                ①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
+                <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
               </p>
             </div>
             <div class="yokoku mt40">
