@@ -467,7 +467,7 @@ background-color: #79C266;
   margin: 30px auto 50px;
 }
 .sec-information .btn a {
-  font-size: 2em;
+  font-size: 15px;
   letter-spacing: 0.2em;
   color: #fff;
   display: inline-block;
@@ -1226,7 +1226,7 @@ background-color: #79C266;
 
 .sec-access .left p,
 .sec-plan .left p {
-  font-size: 2em;
+  font-size: 15px;
   margin-bottom: 40px;
   line-height: 1.8;
 }
@@ -1424,6 +1424,7 @@ background-color: #79C266;
   .sec-access .btn a {
     display: block;
     margin: 0 auto;
+    font-size: 15px;
   }
 
   .sec-location .btn,
