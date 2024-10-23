@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="241.112" height="37" viewBox="0 0 241.112 37">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_3" data-name="長方形 3" width="51.88" height="35.528" fill="#7d7346"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_46822" data-name="グループ 46822" transform="translate(1.211 0.241)">
+    <text id="remote" transform="translate(50.789 29.759)" font-size="26" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500" letter-spacing="0.1em"><tspan x="-51.22" y="0">remote</tspan></text>
+    <text id="clio" transform="translate(212.901 29.759)" font-size="26" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500" letter-spacing="0.1em"><tspan x="-26.208" y="0">clio</tspan></text>
+    <g id="グループ_3" data-name="グループ 3" transform="translate(123.693 0.12)">
+      <g id="グループ_2" data-name="グループ 2" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="パス_1" data-name="パス 1" d="M7.467,11.154H.048A.047.047,0,0,1,0,11.106V4.221a.053.053,0,0,1,.048-.055H7.467a.053.053,0,0,1,.048.055v6.885a.047.047,0,0,1-.048.048" transform="translate(0 24.374)" fill="#7d7346"/>
+        <path id="パス_2" data-name="パス 2" d="M9.087,18.42H1.668a.047.047,0,0,1-.048-.048V2.979a.053.053,0,0,1,.048-.055H9.087a.053.053,0,0,1,.048.055V18.372a.047.047,0,0,1-.048.048" transform="translate(9.478 17.107)" fill="#7d7346"/>
+        <path id="パス_3" data-name="パス 3" d="M10.705,23.113H3.286a.047.047,0,0,1-.048-.048V2.177a.049.049,0,0,1,.048-.055h7.419a.049.049,0,0,1,.048.055V23.065a.047.047,0,0,1-.048.048" transform="translate(18.945 12.415)" fill="#7d7346"/>
+        <path id="パス_4" data-name="パス 4" d="M12.324,29.823H4.9a.047.047,0,0,1-.048-.048V1.023A.047.047,0,0,1,4.9.975h7.419a.047.047,0,0,1,.048.048V29.775a.047.047,0,0,1-.048.048" transform="translate(28.417 5.704)" fill="#7d7346"/>
+        <path id="パス_5" data-name="パス 5" d="M13.936,35.528H6.524a.047.047,0,0,1-.048-.048V.048A.047.047,0,0,1,6.524,0h7.412a.047.047,0,0,1,.048.048V35.48a.047.047,0,0,1-.048.048" transform="translate(37.889 0)" fill="#7d7346"/>
+      </g>
+    </g>
+  </g>
+</svg>

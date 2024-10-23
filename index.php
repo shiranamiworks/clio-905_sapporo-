@@ -198,6 +198,27 @@ require "../cookie.php";
               <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve" target="_blank">来場予約</a>
             </p>
           </div>
+
+          <section class="remote">
+            <header>
+              <p class="flavor js-scroll"><span class="in">わかりやすいWeb接客サービス</span></p>
+              <h3 class="title js-scroll"><img src="imgs/remote.svg" alt="remote clio WEB接客｜リモートクリオ" /></h3>
+              <p class="lead js-scroll">ご自宅からPC・スマホで簡単接続</p>
+            </header>
+            <ul class="list js-scroll clearfix">
+              <li><p>価格がわかる</p></li>
+              <li><p>現地見学ができる</p></li>
+              <li>
+                <p>ローンシミュレーション<br />ができる</p>
+              </li>
+            </ul>
+            <p class="text01 js-scroll">是非この機会に「リモート クリオ」を<br class="sp" />ご利用ください。</p>
+            <p class="btn CormorantGaramond">
+              <a href="https://www.meiwajisyo.co.jp/clio/remoteclio/bukken.html?link=rc&rc_bn=2000233M2220050" target="_blank" class="common-button02">read more</a>
+            </p>
+          </section>
+          <!-- remote -->
+
           <div class="infotokyo_con fade-in fade-in-up">
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
             <div class="open">
