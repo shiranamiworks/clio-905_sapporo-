@@ -214,7 +214,7 @@ require "../cookie.php";
             </ul>
             <p class="text01 js-scroll">是非この機会に「リモート クリオ」を<br class="sp" />ご利用ください。</p>
             <p class="btn CormorantGaramond">
-              <a href="https://www.meiwajisyo.co.jp/clio/remoteclio/bukken.html?link=rc&rc_bn=2000233M2220050" target="_blank" class="common-button02">read more</a>
+              <a href="https://www.meiwajisyo.co.jp/clio/remoteclio/bukken.html?link=rc&rc_bn=2000233M2220050" target="_blank" class="common-button02">VIEW DETAIL</a>
             </p>
           </section>
           <!-- remote -->
