@@ -199,7 +199,7 @@ require "../cookie.php";
             </p>
           </div>
 
-          <section class="remote">
+          <!-- <section class="remote">
             <header>
               <p class="flavor js-scroll"><span class="in">わかりやすいWeb接客サービス</span></p>
               <h3 class="title js-scroll"><img src="imgs/remote.svg" alt="remote clio WEB接客｜リモートクリオ" /></h3>
@@ -216,7 +216,7 @@ require "../cookie.php";
             <p class="btn CormorantGaramond">
               <a href="https://www.meiwajisyo.co.jp/clio/remoteclio/bukken.html?link=rc&rc_bn=2000233M2220050" target="_blank" class="common-button02">VIEW DETAIL</a>
             </p>
-          </section>
+          </section> -->
           <!-- remote -->
 
           <div class="infotokyo_con fade-in fade-in-up">
