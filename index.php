@@ -123,7 +123,7 @@ require "../cookie.php";
       <section id="contentsWrap">
         <!-- main visual -->
         <div class="main-visual">
-          <ul class="slide-pc slides pc tb">
+          <ul class="slide-pc slides pctb">
             <li class="slide01 on"><div class="in"><img src="img/mv01.jpg" alt=""></div></li>
             <li class="slide02"><img src="img/mv02.jpg" alt=""></li>
           </ul>
@@ -131,9 +131,10 @@ require "../cookie.php";
             <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""></li>
             <li class="slide02"><img src="img/mv02-sp.jpg" alt=""></li>
           </ul>
-          <p class="txt-pc txt pc tb"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
+          <p class="txt-pc txt pctb"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
           <p class="txt-sp txt sp"><img src="img/mv-text-sp.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
-          <div class="bg"><img src="img/mv02.jpg" alt="" class="pc tb"><img src="img/mv02-sp.jpg" alt="" class="sp"></div>
+          <div class="bg"><img src="img/mv02.jpg" alt="" class="pctb
+          "><img src="img/mv02-sp.jpg" alt="" class="sp"></div>
         </div>
 
         <!-- usp -->
