@@ -186,7 +186,7 @@ require "../cookie.php";
           <!-- <section class="remote">
             <header>
               <p class="flavor js-scroll"><span class="in">わかりやすいWeb接客サービス</span></p>
-              <h3 class="title js-scroll"><img src="imgs/remote.svg" alt="remote clio WEB接客｜リモートクリオ" /></h3>
+              <h3 class="title js-scroll"><img src="img/remote.svg" alt="remote clio WEB接客｜リモートクリオ" /></h3>
               <p class="lead js-scroll">ご自宅からPC・スマホで簡単接続</p>
             </header>
             <ul class="list js-scroll clearfix">
@@ -526,7 +526,7 @@ require "../cookie.php";
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
                     <div class="inner_card">
                       <div class="imgBox">
-                        <img src="imgs/bnr_pickup01.jpg" alt="CLIO APP" />
+                        <img src="img/bnr_pickup01.jpg" alt="CLIO APP" />
                       </div>
                       <div class="txtarea">
                         <p class="ttl EBgaramond">CLIO APP</p>
@@ -539,7 +539,7 @@ require "../cookie.php";
                   <a href="https://www.meiwajisyo.co.jp/club/" target="_blank" class="gtm_click_trg" id="view_lifestyleclub">
                     <div class="inner_card">
                       <div class="imgBox">
-                        <img src="imgs/bnr_pickup02.jpg" alt="LIFESTYLE CLUB" />
+                        <img src="img/bnr_pickup02.jpg" alt="LIFESTYLE CLUB" />
                       </div>
                       <div class="txtarea">
                         <p class="ttl EBgaramond">LIFESTYLE CLUB</p>
