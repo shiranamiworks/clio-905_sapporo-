@@ -81,6 +81,9 @@
 .tb-menu-wrap {
   z-index: 9999;
 }
+.tb-menu-nav_outer {
+  min-height: 82px;
+}
 .tb-menu-wrap .tb-menu-nav_wrap {
   width: 100%;
 }
