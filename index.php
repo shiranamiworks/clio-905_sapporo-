@@ -51,7 +51,6 @@ require "../cookie.php";
     <link rel="stylesheet" type="text/css" media="all" href="common/css/style.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/top.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/para.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="css/loading.css" />
     <!-- js -->
     <script type="text/javascript" src="common/js/jquery.js" id="jqueryJS" charset="UTF-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -62,8 +61,6 @@ require "../cookie.php";
     <script type="text/javascript" src="common/js/swiper.min.js" charset="UTF-8"></script>
     <script type="text/javascript" src="common/js/luxy.min.js" charset="UTF-8"></script>
     <script src="js/simpleParallax.min.js"></script>
-    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
-    <script src="js/loading.js"></script>
 
     <script>
       /* ローンシミュレーションページへのリンク生成 */
@@ -98,12 +95,6 @@ require "../cookie.php";
       <!-- / #noscript -->
     </noscript>
 
-    <div id="splash">
-      <div class="splash_logo">
-        <img src="img/loading_logo.svg" alt="" class="" />
-      </div>
-      <div id="splash_text"></div>
-    </div>
 
     <div class="page" id="pageID">
       <!-------- header ---------------------------------------------------------------->
@@ -131,27 +122,19 @@ require "../cookie.php";
 
       <section id="contentsWrap">
         <!-- main visual -->
-        <main class="mv-wrap fade">
-          <div class="mv-bg"></div>
-          <div id="video"></div>
-          <p class="cap">エントランス完成予想図</p>
-          <!-- <div class="_swiper-main">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide mv01">
-         <img src="img/main_jpg.jpg" class="pc">
-         <img src="img/main_jpg.jpg" class="tb">
-         <img src="img/main_jpg_sp.jpg" class="sp">
-         <p class="cap">エントランス完成予想図</p>
+        <div class="main-visual">
+          <ul class="slide-pc slides pc">
+            <li class="slide01 on"><div class="in"><img src="img/mv01.jpg" alt=""></div></li>
+            <li class="slide02"><img src="img/mv02.jpg" alt=""></li>
+          </ul>
+          <ul class="slide-sp slides sp">
+            <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""></li>
+            <li class="slide02"><img src="img/mv02-sp.jpg" alt=""></li>
+          </ul>
+          <p class="txt-pc txt pc"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
+          <p class="txt-sp txt sp"><img src="img/mv-text-sp.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
+          <div class="bg"><img src="img/mv02.jpg" alt="" class="pc"><img src="img/mv02-sp.jpg" alt="" class="sp"></div>
         </div>
-        <div class="swiper-slide mv02">
-          <img src="imgs/mv_pc02.jpg" class="pc">
-          <img src="imgs/mv_pc02.jpg" class="tb">
-          <img src="imgs/mv_sp02.jpg" class="sp">
-          <p class="cap"></p>
-        </div>
-      </div>
-    </div> -->
-        </main>
 
         <!-- usp -->
         <section class="uspWrap">

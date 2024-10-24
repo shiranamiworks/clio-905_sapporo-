@@ -107,6 +107,75 @@ background-color: #79C266;
   max-height: 980px;
   overflow: hidden;
 }
+#contentsWrap .main-visual {
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity .5s;
+}
+#contentsWrap .main-visual .txt {
+  opacity: 0;
+  transition: opacity 1.9s;
+}
+#contentsWrap .main-visual .txt.on {
+  opacity: 1;
+}
+#contentsWrap .main-visual.on {
+  opacity: 1;
+}
+#contentsWrap .main-visual .bg {
+  opacity: 0;
+}
+#contentsWrap .main-visual .slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#contentsWrap .main-visual .slides li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.9s;
+  overflow: hidden;
+}
+#contentsWrap .main-visual .slides li.on {
+  opacity: 1;
+}
+#contentsWrap .main-visual .slide-pc li.slide01.at img {
+  margin-top: 0 !important;
+  transition: margin-top 5s;
+}
+#contentsWrap .main-visual .slides li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#contentsWrap .main-visual .slides img {
+  width: 100vw;
+  max-width: inherit;
+}
+#contentsWrap .main-visual .txt {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  width: 28%;
+}
+
+@media (max-width: 640px) {
+  #contentsWrap .main-visual .txt {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+  }
+}
 
 #contentsWrap main .swiper-wrapper .swiper-slide {
   position: relative;
