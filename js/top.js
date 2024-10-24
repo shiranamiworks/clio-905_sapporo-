@@ -119,6 +119,30 @@ var mySwiper03 = new Swiper('.swiper-main', {
 });
 
 
+//mv
+$(window).on("load rezise",function(){
+  var wh = $(this).height();
+  var ih = $(".main-visual .slide-pc .slide01 img").height();
+  $(".main-visual .slide-pc .slide01 img").css("margin-top",-(ih - wh));
+});
+$(window).on("load",function(){
+  $(".main-visual").addClass("on");
+  setTimeout(function(){
+    $(".main-visual .slide-pc .slide01").addClass("at");
+    setTimeout(function(){
+      $(".main-visual .txt-pc").addClass("on");
+      $(".main-visual .slide-pc .slide01").removeClass("on");
+      $(".main-visual .slide-pc .slide02").addClass("on");
+    },8000);
+  },2000);
+  setTimeout(function(){
+    $(".main-visual .txt-sp").addClass("on");
+    $(".main-visual .slide-sp .slide01").removeClass("on");
+    $(".main-visual .slide-sp .slide02").addClass("on");
+  },5000);
+});
+
+
 //動画暗幕
 	$(window).scroll(function (){
 		$('.fadein_bg').each(function(){
