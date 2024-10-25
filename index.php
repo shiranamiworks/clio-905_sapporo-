@@ -124,12 +124,12 @@ require "../cookie.php";
         <!-- main visual -->
         <div class="main-visual">
           <ul class="slide-pc slides pctb">
-            <li class="slide01 on"><div class="in"><img src="img/mv01.jpg" alt=""></div></li>
-            <li class="slide02"><img src="img/mv02.jpg" alt=""></li>
+            <li class="slide01 on"><div class="in"><img src="img/mv01.jpg" alt=""></div><p class="cap">外観完成予想図</p></li>
+            <li class="slide02"><img src="img/mv02.jpg" alt=""><p class="cap">眺望外観完成予想図</p></li>
           </ul>
           <ul class="slide-sp slides sp">
-            <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""></li>
-            <li class="slide02"><img src="img/mv02-sp.jpg" alt=""></li>
+            <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""><p class="cap">外観完成予想図</p></li>
+            <li class="slide02"><img src="img/mv02-sp.jpg" alt=""><p class="cap">眺望外観完成予想図</p></li>
           </ul>
           <p class="txt-pc txt pctb"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
           <p class="txt-sp txt sp"><img src="img/mv-text-sp.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
@@ -183,7 +183,7 @@ require "../cookie.php";
             </p>
           </div>
 
-          <!-- <section class="remote">
+          <section class="remote">
             <header>
               <p class="flavor js-scroll"><span class="in">わかりやすいWeb接客サービス</span></p>
               <h3 class="title js-scroll"><img src="img/remote.svg" alt="remote clio WEB接客｜リモートクリオ" /></h3>
@@ -200,67 +200,64 @@ require "../cookie.php";
             <p class="btn CormorantGaramond">
               <a href="https://www.meiwajisyo.co.jp/clio/remoteclio/bukken.html?link=rc&rc_bn=2000233M2220050" target="_blank" class="common-button02">VIEW DETAIL</a>
             </p>
-          </section> -->
+          </section>
           <!-- remote -->
 
           <div class="infotokyo_con fade-in fade-in-up">
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
             <div class="open">
               <p class="txt-open">
-                <span class="d-inline-block"
-                  >クリオ ライフスタイルサロン銀座にて<br class="sp" />
-                  案内開始</span
-                >
+                <span class="d-inline-block">2024年11月2日（土）より<br>「個別銀座ご案内会」開催<br>「個別横浜ご案内会」開催</span>
               </p>
               <p class="reserve-time mt15">
                 <span class="note d-block">〈ご案内時間〉</span><br />
                 ①10:00～&nbsp;②13：00～&nbsp;③16：00～<br />
-                <span class="note d-block">［完全予約制］</span>
+                <span class="note d-block">完全予約制</span>
               </p>
               <p class="reserve-time mt30">
                 <span class="note d-block">〈ご案内場所〉</span><br />
-                <span class="note d-block">クリオ ライフスタイルサロン銀座</span>
+                <span class="note d-block">クリオ ライフスタイルサロン銀座<br>クリオ ライフスタイルサロン横浜</span>
               </p>
             </div>
             <p class="btn tokyo_btn">
-              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve" target="_blank">
-                銀座案内会の<br class="sp" />
-                ご予約はこちら
-                <span>※銀座での案内をご希望の方は、来場予約の自由記入欄に「銀座希望」とご記入ください。</span>
-              </a>
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050&type=ginza" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve02" target="_blank">銀座会場 ご来場予約</a>
+            </p>
+            <p class="btn tokyo_btn">
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050&type=yokohama" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve03" target="_blank">横浜会場 ご来場予約</a>
             </p>
             <ul class="tokyo_list">
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 1</h3>
                 <p>
-                  移住先をご検討中の<br class="pctb" />
+                  移住先をご検討中の<br class="pctb">
                   首都圏在住の方
                 </p>
               </li>
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 2</h3>
                 <p>
-                  ビジネス等で<br class="pctb" />
+                  ビジネス等で<br>
                   マルチ拠点をお探しの方
                 </p>
               </li>
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 3</h3>
                 <p>
-                  投資対象として<br class="pctb" />
+                  投資対象として<br class="pctb">
                   お考えの方
                 </p>
               </li>
             </ul>
+            <div class="top-banner">
+              <div class="bnrs cs15_bnr">
+                <a href="https://www.meiwajisyo.co.jp/sapporoclass/" target="_blank"><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう" /></a>
+              </div>
+            </div>
           </div>
+
           <div class="top-banner">
             <div class="bnrs cs15_bnr">
               <a href="https://www.meiwajisyo.co.jp/special/gallery/" target="_blank"><img src="https://www.meiwajisyo.co.jp/clio/banner/gallery/bnr.jpg" alt="竣工物件ギャラリー" /></a>
-            </div>
-          </div>
-          <div class="top-banner">
-            <div class="bnrs cs15_bnr">
-              <a href="https://www.meiwajisyo.co.jp/sapporoclass/" target="_blank"><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう" /></a>
             </div>
           </div>
           <!-- /top-banner -->
@@ -283,6 +280,7 @@ require "../cookie.php";
               <div class="video-musk fadein_bg"></div>
               <div class="view-bg"></div>
               <video id="view-video" src="img/plx_movie.mp4" playsinline preload autoplay muted loop playsinlin></video>
+              <p class="cap">image movie</p>
             </div>
             <div class="vision-text sp_harf fadein">
               <h3 class="ttl fadein scroll-in">
@@ -568,12 +566,17 @@ require "../cookie.php";
         </section>
         <section class="foot-caption inner">
           <p>
-            ※掲載のエントランス完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
-            <br>※1.4駅5路線とは、地下鉄東豊線・地下鉄南北線「さっぽろ」駅、地下鉄東豊線「北13条東」駅、地下鉄南北線「北12条」駅、JR函館本線・札沼線・千歳線「札幌」駅となります。
-            <br>※2.2024年7月末時点 株式会社日本経済広告社調べ。 <br />※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。 <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
-            <br>※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合 <br>※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
-            <br>※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。<br>※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
+            ※1.4駅5路線とは、地下鉄東豊線・地下鉄南北線「さっぽろ」駅、地下鉄東豊線「北13条東」駅、地下鉄南北線「北12条」駅、JR函館本線・札沼線・千歳線「札幌」駅となります。
+            <br>※2.2024年7月末時点 株式会社日本経済広告社調べ。
+            <br>※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。
+            <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
+            <br>※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合
+            <br>※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
+            <br>※掲載の完成予想図は全て、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては省略しています。
+            <br>※掲載の眺望外観完成予想図は現地10階相当の眺望写真（2024年10月撮影）に設計段階の図⾯を基に描き起こした外観完成予想図をＣＧ合成したもので、形状・⾊等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の⾊合いや枝ぶりや樹形は想定であり、竣⼯から⽣育期間を経た状態のものを描いています。また特定の季節状態を表すものではありません。敷地周辺の建物などについては建物の位置、⾼さ等については実際のものと異なる場合があります。眺望については将来に渡って保証するものではありません。予めご了承ください。
+            <br>※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
             <br>※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
+            <br>※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
           </p>
         </section>
       </section>

@@ -421,7 +421,7 @@ background-color: #79C266;
 
 @media (max-width: 640px) {
   .sec-information {
-    padding: 40px 0 20px;
+    padding: 40px 0 60px;
   }
 }
 .sec-information h2 {
@@ -557,13 +557,13 @@ background-color: #79C266;
 }
 .sec-information .bnrs {
   /* border: 1px solid #dfdfdf;*/
-  margin: 0 auto 70px;
+  margin: auto;
   max-width: 640px;
 }
 
 @media (max-width: 768px) {
   .sec-information .bnrs {
-    margin: 0 auto 20px;
+    /* margin: 0 auto 20px; */
   }
 }
 .sec-information .bnrs a {
@@ -645,16 +645,25 @@ background-color: #79C266;
 /* infotokyo_con */
 
 .sec-information .infotokyo_con {
-  display: none;
-  margin-bottom: 60px;
-  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  padding: 65px 20px 65px;
   background: linear-gradient(to bottom, rgba(37, 51, 57, 0.25), rgba(78, 109, 119, 0.1));
+}
+
+.sec-information .infotokyo_con h2 {
+  margin-top: 0;
+}
+
+.sec-information .infotokyo_con .txt-open {
+  font-size: 22px;
+  line-height: 2;
 }
 
 .sec-information .infotokyo_con h2.tokyo_ttl {
   display: inline-block;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 26px;
   position: relative;
 }
 
@@ -664,8 +673,8 @@ background-color: #79C266;
   width: 60px;
   background-color: #b7b7b7;
   position: absolute;
-  bottom: 10px;
-  left: -60px;
+  bottom: 15px;
+  left: -50px;
   right: auto;
   transform: translateX(-50%) translateY(50%);
 }
@@ -676,8 +685,8 @@ background-color: #79C266;
   width: 60px;
   background-color: #b7b7b7;
   position: absolute;
-  bottom: 10px;
-  right: -60px;
+  bottom: 15px;
+  right: -50px;
   left: auto;
   transform: translateX(50%) translateY(50%);
 }
@@ -691,7 +700,39 @@ background-color: #79C266;
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin: 60px auto 0;
+  margin: 60px auto 50px;
+}
+
+.infotokyo_con ul.tokyo_list li {
+  width: 31.333%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.infotokyo_con ul.tokyo_list li h3.ttl {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.infotokyo_con ul.tokyo_list li h3.ttl span {
+  font-size: 16px;
+}
+
+.sec-information .btn.tokyo_btn a {
+  width: 30%;
+}
+
+.sec-information .btn.tokyo_btn {
+  margin-bottom: 30px;
+}
+
+.sec-information .btn.tokyo_btn a span {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  letter-spacing: 0;
 }
 
 .remote {
@@ -823,33 +864,6 @@ background-color: #79C266;
   }
 }
 
-.infotokyo_con ul.tokyo_list li {
-  width: 31.333%;
-  border: 1px solid #ccc;
-  padding: 20px;
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.infotokyo_con ul.tokyo_list li h3.ttl {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #666;
-}
-.infotokyo_con ul.tokyo_list li h3.ttl span {
-  font-size: 16px;
-}
-
-.sec-information .btn.tokyo_btn a {
-  width: 60%;
-}
-
-.sec-information .btn.tokyo_btn a span {
-  display: block;
-  font-size: 12px;
-  margin-top: 5px;
-  letter-spacing: 0;
-}
 
 @media (max-width: 640px) {
   .sec-information .infotokyo_con h2.tokyo_ttl {
