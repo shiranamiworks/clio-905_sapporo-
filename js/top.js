@@ -133,7 +133,7 @@ $(window).on("load",function(){
       $(".main-visual .txt-pc").addClass("on");
       $(".main-visual .slide-pc .slide01").removeClass("on");
       $(".main-visual .slide-pc .slide02").addClass("on");
-    },6000);
+    },5500);
   },1000);
   setTimeout(function(){
     $(".main-visual .txt-sp").addClass("on");
