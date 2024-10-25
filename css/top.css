@@ -171,9 +171,9 @@ background-color: #79C266;
 @media (max-width: 640px) {
   #contentsWrap .main-visual .txt {
     position: absolute;
-    top: 10%;
-    right: 10%;
-    width: 80%;
+    top: 5%;
+    right: 35%;
+    width: 60%;
   }
 }
 
