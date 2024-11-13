@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+/*共通*/
+
+.page .page_intro{
+    text-align: center;
+}
+
+.page .page_intro h3{
+    color: #6CBFD7;
+    font-size: 3.6em;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+}
+.page .page_intro h3 sup{
+    font-size: 11px;
+}
+.page .page_intro p.intro_text{
+    font-size: 1.8em;
+    line-height: 2.0;
+    letter-spacing: 0.2em;
+}
+
+.contents_in p.eng {
+    width: 100%;
+    padding-left: 20px;
+    line-height: 1.0;
+    font-size: 8.0rem;
+    margin-bottom: 20px;
+    color: #B1CED8;
+}
+
+
+.imgBox {
+    position: relative;
+}
+
+.madori_padding{
+    padding: 0 15%;
+}
+
+
+.imgBox p.ttl {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+      transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+    font-size: 3.0em;
+    line-height: 2.0;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.imgBox p.scroll{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    text-align: center;
+    bottom: 50px;
+    font-size: 10px;
+    color: #B1CED8;
+    line-height: 1.0;
+}
+
+
+/* 線の描写 */
+.imgBox p.scroll::after{
+  content: "";
+  position: absolute;
+  top: 10px;
+    left: 50%;
+  width: 1px;
+  height: 30px;
+    margin-top: 10px;
+  background: #B1CED8;
+    /*線の動き1.4秒かけて動く。永遠にループ*/
+  animation: pathmove2 2.0s ease-in-out infinite;
+  opacity:0;
+}
+
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove2{
+  0%{
+    height:0;
+    top:0;
+    opacity: 0;
+  }
+  30%{
+    height:30px;
+    opacity: 1;
+  }
+  100%{
+    height:0;
+    top:50px;
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+    
+.page .page_intro h3{
+    font-size: 2.8em;
+}
+
+.page .page_intro p.intro_text{
+    font-size: 1.8em;
+}
+
+.contents_in p.eng {
+    padding-left: 5%;
+    font-size: 5.0rem;
+    line-height: 1.0;
+}
+    
+.imgBox p.ttl {
+    font-size: 2.4em;
+}    
+    
+    
+.imgBox p.scroll{
+    left: 47%;
+    bottom: 35px;
+}    
+    
+/* 線の描写 */
+.imgBox p.scroll::after{
+  height: 30px;
+}   
+    
+    
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove2{
+  0%{
+    height:0;
+    top:0;
+    opacity: 0;
+  }
+  30%{
+    height:15px;
+    opacity: 1;
+  }
+  100%{
+    height:0;
+    top:35px;
+    opacity: 0;
+  }
+}
+ 
+}
+
+
+@media (max-width: 1000px) {
+    
+.page .page_intro h3{
+    margin-bottom: 20px;
+}
+.contents_in p.eng {
+    font-size: 3.0rem;
+}
+   
+.ttlBox {
+    height: 30vh;
+}  
+    
+.ttlBox img {
+    height: 30vh;
+    width: auto;
+    max-width: inherit;
+}  
+     
+    
+.imgBox p.scroll{
+    left: 45%;
+    bottom: 20px;
+}    
+    
+/* 線の描写 */
+.imgBox p.scroll::after{
+  height: 30px;
+}   
+    
+    
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove2{
+  0%{
+    height:0;
+    top:0;
+    opacity: 0;
+  }
+  30%{
+    height:20px;
+    opacity: 1;
+  }
+  100%{
+    height:0;
+    top:40px;
+    opacity: 0;
+  }
+}    
+    
+}
+
+
+
+@media (max-width: 640px) {
+.madori_padding{
+    padding: 0 0;
+}
+}
+
+
+/*-----------------------------------------------
+再開発ページ
+------------------------------------------------*/
+
+.bg{
+  background: #173449;
+  padding-bottom: 150px;
+}
+
+/*sec-intro*/
+.page .sec-intro{
+  padding: 160px 0 250px;
+  position: relative;
+  background: url(../img/bg.png);
+  background-position: top;
+  background-size: cover;
+}
+
+.page .sec01{
+  margin-top: -200px;
+  padding-bottom: 50px;
+}
+.page .sec01 .list{
+  width: 96%;
+  max-width: 1000px;
+  margin: auto;
+}
+.page .sec01 .list li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 50px;
+  vertical-align: top;
+  background: #fff;
+}
+.page .sec01 .list li:nth-child(2n){
+  margin-right: auto;
+}
+.page .sec01 .list li .texts{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+.page .sec01 .list li .texts .name{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #80BDD4;;
+  margin-bottom: 10px;
+}
+.page .sec01 .list li .texts .lead{
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.page .sec02{
+  text-align: center;;
+}
+.page .sec02 h3{
+  color: #6CBFD7;
+  font-size: 3.6em;
+  padding-bottom: 50px;
+  letter-spacing: 0.1em;
+}
+.page .sec02 h3 sup{
+  font-size: 11px;
+}
+.page .sec02 .list{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.page .sec02 li{
+  border: 1px solid #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+}
+.page .sec02 .mark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 109px;
+  z-index: 1;
+}
+.page .sec02 .list .txt{
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 30px 0 15px;
+}
+.page .sec02 .list .lead{
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.page .sec02 .list02 li{
+  width: 48%;
+  margin: 50px auto;
+}
+.page .sec02 .list02 li:first-child{
+  margin-right: 4%;
+}
+.page .sec02 .list03{
+  margin-bottom: 50px;
+}
+.page .sec02 .list03{
+  margin-bottom: 50px;
+}
+.page .sec02 .list04 .box{
+  display: inline-block;
+  vertical-align: top;
+}
+.page .sec02 .list04 .box01{
+  width: 28%;
+  margin-right: 4%;
+}
+.page .sec02 .list04 .box02{
+  width: 67%;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px){
+  .page-title h2{
+    font-size: 2.4rem;;
+  }
+  .page .page_intro p.intro_text{
+    text-align: left;
+}
+
+  .bg{
+    background: #173449;
+    padding-bottom: 50px;
+  }
+  
+  /*sec-intro*/
+  .page .sec-intro{
+    padding: 50px 0;
+    background: #fff;
+  }
+  
+  .page .sec01{
+    margin-top: 0;
+    background: url(../img/bg-sp.png);
+    background-position: bottom;
+    background-size: cover;
+  }
+  .page .sec01 .list{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .page .sec01 .list li{
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+  .page .sec01 .list li .texts{
+    width: 100%;
+    text-align: center;
+  }
+  .page .sec01 .list li .texts .lead{
+    text-align: left;
+  }
+  
+  .page .sec02 h3{
+    padding-top: 50px;
+  }
+  .page .sec02 .list{
+    display: block;
+  }
+  .page .sec02 li{
+    padding: 10px;
+  }
+  .page .sec02 .list .txt{
+    margin: 20px 0 10px;
+  }
+  .page .sec02 .list02 li{
+    width: 100%;
+    margin: 20px auto;
+  }
+  .page .sec02 .list03{
+    margin-bottom: 20px;
+  }
+  .page .sec02 .list03{
+    margin-bottom: 20px;
+  }
+  .page .sec02 .list04 .box{
+    display: block;
+  }
+  .page .sec02 .list04 .box01{
+    width: 100%;
+    margin: auto;
+  }
+  .page .sec02 .list04 .box02{
+    width: 100%;
+  }
+}
