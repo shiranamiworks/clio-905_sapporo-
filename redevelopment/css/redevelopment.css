@@ -315,6 +315,10 @@
   width: 48%;
   margin: 50px auto;
 }
+.page .sec02 .list02 li .annotation{
+  text-align: right;
+  margin-top: 5px;
+}
 .page .sec02 .list02 li:first-child{
   margin-right: 4%;
 }
