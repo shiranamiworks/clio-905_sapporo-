@@ -118,7 +118,7 @@ $(function () {
 ---------------------------------*/
   var mySwiper02 = new Swiper('.swiper-pickup', {
     loop: false,
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
     // pagination: {
     //   el: '.swiper-pagination',
@@ -133,7 +133,7 @@ $(function () {
     breakpoints: {
       1000: {
         loop: false,
-        centeredSlides : true,
+        // centeredSlides : true,
         slidesPerView: 1.5,
         spaceBetween: 30,
       },
