@@ -2097,18 +2097,18 @@ background-color: #79C266;
   right: auto;
   transform: translateX(-50%);
 }
-.sec-pickup .swiper-pickup {
+/* .sec-pickup .swiper-pickup {
   padding-bottom: 30px;
 }
 
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide {
   position: relative;
   transition: all 0.8s;
-}
+} */
 
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a {
   display: block;
-  padding: 0 0 12px 0;
+  /* padding: 0 0 12px 0; */
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .imgBox {
   background: #fff;
@@ -2122,13 +2122,17 @@ background-color: #79C266;
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea {
   margin-top: 8px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea.gd {
+  margin-top: 14px;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p {
   width: 50%;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.ttl {
-  font-size: 1.85em;
+  font-size: 1.6em;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.more {
   font-size: 1.4em;
@@ -2145,7 +2149,26 @@ background-color: #79C266;
   vertical-align: middle;
   margin-left: 5px;
 }
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.text {
+  width: 100%;
+font-size: 1.4em;
+text-align: left;
+}
 
+@media (max-width: 640px) {
+.sec-pickup h4 {
+font-size: 30px;
+}
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.ttl {
+font-size: 13px;
+padding-bottom: 5px;
+}    
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.more {
+font-size: 12px;
+
+}    
+      
+}
 .foot-caption {
   padding: 80px 0;
   font-size: 11px;

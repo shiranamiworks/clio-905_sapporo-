@@ -470,11 +470,14 @@ border: 1px solid #81A0CE;
   display: flex;
   justify-content: space-between;
 }
+.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea.gd {
+  margin-top: 14px;
+}
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p {
   width: 50%;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.ttl {
-  font-size: 1.85em;
+  font-size: 1.6em;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.more {
   font-size: 1.4em;
@@ -486,7 +489,7 @@ border: 1px solid #81A0CE;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: url(../../imgs/siteLink_arw.svg) center no-repeat;
+  background: url(../../img/siteLink_arw.svg) center no-repeat;
   background-size: 100%;
   vertical-align: middle;
   margin-left: 5px;
