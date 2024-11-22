@@ -254,7 +254,6 @@
 }
 .page .sec01 .list li .texts{
   text-align: center;
-  width: 90%;
   margin: auto;
   padding: 20px;
 }
@@ -311,6 +310,12 @@
   font-size: 12px;
   line-height: 1.6;
 }
+.page .sec02 .list .mini{
+  text-align: left;
+  font-size: 10px;
+  margin-top: 10px;;
+  line-height: 1.6;
+}
 .page .sec02 .list02 li{
   width: 48%;
   margin: 50px auto;
@@ -333,14 +338,31 @@
   vertical-align: top;
 }
 .page .sec02 .list04 .box01{
-  width: 28%;
-  margin-right: 4%;
+  width: 30%;
+  margin-right: 3%;
 }
 .page .sec02 .list04 .box02{
-  width: 67%;
+  width: 66%;
 }
 
 @media (max-width: 1024px) {
+  .page .sec01 .list{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .page .sec01 .list li{
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+  .page .sec01 .list li .texts{
+    width: 100%;
+    text-align: center;
+  }
+  .page .sec01 .list li .texts .lead{
+    text-align: left;
+  }
 }
 @media (max-width: 768px){
   .page-title h2{
@@ -366,23 +388,6 @@
     background: url(../img/bg-sp.png);
     background-position: bottom;
     background-size: cover;
-  }
-  .page .sec01 .list{
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-  }
-  .page .sec01 .list li{
-    display: block;
-    width: 100%;
-    margin-right: 0;
-  }
-  .page .sec01 .list li .texts{
-    width: 100%;
-    text-align: center;
-  }
-  .page .sec01 .list li .texts .lead{
-    text-align: left;
   }
   
   .page .sec02 h3{
