@@ -156,7 +156,7 @@ require "../cookie.php";
               <!--<p class="open-time">2023年<span class="num">1</span>月<span class="num">7</span>日(土)より</p>-->
               <!-- <p class="txt-open"><span class="d-inline-block">「クリオ ライフスタイルサロン札幌」<br class="sp">
           公開中</span></p> -->
-              <p class="entend-time">2024年11月2日(土)より<br />「クリオ ライフスタイルサロン札幌」オープン</p>
+              <p class="entend-time">「クリオ ライフスタイルサロン札幌」オープン</p>
               <p class="reserve-time mt15">
                 <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br />①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
               </p>
@@ -166,15 +166,14 @@ require "../cookie.php";
               <p>
                 本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br />
                 また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br />
-                （販売予定時期／2024年12月下旬）
+                （販売予定時期／2025年1月下旬）
               </p>
             </div>
             <!-- /yokoku -->
-            <!-- <div class="yokoku henkou mt40">
+            <div class="yokoku mt40">
           <p class="yokoku_ttl">【変更のお知らせ】</p>
-          <p>第1期1次の販売予定時期につきまして、2023年2月下旬としておりましたが、<br class="pctb">
-          2023年3月下旬に変更となりました。</p>
-        </div> -->
+          <p>販売予定時期につきまして、2024年12月下旬としておりましたが、2025年1月下旬に変更となりました。</p>
+        </div>
             <!-- /yokoku -->
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
