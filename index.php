@@ -162,6 +162,12 @@ require "../cookie.php";
               </p>
             </div>
             <div class="yokoku mt40">
+              <p class="yokoku_ttl">＜年末年始休業のお知らせ＞</p>
+              <p>誠に勝手ながら、下記の期間を年末年始休業とさせていただきます。<br>休業期間：2024年12月30日（月）～2025年1月3日（金）<br><br>休業期間中のお問い合わせに関しましては、2025年1月6日（月）以降順次対応させていただきます。
+              <br>予めご了承くださいますようお願い申し上げます。</p>
+            </div>
+
+            <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
                 本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br />
@@ -171,9 +177,9 @@ require "../cookie.php";
             </div>
             <!-- /yokoku -->
             <div class="yokoku mt40">
-          <p class="yokoku_ttl">【変更のお知らせ】</p>
-          <p>販売予定時期につきまして、2024年12月下旬としておりましたが、2025年1月下旬に変更となりました。</p>
-        </div>
+              <p class="yokoku_ttl">【変更のお知らせ】</p>
+              <p>販売予定時期につきまして、2024年12月下旬としておりましたが、2025年1月下旬に変更となりました。</p>
+            </div>
             <!-- /yokoku -->
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
