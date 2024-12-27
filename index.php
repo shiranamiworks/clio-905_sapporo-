@@ -161,11 +161,13 @@ require "../cookie.php";
                 <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br />①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
               </p>
             </div>
+<!--
              <div class="yokoku mt40">
               <p class="yokoku_ttl">＜年末年始休業のお知らせ＞</p>
               <p>誠に勝手ながら、下記の期間を年末年始休業とさせていただきます。<br>休業期間：2024年12月30日（月）～2025年1月3日（金）<br><br>休業期間中のお問い合わせに関しましては、2025年1月4日（土）以降順次対応させていただきます。
               <br>予めご了承くださいますようお願い申し上げます。</p>
             </div> 
+-->
 
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
