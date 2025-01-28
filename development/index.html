@@ -542,6 +542,17 @@
 
             <div class="swiper-pickup fade-in fade-in-up">
               <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                    <a href="https://www.instagram.com/clio_mansion/" target="_blank" class="gtm_click_trg" id="view_insta">
+                    <div class="inner_card">
+                      <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/insta_cp/bnr_202501.jpg" alt="instagram プレゼントキャンペーン"> </div>
+                      <div class="txtarea">
+                        <p class="ttl EBgaramond">CAMPAIGN</p>
+                        <p class="more EBgaramond">view more</p>
+                      </div>
+                    </div>
+                    </a> 
+                  </div>
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
                     <div class="inner_card">
@@ -595,7 +606,7 @@
                   </a>
                 </div>
               </div>
-              <!-- <div class="swiper-scrollbar"></div> -->
+               <div class="swiper-scrollbar"></div> 
             </div>
           </div>
         </section>
@@ -620,6 +631,35 @@
       </script>
     </div>
     <!-- / .page -->
+    
+    <script type="text/javascript">
+      var mySwiper = new Swiper(".swiper-pickup", {
+        initialSlide: 0,
+        centeredSlides: false,
+        slidesPerView: 3,
+        spaceBetween: 1,
+        loop: false,
+        speed: 3000,
+        autoplay: {
+          delay: 3000,
+        },
+        centeredSlidesBounds: false,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: false,
+          draggable: true,
+          snapOnRelease: true,
+        },
+        breakpoints: {
+          1000: {
+            slidesPerView: 2,
+          },
+          640: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
 
     <!-- 解析タグここから -->
     <!-- WebAntenna -->
@@ -636,6 +676,7 @@
     <!-- end WebAntenna -->
 
     <!-- YTM -->
+<!--
     <script type="text/javascript">
       (function () {
         var tagjs = document.createElement("script");
@@ -648,6 +689,7 @@
     <noscript>
       <iframe src="//b.yjtag.jp/iframe?c=TVExpVn" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </noscript>
+-->
     <!-- end YTM -->
 
     <script type="text/javascript" src="../common/js/fade-in.js" charset="UTF-8"></script>
