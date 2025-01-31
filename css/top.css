@@ -424,10 +424,27 @@ background-color: #79C266;
     padding: 40px 0 60px;
   }
 }
+.sec-information .price{
+  margin: 100px auto 0;
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #d6dce5;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.sec-information .price .num{
+  font-size: 150%;
+  font-weight: 600;
+  color: #3C7A8F;
+}
+.sec-information .price .mini{
+  font-size: 12px;
+}
+
 .sec-information h2 {
   font-size: 2.6em;
   font-weight: 300;
-  margin: 100px auto 60px;
+  margin: 50px auto 60px;
 }
 @media (max-width: 640px) {
   .sec-information h2 {
