@@ -425,7 +425,7 @@ background-color: #79C266;
   }
 }
 .sec-information .price{
-  margin: 100px auto 0;
+  margin: 0 auto 20px;
   display: inline-block;
   padding: 10px 50px;
   background-color: #d6dce5;
@@ -434,8 +434,12 @@ background-color: #79C266;
 }
 .sec-information .price .num{
   font-size: 150%;
-  font-weight: 600;
   color: #3C7A8F;
+}
+.sec-information .price .red{
+  font-size: 160%;
+  font-weight: 600;
+  color: #952600;
 }
 .sec-information .price .mini{
   font-size: 12px;
@@ -444,7 +448,7 @@ background-color: #79C266;
 .sec-information h2 {
   font-size: 2.6em;
   font-weight: 300;
-  margin: 50px auto 60px;
+  margin: 100px auto 60px;
 }
 @media (max-width: 640px) {
   .sec-information h2 {

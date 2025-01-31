@@ -148,10 +148,10 @@ require "../cookie.php";
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
           <div class="fade-in fade-in-up">
-            <p class="price"><span class="num">1</span>LDK / <span class="num">36</span>㎡超<br><span class="num">2,900</span>万円台〜 <br class="sp"><span class="mini">※100万円単位</span></p>
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br>
         <span>ご案内時の感染予防対策について</span></a></p> -->
+            <p class="price"><span class="num">1</span>LDK / <span class="num">36</span>㎡超<br><span class="red">2,900</span>万円台〜 <br class="sp"><span class="mini">※100万円単位</span></p>
             <div class="open">
               <!--<p class="open-time">2023年<span class="num">1</span>月<span class="num">7</span>日(土)より</p>-->
               <!-- <p class="txt-open"><span class="d-inline-block">「クリオ ライフスタイルサロン札幌」<br class="sp">
