@@ -510,6 +510,11 @@ require "../cookie.php";
             <a href="" target="_blank"><img src="img/ls_banner.jpg" /></a>
           </div>
         </div>
+        <div class="top-banner loan">
+          <div class="bnrs cs15_bnr">
+            <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
+          </div>
+        </div>
 
         <!-- sec-pickup -->
         <section class="sec-pickup">
