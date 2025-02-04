@@ -209,6 +209,10 @@ require "../cookie.php";
             </p>
           </section>
           <!-- remote -->
+          
+          <div class="completion">
+            <img src="img/completion-merit.jpg" alt="完成物件のメリット">
+          </div>
 
           <div class="infotokyo_con fade-in fade-in-up">
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
