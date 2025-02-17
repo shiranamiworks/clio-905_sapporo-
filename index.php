@@ -149,17 +149,14 @@ require "../cookie.php";
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
           <div class="fade-in fade-in-up">
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
-            <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br>
-        <span>ご案内時の感染予防対策について</span></a></p> -->
+            <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
             <p class="price"><span class="num">1</span>LDK / <span class="num">36</span>㎡超<br><span class="red">2,900</span>万円台〜 <br class="sp"><span class="mini">※100万円単位</span></p>
             <div class="open">
-              <!--<p class="open-time">2023年<span class="num">1</span>月<span class="num">7</span>日(土)より</p>-->
-              <!-- <p class="txt-open"><span class="d-inline-block">「クリオ ライフスタイルサロン札幌」<br class="sp">
-          公開中</span></p> -->
-              <p class="entend-time">「クリオ ライフスタイルサロン札幌」オープン</p>
-              <p class="reserve-time mt15">
-                <span class="note d-block"><span class="num">事前案内会開催</span><br />＜完全予約制＞</span><br />①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～
-              </p>
+              <p class="open-time">2025年2月21日(金)より<br>第1期1次先着順申込受付開始</p>
+              <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br class="pc">前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
+              
+              <p class="entend-time">「クリオ ライフスタイルサロン札幌」<br class="sp">公開中</p>
+              <p class="reserve-time"><span class="note d-block">＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～</p>
             </div>
 <!--
              <div class="yokoku mt40">
@@ -169,6 +166,7 @@ require "../cookie.php";
             </div> 
 -->
 
+<!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
@@ -177,11 +175,14 @@ require "../cookie.php";
                 （販売予定時期／2025年2月下旬）
               </p>
             </div>
+-->
             <!-- /yokoku -->
+<!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">【変更のお知らせ】</p>
               <p>販売予定時期につきまして、2025年1月下旬としておりましたが、2025年2月下旬に変更となりました。</p>
             </div>
+-->
             <!-- /yokoku -->
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
@@ -218,7 +219,7 @@ require "../cookie.php";
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
             <div class="open">
               <p class="txt-open">
-                <span class="d-inline-block">2024年11月2日（土）より<br>「個別銀座ご案内会」開催<br>「個別横浜ご案内会」開催</span>
+                <span class="d-inline-block">「個別銀座ご案内会」開催<br>「個別横浜ご案内会」開催</span>
               </p>
               <p class="reserve-time mt15">
                 <span class="note d-block">〈ご案内時間〉</span><br />
@@ -596,7 +597,7 @@ require "../cookie.php";
         <section class="foot-caption inner">
           <p>
             ※1.4駅5路線とは、地下鉄東豊線・地下鉄南北線「さっぽろ」駅、地下鉄東豊線「北13条東」駅、地下鉄南北線「北12条」駅、JR函館本線・札沼線・千歳線「札幌」駅となります。
-            <br>※2.2024年7月末時点 株式会社日本経済広告社調べ。
+            <br>※2.2025年1月末時点 株式会社日本経済広告社調べ。
             <br>※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。
             <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
             <br>※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合

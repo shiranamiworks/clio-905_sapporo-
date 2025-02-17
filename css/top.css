@@ -427,7 +427,7 @@ background-color: #79C266;
 .sec-information .price{
   margin: 0 auto 20px;
   display: inline-block;
-  padding: 10px 50px;
+  padding: 4px 50px;
   background-color: #d6dce5;
   font-size: 24px;
   line-height: 1.5;
@@ -460,34 +460,53 @@ background-color: #79C266;
   text-decoration: underline;
 }
 .sec-information .open-time {
-  font-size: 2em;
+  font-size: 26px;
   margin: 30px auto 0;
+  line-height: 1.6;
 }
 .sec-information .open-time .num {
-  font-size: 2em;
+  font-size: 30px;
 }
-.sec-information .txt-open {
-  font-size: 2.8em;
-  margin: 20px auto;
+.sec-information .open-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px auto 80px;
+}
+.sec-information .open-text .mini{
+  font-size: 13px;
+  line-height: 1.6;
+  display: inline-block;
+  padding-top: 20px;
 }
 
 @media (max-width: 640px) {
-  .sec-information .txt-open {
-    font-size: 2em;
-    margin: 30px auto 20px;
+  .sec-information .open-time {
+    font-size: 23px;
   }
+  .sec-information .open-text {
+      font-size: 15px;
+      margin: 20px auto 40px;
+    }
+.sec-information .open-text .mini{
+      font-size: 13px;
+    }
 }
+
 .sec-information .entend-time {
-  font-size: 3em;
-  margin: 40px auto;
+  font-size: 26px;
+  margin: 20px auto 10px;
 }
 .sec-information .request-detail {
   margin: 40px auto;
 }
+
 @media (max-width: 640px) {
   .sec-information .request-detail {
     text-align: left;
     margin: 30px auto;
+  }
+  .sec-information .entend-time {
+    font-size: 22px;
   }
 }
 .sec-information .request-detail .request-txt {
@@ -552,6 +571,7 @@ background-color: #79C266;
 .sec-information .reserve-time {
   font-size: 1.85em;
   line-height: 1.8;
+  margin-bottom: 50px;
 }
 .sec-information .btn {
   margin: 30px auto 50px;
