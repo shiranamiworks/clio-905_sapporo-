@@ -152,10 +152,11 @@ require "../cookie.php";
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
             <p class="price"><span class="num">1</span>LDK / <span class="num">36</span>㎡超<br><span class="red">2,900</span>万円台〜 <br class="sp"><span class="mini">※100万円単位</span></p>
             <div class="open">
-              <p class="open-time">2025年2月21日(金)より<br>第1期1次先着順申込受付開始</p>
+              <p class="open-time">第1期1次先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br class="pc">前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
               
-              <p class="entend-time">「クリオ ライフスタイルサロン札幌」<br class="sp">公開中</p>
+              <p class="open-time">第1期2次事前案内会開催</p>
+              <p class="entend-time">「クリオ ライフスタイルサロン札幌」公開中</p>
               <p class="reserve-time"><span class="note d-block">＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～</p>
             </div>
 <!--
@@ -166,16 +167,12 @@ require "../cookie.php";
             </div> 
 -->
 
-<!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
-                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br />
-                また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br />
-                （販売予定時期／2025年2月下旬）
+                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年4月下旬）
               </p>
             </div>
--->
             <!-- /yokoku -->
 <!--
             <div class="yokoku mt40">
@@ -537,6 +534,7 @@ require "../cookie.php";
                 </div>
               </div>
               </a> </div> 
+<!--
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
                     <div class="inner_card">
@@ -550,6 +548,7 @@ require "../cookie.php";
                     </div>
                   </a>
                 </div>
+-->
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/club/" target="_blank" class="gtm_click_trg" id="view_lifestyleclub">
                     <div class="inner_card">
