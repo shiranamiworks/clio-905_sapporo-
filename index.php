@@ -524,16 +524,19 @@ require "../cookie.php";
             <h4 class="CormorantGaramond fade-in fade-in-up">Pick Up</h4>
             <div class="swiper-pickup fade-in fade-in-up">
               <div class="swiper-wrapper">
+<!--
                  <div class="swiper-slide"> 
-              <a href="https://www.instagram.com/clio_mansion/" target="_blank" class="gtm_click_trg" id="view_insta">
-              <div class="inner_card">
-                <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/insta_cp/bnr_202501.jpg" alt="instagram プレゼントキャンペーン"> </div>
-                <div class="txtarea">
-                  <p class="ttl EBgaramond">CAMPAIGN</p>
-                  <p class="more EBgaramond">view more</p>
-                </div>
-              </div>
-              </a> </div> 
+                  <a href="https://www.instagram.com/clio_mansion/" target="_blank" class="gtm_click_trg" id="view_insta">
+                  <div class="inner_card">
+                    <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/insta_cp/bnr_202501.jpg" alt="instagram プレゼントキャンペーン"> </div>
+                    <div class="txtarea">
+                      <p class="ttl EBgaramond">CAMPAIGN</p>
+                      <p class="more EBgaramond">view more</p>
+                    </div>
+                  </div>
+                  </a>
+                </div> 
+-->
 <!--
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">

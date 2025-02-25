@@ -443,13 +443,24 @@ color: #EFEFEF;
     font-size: 58px;
 }
 
+.sec-planlist__term {
+    font-size: 13px;
+    border: 1px solid;
+    display: block;
+    padding: 6px 10px;
+    text-align: center;
+}
+.sec-planlist__term.mb {
+    margin-bottom: 19px;
+}
+
 .sec-planlist__item-spec {
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
 }
 
 .sec-planlist__item-spec strong {
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 300;
 }
 
@@ -521,6 +532,9 @@ color: #EFEFEF;
 }
 
 @media (max-width: 800px) {
+    .sec-planlist__term.mb {
+        margin-bottom: auto;
+    }
     .sec-planlist__item {
         width: 100%;
     }

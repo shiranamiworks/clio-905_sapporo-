@@ -95,7 +95,7 @@ var mySwiper03 = new Swiper('.swiper-main', {
 ---------------------------------*/
   var mySwiper02 = new Swiper('.swiper-pickup', {
     loop: false,
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 30,
     // pagination: {
     //   el: '.swiper-pagination',
