@@ -190,11 +190,14 @@ equipment
   clear: both;
 }
 .items li.half {
-  width: 64%;
+  width: 66%;
   margin: auto;
 }
 .items li.half.mg-right {
   margin-right: 2%;
+}
+.items li.mg-none {
+  margin-right: auto;
 }
 .items li.full {
   width: 100%;
