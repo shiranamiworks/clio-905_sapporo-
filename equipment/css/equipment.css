@@ -113,11 +113,11 @@ equipment
 
 @media (max-width: 1000px) {
   .page .page_intro h3 {
-    font-size: 2.8em;
+    font-size: 3em;
   }
 
   .page .page_intro p.intro_text {
-    font-size: 1.8em;
+    font-size: 1.9em;
   }
 
   .contents_in p.eng {
@@ -281,6 +281,11 @@ sup {
 .items.full {
   margin-top: 0;
 }
+.items.item01.mv {
+  margin: 0 auto 30px;
+  width: 94%;
+  max-width: 1000px;
+}
 .items.item02 {
   margin-top: 0;
 }
@@ -308,6 +313,18 @@ sup {
 .items.item00 li:last-child {
   margin-right: auto;
   width: 63%;
+}
+
+.item04 li:first-child {
+    width: 47%;
+    margin-right: 4%;
+    margin-left: 7%;
+    margin-bottom: auto;
+    float: left;
+}
+.item04 li:nth-child(n+1) {
+    margin-bottom: 2%;
+/*    margin-right: auto;*/
 }
 
 .inner-title {
@@ -427,6 +444,12 @@ sup {
 }
 
 @media (max-width: 640px) {
+  .title .sec-tit {
+    font-size: 26px;
+}
+.title .sec-lead {
+    font-size: 16px;
+}
   .items .name {
     font-size: 16px;
   }
@@ -475,6 +498,10 @@ sup {
   }
   .items.item00 li:last-child {
     width: 100%;
+  }
+  .item04 li:first-child {
+    width: 100%;
+    margin: auto;
   }
   .inner-title {
     font-size: 18px;
@@ -1822,7 +1849,7 @@ sup {
   }
 
   .equipment-security .equipment-section__container-01 .gray {
-    margin-top: 60px;
+/*    margin-top: 60px;*/
   }
 
   .equipment-security .equipment-section__container-01 .gray ul {
