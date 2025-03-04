@@ -278,6 +278,15 @@ sup {
 .items .red {
   color: #e50b19;
 }
+.items .green {
+  color: #2e645f;
+}
+.items .green02 {
+  color: #758a65;
+}
+.items .brown {
+  color: #8b6032;
+}
 .items.full {
   margin-top: 0;
 }
@@ -339,6 +348,9 @@ sup {
   font-size: 20px;
   line-height: 1.8;
   margin-bottom: 10px;
+}
+.inner-text.green02{
+  color: #758a65;
 }
 .security-img {
   margin-bottom: 50px;
