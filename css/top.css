@@ -426,18 +426,21 @@ background-color: #79C266;
 }
 .sec-information .price{
   margin: 0 auto 40px;
-  padding: 4px 50px;
-  font-size: 24px;
+  padding: 20px 0;
+  font-size: 22px;
   line-height: 1.5;
   border: 1px solid;
   max-width: 500px;
 }
+.sec-information .price .mid{
+  font-size: 80%;
+}
 .sec-information .price .num{
-  font-size: 150%;
-  color: #3C7A8F;
+  font-size: 140%;
+/*  color: #3C7A8F;*/
 }
 .sec-information .price .red{
-  font-size: 180%;
+  font-size: 140%;
   font-weight: 600;
   color: #952600;
 }
@@ -454,6 +457,9 @@ background-color: #79C266;
   .sec-information h2 {
     margin: 60px auto 30px;
   }
+  .sec-information .price{
+    font-size: 20px;
+}
 }
 .sec-information .link {
   font-size: 1.85em;
