@@ -150,12 +150,14 @@ require "../cookie.php";
           <div class="fade-in fade-in-up">
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
+            <div class="price">
+            <p class="text"><span class="mid">販売予定価格</span><span class="num">1</span>LDK / <span class="num">36</span>㎡超 <span class="red">2,900</span>万円台〜<br><span class="num">2</span>LDK / <span class="num">46</span>㎡超 <span class="red">3,500</span>万円台<br><span class="num">2</span>LDK+S / <span class="num">66</span>㎡超 <span class="red">5,300</span>万円台<br><span class="num">3</span>LDK / <span class="num">71</span>㎡超 <span class="red">6,300</span>万円台<br><span class="mini">※100万円単位</span></p>
+            </div>
             <div class="topic">
               <p class="txt-open">3/3(月)～3/8(土)限定</p>
               <p class="txt-open02">建物内覧会開催<br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs90">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
-            <p class="price"><span class="mid">販売予定価格</span><br><span class="num">1</span>LDK / <span class="red">2,900</span>万円台〜<br><span class="num">2</span>LDK / <span class="red">3,500</span>万円台〜<br><span class="num">3</span>LDK / <span class="red">6,300</span>万円台〜<br><span class="mini">※100万円単位</span></p>
             <div class="open">
               <p class="open-time">第1期1次先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br class="pc">前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>

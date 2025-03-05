@@ -425,27 +425,38 @@ background-color: #79C266;
   }
 }
 .sec-information .price{
-  margin: 0 auto 40px;
-  padding: 20px 0;
+  margin: 0 auto 30px;
+  padding: 20px 16px;
   font-size: 22px;
   line-height: 1.5;
   border: 1px solid;
   max-width: 500px;
+  text-align: center;
 }
-.sec-information .price .mid{
+.sec-information .price .text{
+  font-size: 22px;
+  text-align: left;
+  max-width: 370px;
+  margin: auto;
+}
+.sec-information .price .text .mid{
   font-size: 80%;
+  text-align: center;
+  display: block;
 }
-.sec-information .price .num{
-  font-size: 140%;
+.sec-information .price .text .num{
+  font-size: 120%;
 /*  color: #3C7A8F;*/
 }
-.sec-information .price .red{
+.sec-information .price .text .red{
   font-size: 140%;
   font-weight: 600;
   color: #952600;
 }
-.sec-information .price .mini{
+.sec-information .price .text .mini{
   font-size: 12px;
+  text-align: center;
+  display: block;
 }
 
 .sec-information h2 {
@@ -457,7 +468,7 @@ background-color: #79C266;
   .sec-information h2 {
     margin: 60px auto 30px;
   }
-  .sec-information .price{
+  .sec-information .price .text{
     font-size: 20px;
 }
 }
@@ -488,7 +499,7 @@ background-color: #79C266;
 .sec-information .topic {
   display: block;
   padding: 20px 0;
-  margin: 0 auto 30px;
+  margin: 0 auto 40px;
   max-width: 500px;
   background: linear-gradient(to bottom, #253339, #4e6d77);
   color: #fff;
