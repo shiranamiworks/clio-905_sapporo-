@@ -425,11 +425,7 @@ background-color: #79C266;
   }
 }
 .sec-information .price{
-  margin: 0 auto 30px;
-  padding: 20px 16px;
-  font-size: 22px;
-  line-height: 1.5;
-  border: 1px solid;
+  margin: 0 auto 50px;
   max-width: 500px;
   text-align: center;
 }
@@ -501,21 +497,24 @@ background-color: #79C266;
   padding: 20px 0;
   margin: 0 auto 40px;
   max-width: 500px;
-  background: linear-gradient(to bottom, #253339, #4e6d77);
-  color: #fff;
+  background: #efeeed;
+  color: #000;
 }
 .sec-information .topic .txt-open {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   margin: 0 auto 5px;
 }
 .sec-information .topic .txt-open02 {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.6;
   padding-bottom: 10px;
 }
-.sec-information .topic .txt-open02 .fs90 {
-  font-size: 90%;
+.sec-information .topic .txt-open02 .line {
+  background:linear-gradient(transparent 70%, #b1ced8 70%);
+}
+.sec-information .topic .txt-open02 .fs80 {
+  font-size: 80%;
 }
 .sec-information .topic .mini{
   font-size: 12px;
