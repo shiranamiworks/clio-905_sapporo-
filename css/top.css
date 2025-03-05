@@ -987,7 +987,7 @@ background-color: #79C266;
 @media (max-width: 640px) {
   .sec-information .infotokyo_con h2.tokyo_ttl {
     font-size: 14px;
-    margin-bottom: -20px;
+/*    margin-bottom: -20px;*/
   }
 
   .sec-information .infotokyo_con h2.tokyo_ttl::before {

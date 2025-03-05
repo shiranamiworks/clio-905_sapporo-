@@ -160,8 +160,10 @@ require "../cookie.php";
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
+<!--
               <p class="open-time">第1期1次先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br class="pc">前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
+-->
               
               <p class="open-time">第1期2次事前案内会開催</p>
               <p class="entend-time">「クリオ ライフスタイルサロン札幌」公開中</p>
