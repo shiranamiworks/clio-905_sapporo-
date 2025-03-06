@@ -120,11 +120,11 @@ var mySwiper03 = new Swiper('.swiper-main', {
 
 
 //mv
-$(window).on("load rezise",function(){
-  var wh = $(this).height();
-  var ih = $(".main-visual .slide-pc .slide01 img").height();
-  $(".main-visual .slide-pc .slide01 img").css("margin-top",-(ih - wh));
-});
+// $(window).on("load rezise",function(){
+//   var wh = $(this).height();
+//   var ih = $(".main-visual .slide-pc .slide01 img").height();
+//   $(".main-visual .slide-pc .slide01 img").css("margin-top",-(ih - wh));
+// });
 $(window).on("load",function(){
   $(".main-visual").addClass("on");
   setTimeout(function(){
