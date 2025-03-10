@@ -155,7 +155,7 @@ require "../cookie.php";
 <!--            <p class="text"><span class="mid">販売予定価格</span><span class="num">1</span>LDK / <span class="num">36</span>㎡超 <span class="red">2,900</span>万円台〜<br><span class="num">2</span>LDK / <span class="num">46</span>㎡超 <span class="red">3,500</span>万円台<br><span class="num">2</span>LDK+S / <span class="num">66</span>㎡超 <span class="red">5,300</span>万円台<br><span class="num">3</span>LDK / <span class="num">71</span>㎡超 <span class="red">6,300</span>万円台<br><span class="mini">※100万円単位</span></p>-->
             </div>
             <div class="topic">
-              <p class="txt-open">3/3(月)～3/8(土)限定</p>
+<!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
               <p class="txt-open02"><span class="line">建物内覧会開催<br>～実際のお部屋を<br class="sp">ご覧いただけます～</span><br><span class="fs80">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
