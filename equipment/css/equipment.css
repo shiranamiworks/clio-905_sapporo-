@@ -291,9 +291,16 @@ sup {
   margin-top: 0;
 }
 .items.item01.mv {
-  margin: 0 auto 30px;
+  margin: 0 auto 10px;
   width: 94%;
   max-width: 1000px;
+}
+.items.item01.mv .image {
+  margin-bottom: 10px;
+}
+.items.item01.mv .notes {
+  font-size: 11px;
+  text-align: left;
 }
 .items.item02 {
   margin-top: 0;
@@ -330,6 +337,12 @@ sup {
     margin-left: 7%;
     margin-bottom: auto;
     float: left;
+}
+.items.item04:first-child .image {
+    margin-bottom: 10px;
+}
+.item04 li .notes {
+    font-size: 11px;
 }
 .item04 li:nth-child(n+1) {
     margin-bottom: 2%;
@@ -513,7 +526,7 @@ sup {
   }
   .item04 li:first-child {
     width: 100%;
-    margin: auto;
+    margin: 0 auto 20px;
   }
   .inner-title {
     font-size: 18px;
