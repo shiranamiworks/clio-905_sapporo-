@@ -664,6 +664,10 @@ padding-top: 10px;
     max-width: 470px;
     margin: auto;
 }
+.plan-detail__img .imgBox.ftype {
+    max-width: 560px;
+    margin: auto;
+}
 
 .plan-detail__img__caption {
     width: 100%;
