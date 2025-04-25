@@ -532,19 +532,17 @@ require "../cookie.php";
             <h4 class="CormorantGaramond fade-in fade-in-up">Pick Up</h4>
             <div class="swiper-pickup fade-in fade-in-up">
               <div class="swiper-wrapper">
-<!--
                  <div class="swiper-slide"> 
-                  <a href="https://www.instagram.com/clio_mansion/" target="_blank" class="gtm_click_trg" id="view_insta">
+                  <a href="https://www.meiwajisyo.co.jp/clio/cp/anniversary1000/" target="_blank" class="gtm_click_trg" id="view_anniversary">
                   <div class="inner_card">
-                    <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/insta_cp/bnr_202501.jpg" alt="instagram プレゼントキャンペーン"> </div>
+                    <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/clio1000_pc.jpg" alt="anniversary 1000"> </div>
                     <div class="txtarea">
-                      <p class="ttl EBgaramond">CAMPAIGN</p>
+                      <p class="ttl EBgaramond">anniversary 1000</p>
                       <p class="more EBgaramond">view more</p>
                     </div>
                   </div>
                   </a>
                 </div> 
--->
 <!--
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
@@ -600,7 +598,7 @@ require "../cookie.php";
                   </a>
                 </div>
               </div>
-               <div class="swiper-scrollbar"></div> 
+<!--               <div class="swiper-scrollbar"></div> -->
             </div>
           </div>
         </section>
@@ -688,7 +686,7 @@ require "../cookie.php";
       var mySwiper = new Swiper(".swiper-pickup", {
         initialSlide: 0,
         centeredSlides: false,
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 1,
         loop: false,
         speed: 3000,

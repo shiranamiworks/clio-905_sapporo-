@@ -118,7 +118,7 @@ $(function () {
 ---------------------------------*/
   var mySwiper02 = new Swiper('.swiper-pickup', {
     loop: false,
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
     // pagination: {
     //   el: '.swiper-pagination',
