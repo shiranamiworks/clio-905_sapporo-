@@ -151,7 +151,8 @@ require "../cookie.php";
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
             <div class="price">
-            <img src="img/price.svg" alt="販売予定価格" />
+            <img src="img/price.svg" alt="販売予定価格" / class="pc">
+            <img src="img/price-sp.svg" alt="販売予定価格" / class="sp">
 <!--            <p class="text"><span class="mid">販売予定価格</span><span class="num">1</span>LDK / <span class="num">36</span>㎡超 <span class="red">2,900</span>万円台〜<br><span class="num">2</span>LDK / <span class="num">46</span>㎡超 <span class="red">3,500</span>万円台<br><span class="num">2</span>LDK+S / <span class="num">66</span>㎡超 <span class="red">5,300</span>万円台<br><span class="num">3</span>LDK / <span class="num">71</span>㎡超 <span class="red">6,300</span>万円台<br><span class="mini">※100万円単位</span></p>-->
             </div>
             <div class="topic">
@@ -160,7 +161,7 @@ require "../cookie.php";
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
-              <p class="open-time">4月26日（土）より<br>第1期2次先着順申込受付開始</p>
+              <p class="open-time">第1期2次先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br class="pc">前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
               
               <p class="open-time">第2期1次事前案内会開催</p>

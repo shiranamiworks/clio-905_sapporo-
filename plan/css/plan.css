@@ -458,6 +458,9 @@ color: #EFEFEF;
     font-size: 30px;
     text-align: center;
 }
+.sec-planlist__item-spec.mt{
+    margin-top: 19px;
+}
 
 .sec-planlist__item-spec strong {
     font-size: 60px;
