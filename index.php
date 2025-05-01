@@ -191,7 +191,7 @@ require "../cookie.php";
 -->
             <!-- /yokoku -->
             
-            <p class="holiday">ゴールデンウィーク中は休まず営業いたします。</p>
+            <p class="holiday">ゴールデンウィーク期間中は休まず営業いたします。</p>
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
             <p class="btn mb50">
