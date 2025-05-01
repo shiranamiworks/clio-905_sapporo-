@@ -716,9 +716,17 @@ background-color: #79C266;
   text-align: left;
 }
 
+.sec-information .holiday {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
 .sec-information .yokoku {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .sec-information .yokoku p {
@@ -742,7 +750,7 @@ background-color: #79C266;
 @media (max-width: 640px) {
   .sec-information .yokoku {
     width: 90%;
-    margin: 60px auto;
+    margin: 60px auto 40px;
     text-align: left;
   }
 
@@ -753,6 +761,9 @@ background-color: #79C266;
   .sec-information .yokoku.henkou {
     width: 90%;
   }
+  .sec-information .holiday {
+    font-size: 12px;
+}
 }
 
 /* infotokyo_con */
