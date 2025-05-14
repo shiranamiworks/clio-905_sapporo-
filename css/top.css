@@ -2322,3 +2322,28 @@ font-size: 12px;
 .pageTop {
   display: none !important;
 }
+
+.fixed-bnr{
+  position: fixed;
+  width: 300px;
+  bottom: 50px;
+  left: 5%;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.6s,transform 0.6s;
+  z-index: 10;
+}
+.fixed-bnr.fade_on{
+  transform: translateY(0);
+  opacity: 1;
+}
+.fixed-bnr.fade_off{
+  transform: translateY(100px);
+  opacity: 0;
+}
+.fixed-bnr .close{
+  position: absolute;
+  width: 20px;
+  right: 0;
+  top: 0;
+}

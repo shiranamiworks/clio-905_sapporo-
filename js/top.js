@@ -214,5 +214,31 @@ if (window.matchMedia( "(min-width: 1000px)" ).matches) {
 }
 });
 
+let bnrClosed = false;
+
+$(window).on("scroll", function () {
+  if (bnrClosed) return;
+
+  const $bnr = $('.fixed-bnr');
+  if ($(this).scrollTop() > 500) {
+    if (!$bnr.hasClass('fade_on')) {
+      $bnr.addClass("fade_on").removeClass("fade_off");
+    }
+  } else {
+    if (!$bnr.hasClass('fade_off')) {
+      $bnr.addClass("fade_off").removeClass("fade_on");
+    }
+  }
+});
+
+$(document).on('click', '.fixed-bnr .close', function () {
+  const $bnr = $(this).closest('.fixed-bnr');
+  $bnr.fadeOut(function() {
+    $bnr.removeClass("fade_on fade_off");
+  });
+  bnrClosed = true;
+});
+
+
 
   
