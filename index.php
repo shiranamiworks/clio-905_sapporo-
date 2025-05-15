@@ -628,7 +628,7 @@ require "../cookie.php";
     <!-- / .page -->
 
     <div class="fixed-bnr">
-      <a href="/asset"><img src="img/bnr_asset.jpg" /></a>
+      <a href="asset/"><img src="img/bnr_asset.jpg" /></a>
       <span class="close"><img src="img/close.png" /></span>
     </div>
     <script type="text/javascript">
