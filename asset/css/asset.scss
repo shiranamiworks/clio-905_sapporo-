@@ -130,7 +130,7 @@ $sp: 640px;
     margin: auto;
   }
   .img01 {
-    max-width: 232px;
+    max-width: 185px;
     margin: 0 auto 30px;
   }
   .txt {
@@ -398,6 +398,7 @@ $sp: 640px;
     }
     .txt {
       text-align: left;
+      font-size: 26px;
       br {
         display: none;
       }
@@ -412,6 +413,7 @@ $sp: 640px;
     .tit {
       text-align: left;
       margin-bottom: 40px;
+      font-size: 28px;
       br {
         display: none;
       }
@@ -453,6 +455,8 @@ $sp: 640px;
     .tit {
       text-align: left;
       margin-bottom: 20px;
+      font-size: 28px;
+      line-height: 1.6;
       br {
         display: none;
       }
