@@ -152,6 +152,9 @@
   color: #f4d272;
   margin-bottom: 40px;
 }
+.sec02 .txt span {
+  font-size: 24px;
+}
 .sec02 .img02 {
   max-width: 600px;
   margin: 0 auto 40px;
@@ -279,4 +282,167 @@
 .sec06 .box .lead {
   font-size: 11px;
   line-height: 2;
+}
+.sec06 .box .image {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    width: 90%;
+    margin: auto;
+  }
+  .mv {
+    margin-bottom: 60px;
+  }
+  .intro {
+    width: 90%;
+    margin: 0 auto 60px;
+  }
+  .intro .img01 {
+    max-width: 224px;
+    margin: 0 auto 40px;
+  }
+  .intro .img02 {
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+  .intro .lead {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .intro .images .img-tit {
+    font-size: 14px;
+  }
+  .sec01 {
+    padding: 60px 0 40px;
+  }
+  .sec01 .txt {
+    font-size: 24px;
+  }
+  .sec01 .txt span {
+    font-size: 30px;
+  }
+  .sec01 .lead {
+    margin-bottom: 40px;
+  }
+  .sec01 .img-tit {
+    font-size: 24px;
+  }
+  .sec01 .caps {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .sec02 {
+    padding: 40px 0 60px;
+  }
+  .sec02 .tit01 {
+    max-width: 272px;
+    margin: auto;
+  }
+  .sec02 .lead {
+    text-align: left;
+    margin: 20px auto 40px;
+  }
+  .sec02 .lead br {
+    display: none;
+  }
+  .sec02 .img01 {
+    margin-bottom: 80px;
+  }
+  .sec02 .tit02 {
+    max-width: 312px;
+    margin: auto;
+  }
+  .sec02 .txt {
+    text-align: left;
+  }
+  .sec02 .txt br {
+    display: none;
+  }
+  .sec02 .img02 {
+    max-width: 320px;
+    margin: 0 auto 40px;
+  }
+  .sec03 {
+    padding: 60px 0;
+  }
+  .sec03 .tit {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .sec03 .tit br {
+    display: none;
+  }
+  .sec03 .list li {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .sec03 .list li:last-child {
+    margin-top: 20px;
+  }
+  .sec04 {
+    padding: 60px 0;
+  }
+  .sec04 .tit {
+    text-align: left;
+    font-size: 24px;
+  }
+  .sec04 .tit.center {
+    text-align: center;
+  }
+  .sec04 .lead {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .sec04 .lead br {
+    display: none;
+  }
+  .sec04 .txt {
+    max-width: 286px;
+    margin: 0 auto 40px;
+  }
+  .sec05 {
+    padding: 60px 0;
+  }
+  .sec05 .tit {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .sec05 .tit br {
+    display: none;
+  }
+  .sec05 .lead {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .sec05 .img01 {
+    max-width: 280px;
+    margin: 0 auto 80px;
+  }
+  .sec06 {
+    padding: 60px 0;
+  }
+  .sec06 .tit {
+    text-align: left;
+  }
+  .sec06 .box {
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+  .sec06 .box li {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .sec06 .box li:last-child {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  .sec06 .box .parson {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=asset.css.map */
