@@ -2325,7 +2325,7 @@ font-size: 12px;
 
 .fixed-bnr{
   position: fixed;
-  width: 300px;
+  width: 200px;
   bottom: 50px;
   left: 5%;
   opacity: 0;
@@ -2343,7 +2343,12 @@ font-size: 12px;
 }
 .fixed-bnr .close{
   position: absolute;
-  width: 20px;
-  right: 0;
-  top: 0;
+  width: 24px;
+  right: -12px;
+  top: -12px;
+}
+@media (max-width: 640px) {
+  .fixed-bnr{ 
+    bottom: 20px;
+  }
 }
