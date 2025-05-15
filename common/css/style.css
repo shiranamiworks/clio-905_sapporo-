@@ -327,6 +327,13 @@
   border-left: 3px solid #4e6d77;
   vertical-align: bottom;
 }
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a {
+  display: flex;
+}
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a::before {
+  height: 24px;
+  vertical-align: top;
+}
 .tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li a.new::after {
   content: "NEW";
   position: absolute;
