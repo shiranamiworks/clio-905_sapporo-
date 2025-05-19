@@ -2327,11 +2327,15 @@ font-size: 12px;
   position: fixed;
   width: 200px;
   bottom: 50px;
-  left: 5%;
+  left: 50px;
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 0.6s,transform 0.6s;
   z-index: 10;
+}
+.fixed-bnr.bnr02{
+  position: fixed;
+  left: 270px;
 }
 .fixed-bnr.fade_on{
   transform: translateY(0);
@@ -2349,6 +2353,17 @@ font-size: 12px;
 }
 @media (max-width: 640px) {
   .fixed-bnr{ 
-    bottom: 20px;
+    width: 94%;
+    left: 3%;
+    bottom: 10%;
   }
+  .fixed-bnr.bnr02{ 
+    left: 3%;
+    bottom: 0;
+  }
+  .fixed-bnr .close{
+  width: 20px;
+  right: -10px;
+  top: -10px;
+}
 }

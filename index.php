@@ -627,10 +627,16 @@ require "../cookie.php";
     </div>
     <!-- / .page -->
 
+    
     <div class="fixed-bnr">
-      <a href="asset/"><img src="img/bnr_asset.jpg" /></a>
+      <a href="compact/"><img src="img/bnr_conpact.jpg" class="pc"><img src="img/bnr_conpact-sp.jpg" class="sp"></a>
       <span class="close"><img src="img/close.png" /></span>
     </div>
+    <div class="fixed-bnr bnr02">
+      <a href="asset/"><img src="img/bnr_asset.jpg" class="pc"><img src="img/bnr_asset-sp.jpg" class="sp"></a>
+      <span class="close"><img src="img/close.png" /></span>
+    </div>
+    
     <script type="text/javascript">
       //Cookie
       $(function () {
