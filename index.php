@@ -157,7 +157,7 @@ require "../cookie.php";
             </div>
             <div class="topic">
 <!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
-              <p class="txt-open02"><span class="line">建物内覧会開催<br>～実際のお部屋を<br class="sp">ご覧いただけます～</span><br><span class="fs80">＜完全予約制＞</span></p>
+              <p class="txt-open02"><span class="line">現地販売センターにて<br>建物内覧会開催中</span><br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs80">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
