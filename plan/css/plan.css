@@ -456,7 +456,7 @@ color: #EFEFEF;
 }
 
 .sec-planlist__item-spec {
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
 }
 .sec-planlist__item-spec.mt{
@@ -464,12 +464,12 @@ color: #EFEFEF;
 }
 
 .sec-planlist__item-spec strong {
-    font-size: 60px;
+    font-size: 52px;
     font-weight: 300;
 }
 
 .sec-planlist__item-spec small {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .sec-planlist__item-area {
