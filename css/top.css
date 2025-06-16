@@ -485,13 +485,29 @@ background-color: #79C266;
   text-align: left;
   font-size: 16px;
   line-height: 1.6;
-  margin: 20px auto 80px;
+  margin: 20px auto 50px;
 }
 .sec-information .open-text .mini{
   font-size: 13px;
   line-height: 1.6;
   display: inline-block;
   padding-top: 20px;
+}
+
+.sec-information .open .line {
+    position: relative;
+    padding-bottom: 20px;
+}
+.sec-information .open .line:after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100px;
+    background: #000;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .sec-information .topic {

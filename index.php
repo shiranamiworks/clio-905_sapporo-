@@ -161,10 +161,15 @@ require "../cookie.php";
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
+              <p class="open-time">2025年6月21日(土) <br class="sp">10：00より<br>第2期1次先着順申込受付開始</p>
+              <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
+              <span class="line" style="width: 100%; display: block;"></span>
+              
               <p class="open-time">登録申込住戸受付中</p>
               <p class="open-text">■登録受付場所／クリオ ライフスタイルサロン札幌<br>■登録受付時間／10:00～20:00 (最終日は正午まで)<br>■登録受付期間／2025年5月8日(木)～2025年8月23日(土)<br>■抽選日時／2025年8月24日(日)午後1時より<br>■抽選場所／明和地所株式会社 札幌支店<br><span class="mini">※登録の際には、認印と身分証明書（運転免許証、健康保険証等）をご持参ください。</span></p>
+              <span class="line" style="width: 100%; display: block;"></span>
               
-              <p class="open-time">第2期1次事前案内会開催</p>
+              <p class="open-time">第2期2次事前案内会開催</p>
               <p class="entend-time">「クリオ ライフスタイルサロン札幌」公開中</p>
               <p class="reserve-time"><span class="note d-block">＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～</p>
             </div>
@@ -179,7 +184,7 @@ require "../cookie.php";
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
-                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年6月下旬）
+                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年7月下旬）
               </p>
             </div>
             <!-- /yokoku -->
