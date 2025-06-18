@@ -49,6 +49,7 @@
     <script type="text/javascript" src="../common/js/main.js" id="mainJS" charset="UTF-8"></script>
     <script type="text/javascript" src="../common/js/common.js" id="commonJS" charset="UTF-8"></script>
     <script type="text/javascript" src="../common/js/swiper.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/plan.js" charset="UTF-8"></script>
 
     <!-- init -->
     <!-- <link rel="stylesheet" type="text/css" href="../common/css/import/accessibility.css" media="screen" id="noscriptCSS" /> -->
@@ -125,12 +126,24 @@
               </p>
             </div>
           </div>
+            
+          <ul class="change-buttons clearfix">
+            <li><button type="button" data-target="cond01" class="button button01 current">通常間取り</button></li>
+            <li><button type="button" data-target="cond02" class="button button02">家具レイアウト</button></li>
+          </ul>
 
           <div class="plan-detail__img">
             <div class="inner">
-              <figure class="imgBox fade atype">
+            <div class="tab-inner cond01 current clearfix">
+              <figure class="imgBox atype">
                 <img src="img/madori_a.png" alt="Atype間取り画像" />
               </figure>
+            </div>
+            <div class="tab-inner cond02 clearfix">
+              <figure class="imgBox atype">
+                <img src="img/layout_a.png" alt="Atype家具レイアウト画像" />
+              </figure>
+            </div>
               <ul class="plan-detail__img__caption">
                 <li class="yuka">床暖房範囲</li>
                 <li class="closet">収納</li>
@@ -364,5 +377,6 @@
 
     <script type="text/javascript" src="../common/js/fade-in.js" charset="UTF-8"></script>
     <script type="text/javascript" src="../common/js/common_second.js" id="common_secondJS" charset="UTF-8"></script>
+    
   </body>
 </html>

@@ -648,6 +648,39 @@ padding-top: 10px;
     font-size: 29px;
 }
 
+.change-buttons {
+    display: flex;
+    max-width: 720px;
+    margin: 50px auto;
+    justify-content: center;
+}
+.change-buttons li{
+    display: inline-block;
+    width: 45%;
+    margin-right: 1px;
+}
+.change-buttons li:last-child{
+    margin-right: 0;
+}
+.change-buttons li button {
+  all: unset; /* ← ブラウザのボタンスタイルを完全リセット */
+  display: block;
+  margin: 0 auto;
+  background: #b1ced8;
+  color: #2b2b2b;
+  padding: 14px 0;
+  font-size: 14px;
+  text-align: center;
+  width: 100%; /* ← 必要であれば追加 */
+  cursor: pointer;
+}
+.change-buttons li button.current {
+  background: linear-gradient(to bottom, #253339, #4e6d77);
+  color: #fff;
+}
+
+
+
 .plan-detail__img {
     margin-top: 120px;
 }
@@ -655,7 +688,12 @@ padding-top: 10px;
 .plan-detail__img .inner {
     max-width: 930px;
 }
-
+.plan-detail__img .inner .tab-inner{
+   display: none;
+}
+.plan-detail__img .inner .tab-inner.current{
+   display: block;
+}
 .plan-detail__img .imgBox.atype {
     max-width: 840px;
     margin: auto;
