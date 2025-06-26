@@ -529,8 +529,9 @@ require "../cookie.php";
           <div id="ls_bnr" class="bnrs cs15_bnr">
             <a href="" target="_blank"><img src="img/ls_banner.jpg" /></a>
           </div>
-        </div>
-        <div class="top-banner loan">
+          <div class="bnrs cs15_bnr">
+            <a href="https://mansion.gallery/bunjo5/?utm_source=meiwa&utm_medium=banner&utm_campaign=hjfn2507" target="_blank"><img src="img/bnr_hokkaidou.jpg" /></a>
+          </div>
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
           </div>

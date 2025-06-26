@@ -2223,6 +2223,16 @@ background-color: #79C266;
   width: 94%;
 }
 
+.top-banner.loan .bnrs {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 640px) {
+  .top-banner.loan .bnrs {
+    margin-bottom: 25px;
+  }
+}
+
 .sec-pickup {
   padding: 80px 0 60px;
 }
