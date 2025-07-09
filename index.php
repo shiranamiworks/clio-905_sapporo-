@@ -535,6 +535,9 @@ require "../cookie.php";
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
           </div>
+          <div class="bnrs cs15_bnr">
+            <a href="https://www.meiwajisyo.co.jp/clio/926_Naebo/" target="_blank"><img src="img/bnr_naebo.png" /></a>
+          </div>
         </div>
 
         <!-- sec-pickup -->
