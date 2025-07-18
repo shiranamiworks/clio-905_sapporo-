@@ -232,6 +232,7 @@ require "../cookie.php";
           
           <div class="loan">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
+            <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
           </div>
 
           <div class="infotokyo_con">

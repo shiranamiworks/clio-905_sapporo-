@@ -1014,13 +1014,23 @@ background-color: #79C266;
 .loan {
     max-width: 800px;
     margin: 0 auto 100px;
+    background: #D6D6D6;
+    padding: 30px 0;
 }
-/*
 .loan .image{
-    width: 70%;
+    max-width: 753px;
     margin: auto;
 }
-*/
+.loan .txt{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.loan .txt a{
+  text-decoration: none;
+}
+.loan .txt a:hover{
+  text-decoration: underline;
+}
 
 
 @media (max-width: 640px) {
@@ -1074,10 +1084,10 @@ background-color: #79C266;
     width: 100%;
     margin: 0 auto 50px;
   }
-  .loan {
-    width: 100%;
-    margin: 0 auto 50px;
-  }
+  .loan .image{
+    width: 94%;
+    margin: auto;
+}
 }
 
 .sec-into {
