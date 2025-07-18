@@ -1011,6 +1011,16 @@ background-color: #79C266;
     max-width: 800px;
     margin: 0 auto 100px;
 }
+.loan {
+    max-width: 800px;
+    margin: 0 auto 100px;
+}
+/*
+.loan .image{
+    width: 70%;
+    margin: auto;
+}
+*/
 
 
 @media (max-width: 640px) {
@@ -1061,6 +1071,10 @@ background-color: #79C266;
     font-size: 10px;
   }
   .completion {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  .loan {
     width: 100%;
     margin: 0 auto 50px;
   }

@@ -229,8 +229,12 @@ require "../cookie.php";
           <div class="completion">
             <img src="img/completion-merit.jpg" alt="完成物件のメリット">
           </div>
+          
+          <div class="loan">
+            <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
+          </div>
 
-          <div class="infotokyo_con fade-in fade-in-up">
+          <div class="infotokyo_con">
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
             <div class="open">
               <p class="txt-open">
