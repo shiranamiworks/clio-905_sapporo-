@@ -1011,24 +1011,24 @@ background-color: #79C266;
     max-width: 800px;
     margin: 0 auto 100px;
 }
-.loan {
+.loan-merit {
     max-width: 800px;
     margin: 0 auto 100px;
     background: #D6D6D6;
     padding: 30px 0;
 }
-.loan .image{
+.loan-merit .image{
     max-width: 753px;
     margin: auto;
 }
-.loan .txt{
+.loan-merit .txt{
     font-size: 14px;
     margin-top: 15px;
 }
-.loan .txt a{
+.loan-merit .txt a{
   text-decoration: none;
 }
-.loan .txt a:hover{
+.loan-merit .txt a:hover{
   text-decoration: underline;
 }
 
@@ -1084,7 +1084,7 @@ background-color: #79C266;
     width: 100%;
     margin: 0 auto 50px;
   }
-  .loan .image{
+  .loan-merit .image{
     width: 94%;
     margin: auto;
 }

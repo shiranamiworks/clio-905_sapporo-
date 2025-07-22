@@ -186,16 +186,14 @@ require "../cookie.php";
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
-                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年7月下旬）
+                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年8月下旬）
               </p>
             </div>
             <!-- /yokoku -->
-<!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">【変更のお知らせ】</p>
-              <p>販売予定時期につきまして、2025年1月下旬としておりましたが、2025年2月下旬に変更となりました。</p>
+              <p>販売予定時期につきまして、2025年7月下旬としておりましたが、2025年8月下旬に変更となりました。</p>
             </div>
--->
             <!-- /yokoku -->
             
 <!--            <p class="holiday">ゴールデンウィーク期間中は休まず営業いたします。</p>-->
@@ -230,7 +228,7 @@ require "../cookie.php";
             <img src="img/completion-merit.jpg" alt="完成物件のメリット">
           </div>
           
-          <div class="loan">
+          <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
           </div>
@@ -534,9 +532,11 @@ require "../cookie.php";
           <div id="ls_bnr" class="bnrs cs15_bnr">
             <a href="" target="_blank"><img src="img/ls_banner.jpg" /></a>
           </div>
+<!--
           <div class="bnrs cs15_bnr">
             <a href="https://mansion.gallery/bunjo5/?utm_source=meiwa&utm_medium=banner&utm_campaign=hjfn2507" target="_blank"><img src="img/bnr_hokkaidou.jpg" /></a>
           </div>
+-->
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
           </div>
