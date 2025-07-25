@@ -1006,6 +1006,104 @@ background-color: #79C266;
   }
 }
 
+
+.guide {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.guide .title{
+  font-size: clamp(14px, 1.5vw, 20px);
+  line-height: 2;
+  margin-bottom: 15px;
+}
+.guide .movies {
+  display: inline-block;
+  width: 60%;
+  margin-right: 2%;
+}
+.guide .guide-movie {
+  margin: 0 auto;
+}
+.guide .guide-movie video {
+  width: 100%;
+  height: 100%;
+}
+.guide .guide-movie .click-btn {
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  box-shadow: 0px 5px 15px #2b2f36;
+}
+.guide .guide-movie video:focus {
+  outline: none;
+}
+iframe{
+  border: none;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+ }
+ .modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 9999;
+  padding: 10% 10px;
+  text-align: center;
+}
+
+.modal-wrapper.active {
+  display: block;
+}
+
+.modal-window {
+  display: inline-block;
+  background: #000;
+  border-radius: 4px;
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px; right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: none;
+} 
+@media (max-width: 1024px) {
+  .guide {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .guide .movies {
+    display: block;
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  .guide .guide-movie {
+    margin: 0 auto;
+  }
+  .modal-window{
+    width: 100%;
+    top:30%;
+    padding: 10px;
+  }
+  .modal-close{
+    top: -10px;
+    right: 0;
+  }
+
+}
+
 .completion {
     width: 80%;
     max-width: 800px;

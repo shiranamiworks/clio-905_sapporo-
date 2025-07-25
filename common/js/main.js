@@ -246,3 +246,34 @@ function get_homedir() {
 	sUrl = s + sUrl;
 	return sUrl;
 }
+
+// $(function () {
+//   $('a[href="#modal01"]').on('click', function(e) {
+//     e.preventDefault();
+//     $('#modal01').addClass('active');
+//   });
+
+//   $('.modal-close, .modal-overlay').on('click', function(e) {
+//     e.preventDefault();
+//     $('#modal01').removeClass('active');
+//   });
+// });
+
+$(function () {
+  // モーダルを開く
+  $('.click-btn a').on('click', function (e) {
+    e.preventDefault(); // ページトップにスクロールしないようにする
+    var target = $(this).data('modal');
+    $(target).fadeIn();
+  });
+
+  // モーダルを閉じる
+  $('.modal-close, .modal-overlay').on('click', function (e) {
+    e.preventDefault();
+    $(this).closest('.modal-wrapper').fadeOut();
+    // YouTubeを停止（再生中のiframeを削除→再追加）
+    var $wrapper = $(this).closest('.modal-wrapper');
+    var $iframe = $wrapper.find('iframe');
+    $iframe.attr('src', $iframe.attr('src'));
+  });
+});

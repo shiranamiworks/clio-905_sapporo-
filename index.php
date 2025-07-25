@@ -53,6 +53,7 @@ require "../cookie.php";
     <link rel="stylesheet" type="text/css" media="all" href="css/para.css" />
     <!-- js -->
     <script type="text/javascript" src="common/js/jquery.js" id="jqueryJS" charset="UTF-8"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script type="text/javascript" src="common/js/util.js" id="utilJS" charset="UTF-8"></script>
     <script type="text/javascript" src="common/js/main.js" id="mainJS" charset="UTF-8"></script>
@@ -223,7 +224,31 @@ require "../cookie.php";
             </p>
           </section>
           <!-- remote -->
+
+       <section class="guide">
+        <p class="title">STV札幌テレビ放送で放送中の「どさんこワイド179」で、<br class="pc">クリオ札幌グランが紹介されました。</p>
+       <div class="movies">
+          <div class="guide-movie">
+            <div class="click-btn">
+             <!-- モーダルを開くトリガー -->
+            <a href="javascript:void(0);" class="click-btn" data-modal="#modal01"><img src="img/bnr_tv.jpg" alt=""></a>
+          <!-- モーダル本体 -->
+          <div id="modal01" class="modal-wrapper">
+            <div class="modal-overlay"></div>
+            <div class="modal-window">
+              <a href="javascript:void(0);" class="modal-close">×</a>
+              <div class="modal-content">
+              <iframe src="https://www.youtube.com/embed/0cOtVVzNwvs?rel=0&autoplay=1&mute=1" allowfullscreen></iframe>
+              </div>
+              <!-- <a href="javascript:void(0);" class="js-modal-close">×</a> -->
+            </div>
+            </div>
+            </div>
+          </div><!-- guide-movie -->
+        </div><!-- movie -->
+      </section><!-- guide -->  
           
+        
           <div class="completion">
             <img src="img/completion-merit.jpg" alt="完成物件のメリット">
           </div>
