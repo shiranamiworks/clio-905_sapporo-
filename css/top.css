@@ -1006,6 +1006,12 @@ background-color: #79C266;
   }
 }
 
+.guide .title{
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 2;
+}
 .youtubeThumb {
   max-width: 600px;
   margin: 15px auto 100px;
