@@ -228,7 +228,7 @@ require "../cookie.php";
        <section class="guide">
         <p class="title">STV札幌テレビ放送で放送中の<br class="pc">「どさんこワイド179」内のコーナー「岡崎和久のお家マニア」で、<br class="pc">クリオ札幌グランが紹介されました。</p>
         <div class="youtubeThumb">
-          <img src="img/bnr_tv.jpg" alt="" id="youtubeThumb">
+          <img src="img/bnr_tv.png" alt="" id="youtubeThumb">
        </div>
         <div id="youtubeModal" class="modal-overlay">
           <div class="modal-content">

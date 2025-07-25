@@ -1006,16 +1006,23 @@ background-color: #79C266;
   }
 }
 
+.guide{
+  max-width: 800px;
+  padding: 50px 5%;
+  margin: 0 auto 100px;
+  border: 30px solid #D6D6D6;
+  background: #fff;
+}
+
 .guide .title{
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto 30px;
   font-size: 16px;
   line-height: 2;
 }
 .youtubeThumb {
   max-width: 600px;
-  margin: 15px auto 100px;
-  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .modal-overlay {
@@ -1065,6 +1072,17 @@ background-color: #79C266;
   color: #fff;
   cursor: pointer;
   z-index: 10001;
+}
+
+@media (max-width: 640px) {
+  .guide{
+    padding: 25px 5%;
+    margin: 0 auto 50px;
+    border: 15px solid #D6D6D6;
+  }
+  .guide .title{
+    text-align: left;
+  }
 }
 
 .completion {
