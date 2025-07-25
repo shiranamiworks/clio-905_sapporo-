@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (thumb && modal && closeBtn && iframe) {
     thumb.onclick = function() {
-      iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
+      iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=1&rel=0`;
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
     };
