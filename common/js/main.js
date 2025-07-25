@@ -247,33 +247,32 @@ function get_homedir() {
 	return sUrl;
 }
 
-// $(function () {
-//   $('a[href="#modal01"]').on('click', function(e) {
-//     e.preventDefault();
-//     $('#modal01').addClass('active');
-//   });
 
-//   $('.modal-close, .modal-overlay').on('click', function(e) {
-//     e.preventDefault();
-//     $('#modal01').removeClass('active');
-//   });
-// });
 
-$(function () {
-  // モーダルを開く
-  $('.click-btn a').on('click', function (e) {
-    e.preventDefault(); // ページトップにスクロールしないようにする
-    var target = $(this).data('modal');
-    $(target).fadeIn();
-  });
+document.addEventListener('DOMContentLoaded', function() {
+  const thumb = document.getElementById('youtubeThumb');
+  const modal = document.getElementById('youtubeModal');
+  const closeBtn = document.getElementById('closeBtn');
+  const iframe = document.getElementById('youtubeIframe');
+  const youtubeId = "0cOtVVzNwvs"; // あなたの動画ID
 
-  // モーダルを閉じる
-  $('.modal-close, .modal-overlay').on('click', function (e) {
-    e.preventDefault();
-    $(this).closest('.modal-wrapper').fadeOut();
-    // YouTubeを停止（再生中のiframeを削除→再追加）
-    var $wrapper = $(this).closest('.modal-wrapper');
-    var $iframe = $wrapper.find('iframe');
-    $iframe.attr('src', $iframe.attr('src'));
-  });
+  if (thumb && modal && closeBtn && iframe) {
+    thumb.onclick = function() {
+      iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    };
+    closeBtn.onclick = function() {
+      modal.classList.remove('active');
+      iframe.src = "";
+      document.body.style.overflow = '';
+    };
+    modal.onclick = function(e) {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+        iframe.src = "";
+        document.body.style.overflow = '';
+      }
+    };
+  }
 });

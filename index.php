@@ -227,26 +227,25 @@ require "../cookie.php";
 
        <section class="guide">
         <p class="title">STV札幌テレビ放送で放送中の「どさんこワイド179」で、<br class="pc">クリオ札幌グランが紹介されました。</p>
-       <div class="movies">
-          <div class="guide-movie">
-            <div class="click-btn">
-             <!-- モーダルを開くトリガー -->
-            <a href="javascript:void(0);" class="click-btn" data-modal="#modal01"><img src="img/bnr_tv.jpg" alt=""></a>
-          <!-- モーダル本体 -->
-          <div id="modal01" class="modal-wrapper">
-            <div class="modal-overlay"></div>
-            <div class="modal-window">
-              <a href="javascript:void(0);" class="modal-close">×</a>
-              <div class="modal-content">
-              <iframe src="https://www.youtube.com/embed/0cOtVVzNwvs?rel=0&autoplay=1&mute=1" allowfullscreen></iframe>
-              </div>
-              <!-- <a href="javascript:void(0);" class="js-modal-close">×</a> -->
-            </div>
-            </div>
-            </div>
-          </div><!-- guide-movie -->
-        </div><!-- movie -->
-      </section><!-- guide -->  
+        <div class="youtubeThumb">
+          <img src="img/bnr_tv.jpg" alt="" id="youtubeThumb">
+       </div>
+        <div id="youtubeModal" class="modal-overlay">
+          <div class="modal-content">
+           <span class="close-btn" id="closeBtn">&times;</span>
+           <iframe
+              id="youtubeIframe"
+              width="560"
+              height="315"
+              src=""
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      </section><!-- guide -->
+      
           
         
           <div class="completion">
