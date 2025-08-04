@@ -197,7 +197,7 @@ require "../cookie.php";
             </div>
             <!-- /yokoku -->
             
-<!--            <p class="holiday">ゴールデンウィーク期間中は休まず営業いたします。</p>-->
+            <p class="holiday">＜夏季休業のお知らせ＞<br>誠に勝手ながら、下記の期間を夏季休業とさせていただきます。<br>休業期間：2025年8月12日(火)～2024年8月14日(木)<br>休業期間中のお問い合わせに関しましては、2024年8月15日(金)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
             <p class="btn mb50">
