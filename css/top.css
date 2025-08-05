@@ -735,11 +735,33 @@ background-color: #79C266;
 }
 
 .sec-information .holiday {
+/*
   display: inline-block;
   padding: 10px 16px;
   border: 1px solid;
+*/
   font-size: 14px;
   margin-bottom: 60px;
+}
+.sec-information .holiday span {
+  padding: 20px 0;
+  display: block;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.sec-information .holiday span:before,
+.sec-information .holiday span:after {
+  content: "";
+  height: 1px;
+  width: 150px;
+  background-color: #333;
+}
+.sec-information .holiday span:before {
+  margin-right: 1rem;
+}
+.sec-information .holiday span:after {
+  margin-left: 1rem;
 }
 
 .sec-information .yokoku {
@@ -782,6 +804,13 @@ background-color: #79C266;
   .sec-information .holiday {
     font-size: 12px;
 }
+  .sec-information .holiday span:before,
+  .sec-information .holiday span:after {
+    content: "";
+    height: 1px;
+    width: 80px;
+    background-color: #333;
+  }
 }
 
 /* infotokyo_con */
