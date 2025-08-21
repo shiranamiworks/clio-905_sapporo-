@@ -1121,9 +1121,14 @@ background-color: #79C266;
 }
 .loan-merit {
     max-width: 800px;
-    margin: 0 auto 100px;
+    margin: 100px auto;
     background: #D6D6D6;
     padding: 30px 0;
+}
+@media (max-width: 640px) {
+  .loan-merit {
+    margin: 50px auto;
+  }
 }
 .loan-merit .image{
     max-width: 753px;

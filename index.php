@@ -127,15 +127,17 @@ require "../cookie.php";
           <ul class="slide-pc slides pctb">
             <li class="slide01 on"><img src="img/mv01.jpg" alt=""><p class="cap">外観完成予想図</p></li>
             <li class="slide02"><img src="img/mv02.jpg" alt=""><p class="cap">眺望外観完成予想図</p></li>
+            <li class="slide03"><img src="img/mv03.jpg" alt=""><p class="cap">エントランスホール完成予想図</p></li>
           </ul>
           <ul class="slide-sp slides sp">
             <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""><p class="cap">外観完成予想図</p></li>
             <li class="slide02"><img src="img/mv02-sp.jpg" alt=""><p class="cap">眺望外観完成予想図</p></li>
+            <li class="slide03"><img src="img/mv03-sp.jpg" alt=""><p class="cap">エントランスホール完成予想図</p></li>
           </ul>
           <!-- <p class="txt-pc txt pctb"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
           <p class="txt-sp txt sp"><img src="img/mv-text-sp.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p> -->
-          <div class="bg"><img src="img/mv02.jpg" alt="" class="pctb
-          "><img src="img/mv02-sp.jpg" alt="" class="sp"></div>
+          <div class="bg"><img src="img/mv03.jpg" alt="" class="pctb
+          "><img src="img/mv03-sp.jpg" alt="" class="sp"></div>
         </div>
 
         <!-- usp -->
@@ -148,6 +150,10 @@ require "../cookie.php";
         <!-- sec-information -->
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
+          <div class="loan-merit">
+            <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
+            <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
+          </div>
           <div class="fade-in fade-in-up">
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
@@ -252,10 +258,10 @@ require "../cookie.php";
             <img src="img/completion-merit.jpg" alt="完成物件のメリット">
           </div>
           
-          <div class="loan-merit">
+          <!-- <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
-          </div>
+          </div> -->
 
           <div class="infotokyo_con">
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
@@ -665,6 +671,7 @@ require "../cookie.php";
             <br>※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
             <br>※掲載の外観完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
             <br>※掲載の眺望外観完成予想図は現地10階相当の眺望写真（2024年10月撮影）に設計段階の図⾯を基に描き起こした外観完成予想図をＣＧ合成したもので、形状・⾊等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の⾊合いや枝ぶりや樹形は想定であり、竣⼯から⽣育期間を経た状態のものを描いています。また特定の季節状態を表すものではありません。敷地周辺の建物などについては建物の位置、⾼さ等については実際のものと異なる場合があります。眺望については将来に渡って保証するものではありません。予めご了承ください。
+            <br>※掲載の完成予想図は全て、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
             <br>※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
             <br>※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン／分譲済）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
             <br>※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。</p>
