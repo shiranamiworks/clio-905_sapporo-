@@ -133,22 +133,12 @@ $(window).on("load",function(){
       $(".main-visual .txt-pc").addClass("on");
       $(".main-visual .slide-pc .slide01").removeClass("on");
       $(".main-visual .slide-pc .slide02").addClass("on");
-      setTimeout(function(){
-      $(".main-visual .txt-pc").addClass("on");
-      $(".main-visual .slide-pc .slide02").removeClass("on");
-      $(".main-visual .slide-pc .slide03").addClass("on");
-      },5500);
     },5500);
   },1000);
   setTimeout(function(){
     $(".main-visual .txt-sp").addClass("on");
     $(".main-visual .slide-sp .slide01").removeClass("on");
     $(".main-visual .slide-sp .slide02").addClass("on");
-  setTimeout(function(){
-    $(".main-visual .txt-sp").addClass("on");
-    $(".main-visual .slide-sp .slide02").removeClass("on");
-    $(".main-visual .slide-sp .slide03").addClass("on");
-    },5000);
   },5000);
 });
 
