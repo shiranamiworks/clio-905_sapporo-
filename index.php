@@ -155,28 +155,29 @@ require "../cookie.php";
           <div class="fade-in fade-in-up">
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
+<!--
             <div class="price">
             <img src="img/price.svg" alt="販売予定価格" / class="pc">
             <img src="img/price-sp.svg" alt="販売予定価格" / class="sp">
-<!--            <p class="text"><span class="mid">販売予定価格</span><span class="num">1</span>LDK / <span class="num">36</span>㎡超 <span class="red">2,900</span>万円台〜<br><span class="num">2</span>LDK / <span class="num">46</span>㎡超 <span class="red">3,500</span>万円台<br><span class="num">2</span>LDK+S / <span class="num">66</span>㎡超 <span class="red">5,300</span>万円台<br><span class="num">3</span>LDK / <span class="num">71</span>㎡超 <span class="red">6,300</span>万円台<br><span class="mini">※100万円単位</span></p>-->
             </div>
+-->
             <div class="topic">
 <!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
               <p class="txt-open02"><span class="line">現地販売センターにて<br>建物内覧会開催中</span><br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs80">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
-<!--
-              <p class="open-time">2025年6月21日(土) <br class="sp">10：00より<br>第2期1次先着順申込受付開始</p>
+              <p class="open-time">2025年8月28日(木) より<br>第2期2次先着順申込受付開始</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
               <span class="line" style="width: 100%; display: block;"></span>
--->
               
+<!--
               <p class="open-time">登録申込住戸受付中</p>
               <p class="open-text">■登録受付場所／クリオ ライフスタイルサロン札幌<br>■登録受付時間／10:00～20:00 (最終日は正午まで)<br>■登録受付期間／2025年5月8日(木)～2025年8月23日(土)<br>■抽選日時／2025年8月24日(日)午後1時より<br>■抽選場所／明和地所株式会社 札幌支店<br><span class="mini">※登録の際には、認印と身分証明書（運転免許証、健康保険証等）をご持参ください。</span></p>
               <span class="line" style="width: 100%; display: block;"></span>
+-->
               
-              <p class="open-time">第2期2次事前案内会開催</p>
+              <p class="open-time">第3期1次事前案内会開催</p>
               <p class="entend-time">「クリオ ライフスタイルサロン札幌」公開中</p>
               <p class="reserve-time"><span class="note d-block">＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～</p>
             </div>
@@ -191,14 +192,16 @@ require "../cookie.php";
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
-                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年8月下旬）
+                本広告を行い取引を開始するまでは、契約又は予約のお申し込みに応じることができません。<br>また、お申し込みの順位の確保に関する措置も講じることができません。予めご了承ください。<br>（販売予定時期／2025年10月下旬）
               </p>
             </div>
             <!-- /yokoku -->
+<!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">【変更のお知らせ】</p>
               <p>販売予定時期につきまして、2025年7月下旬としておりましたが、2025年8月下旬に変更となりました。</p>
             </div>
+-->
             <!-- /yokoku -->
             
 <!--            <p class="holiday"><span>夏季休業のお知らせ</span><br>誠に勝手ながら、下記の期間を<br class="sp">夏季休業とさせていただきます。<br>&Lt;休業期間：2025年8月12日(火)～2025年8月14日(木)&Gt;<br><br>休業期間中のお問い合わせに関しましては、<br>2025年8月15日(金)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>-->
