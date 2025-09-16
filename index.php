@@ -570,9 +570,11 @@ require "../cookie.php";
             <a href="https://mansion.gallery/bunjo5/?utm_source=meiwa&utm_medium=banner&utm_campaign=hjfn2507" target="_blank"><img src="img/bnr_hokkaidou.jpg" /></a>
           </div>
 -->
+<!--
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
           </div>
+-->
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/926_Naebo/" target="_blank"><img src="img/bnr_naebo.png" /></a>
           </div>
