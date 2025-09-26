@@ -733,7 +733,35 @@ background-color: #79C266;
   letter-spacing: 0.1em;
   text-align: left;
 }
+.sec-information p.recommend {
+  display: inline-block;
+  margin: 100px auto 0;
+  padding: 30px 60px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  border: 3px solid #937e38;;
+}
+.sec-information p.recommend span {
+  font-size: 24px;
+}
+.sec-information p.recommend .num{
+  font-size: 36px;
+}
+.sec-information p.recommend .colored{
+  color: #A62A26;
+}
+.sec-information p.recommend sup {
+  font-size: 12px;
+  vertical-align: text-bottom;
+}
 
+@media (max-width: 640px) {
+ .sec-information p.recommend {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
 .sec-information .holiday {
 /*
   display: inline-block;
