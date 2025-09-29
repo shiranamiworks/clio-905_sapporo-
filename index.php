@@ -168,11 +168,9 @@ require "../cookie.php";
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
-<!--
-              <p class="open-time">2025年8月28日(木) より<br>第2期2次先着順申込受付開始</p>
+              <p class="open-time">先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
               <span class="line" style="width: 100%; display: block;"></span>
--->
               
 <!--
               <p class="open-time">登録申込住戸受付中</p>
