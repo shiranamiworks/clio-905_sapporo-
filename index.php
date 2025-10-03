@@ -148,7 +148,7 @@ require "../cookie.php";
         <!-- sec-information -->
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
-          <p class="recommend">家事導線に優れた<br class="sp">角住戸ファミリープラン<br><span><span class="num">66</span>㎡超／<span class="num colored">4,900</span>万円台</span><sup>※100万円単位</sup></p>
+          <p class="recommend"><span class="recept">＜先着順申込受付住戸＞</span>家事動線に優れた<br class="sp">角住戸ファミリープラン<br><span><span class="num">66</span>㎡超／<span class="num colored">4,900</span>万円台</span><sup>※100万円単位</sup></p>
           <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>

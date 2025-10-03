@@ -739,7 +739,12 @@ background-color: #79C266;
   padding: 30px 60px;
   font-size: 18px;
   letter-spacing: 0.1em;
-  border: 3px solid #937e38;;
+  border: 3px solid #937e38;
+}
+.sec-information p.recommend .recept {
+  display: block;
+  color: #937e38;
+  margin-bottom: 10px;
 }
 .sec-information p.recommend span {
   font-size: 24px;
@@ -751,8 +756,10 @@ background-color: #79C266;
   color: #A62A26;
 }
 .sec-information p.recommend sup {
+  display: block;
   font-size: 12px;
-  vertical-align: text-bottom;
+  text-align: right;
+  margin-right: 45px;
 }
 
 @media (max-width: 640px) {
@@ -760,6 +767,9 @@ background-color: #79C266;
     padding: 20px;
     font-size: 16px;
     line-height: 1.6;
+  }
+  .sec-information p.recommend sup {
+  margin-right: auto;
   }
 }
 .sec-information .holiday {
