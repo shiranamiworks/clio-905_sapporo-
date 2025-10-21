@@ -286,11 +286,13 @@ require "../cookie.php";
               </p>
             </div>
             <p class="btn tokyo_btn">
-              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050&type=ginza" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve02" target="_blank">銀座会場 ご来場予約</a>
+              <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve02" target="_blank">来場予約はこちら</a>
             </p>
+<!--
             <p class="btn tokyo_btn">
               <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050&type=yokohama" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve03" target="_blank">横浜会場 ご来場予約</a>
             </p>
+-->
             <ul class="tokyo_list">
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 1</h3>
