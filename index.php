@@ -148,7 +148,7 @@ require "../cookie.php";
         <!-- sec-information -->
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
-          <p class="recommend"><span class="recept">＜第3期1次販売住戸＞</span>家事動線に優れた<br class="sp">角住戸ファミリープラン<br><span><span class="num">66</span>㎡超／<span class="num colored">4,900</span>万円台</span><sup>※100万円単位</sup></p>
+          <p class="recommend"><!--<span class="recept">＜第3期1次販売住戸＞</span>-->収納豊富な1LDKプラン<br><span><span class="num">36</span>㎡超／<span class="num colored">3,100</span>万円台</span><sup>※100万円単位</sup></p>
           <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
@@ -164,11 +164,11 @@ require "../cookie.php";
 -->
             <div class="topic">
 <!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
-              <p class="txt-open02"><span class="line">現地販売センターにて<br>建物内覧会開催中</span><br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs80">＜完全予約制＞</span></p>
+              <p class="txt-open02"><span class="line">建物内覧会開催中</span><br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs80">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
-              <p class="open-time">2025年10月23日（木）より<br>第3期1次先着順申込受付開始</p>
+              <p class="open-time">先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
 <!--              <span class="line" style="width: 100%; display: block;"></span>-->
               
