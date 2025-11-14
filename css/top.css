@@ -758,8 +758,8 @@ background-color: #79C266;
 .sec-information p.recommend sup {
   display: block;
   font-size: 12px;
-  text-align: right;
-  margin-right: 45px;
+  text-align: center;
+/*  margin-right: 45px;*/
 }
 
 @media (max-width: 640px) {
