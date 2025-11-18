@@ -316,11 +316,13 @@ require "../cookie.php";
                 </p>
               </li>
             </ul>
+<!--
             <div class="top-banner">
               <div class="bnrs cs15_bnr">
                 <a href="https://www.meiwajisyo.co.jp/sapporoclass/" target="_blank"><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう" /></a>
               </div>
             </div>
+-->
           </div>
 
           <div class="top-banner">
