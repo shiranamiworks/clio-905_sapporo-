@@ -733,9 +733,18 @@ background-color: #79C266;
   letter-spacing: 0.1em;
   text-align: left;
 }
+.sec-information .last {
+  font-size: 36px;
+  margin: 100px auto 0;
+  letter-spacing: 0.1em;
+}
+.sec-information .last span {
+  font-size: 150%;
+  color: #937e38;
+}
 .sec-information p.recommend {
   display: inline-block;
-  margin: 100px auto 0;
+  margin: 20px auto 0;
   padding: 30px 60px;
   font-size: 18px;
   letter-spacing: 0.1em;
