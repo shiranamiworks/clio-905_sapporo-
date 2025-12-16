@@ -29,15 +29,15 @@ require "../cookie.php";
     <meta property="og:url" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/" />
     <meta property="og:image" content="https://www.meiwajisyo.co.jp/clio/905_Sapporo/common/imgs/ogimage.jpg" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション" />
-    <meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング。快適な都心ポジション4駅5路線利用可能。" />
-    <meta property="og:site_name" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション" />
-    <meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,新築マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所" />
-    <meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の新築・分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング。快適な都心ポジション4駅5路線利用可能。" />
+    <meta property="og:title" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の分譲マンション" />
+    <meta property="og:description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング。快適な都心ポジション4駅5路線利用可能。" />
+    <meta property="og:site_name" content="クリオ札幌グランクラス【公式HP】｜札幌市東区の分譲マンション" />
+    <meta name="Keywords" content="クリオ札幌グランクラス,札幌市東区,マンション,分譲マンション,地下鉄東豊線,地下鉄南北線,さっぽろ駅,札幌市,東区,明和地所" />
+    <meta name="Description" content="クリオ札幌グランクラス【公式HP】トップページ。札幌市東区の分譲マンション。地下鉄東豊線・南北線「さっぽろ」駅徒歩6分。様々なライフスタイルに応えるプランニング。快適な都心ポジション4駅5路線利用可能。" />
     <link rel="canonical" href="https://www.meiwajisyo.co.jp/clio/905_Sapporo/" />
 
     <!-- title -->
-    <title>クリオ札幌グランクラス【公式HP】｜札幌市東区の新築・分譲マンション</title>
+    <title>クリオ札幌グランクラス【公式HP】｜札幌市東区の分譲マンション</title>
 
     <!-- preload -->
     <link rel="preload" href="img/main_movie.mp4" as="video" media="(min-width: 601px)" />
