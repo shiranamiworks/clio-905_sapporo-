@@ -148,15 +148,17 @@ require "../cookie.php";
         <!-- sec-information -->
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
-          <p class="last">〜最終<span>2</span>邸～</p>
-          <p class="recommend"><!--<span class="recept">＜第3期1次販売住戸＞</span>-->明るい2面採光の2LDKプラン<br><span><span class="num">46</span>㎡超／<span class="num colored">4,600</span>万円台</span><sup>※100万円単位</sup></p>
+<!--
           <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
           </div>
+-->
           <div class="fade-in fade-in-up">
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
+            <p class="last">〜最終<span>1</span>邸～</p>
+          <p class="recommend"><!--<span class="recept">＜第3期1次販売住戸＞</span>-->明るい2面採光の2LDKプラン<br><span><span class="num">46</span>㎡超／<span class="num colored">4,600</span>万円台</span><sup>※100万円単位</sup></p>
 <!--
             <div class="price">
             <img src="img/price.svg" alt="販売予定価格" / class="pc">
