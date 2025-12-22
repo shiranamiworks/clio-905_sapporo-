@@ -174,6 +174,8 @@ require "../cookie.php";
               <p class="open-time">先着順申込受付中</p>
               <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
 <!--              <span class="line" style="width: 100%; display: block;"></span>-->
+             
+             <p class="holiday"><span>冬季休業のお知らせ</span><br>誠に勝手ながら、下記の期間を<br class="sp">冬季休業とさせていただきます。<br>&Lt;休業期間：2025年12月29日(月)～2026年1月2日(金)&Gt;<br><br>休業期間中のお問い合わせに関しましては、<br>2026年1月3日(土)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>
               
 <!--
               <p class="open-time">登録申込住戸受付中</p>
@@ -211,8 +213,6 @@ require "../cookie.php";
             </div>
 -->
             <!-- /yokoku -->
-            
-<!--            <p class="holiday"><span>夏季休業のお知らせ</span><br>誠に勝手ながら、下記の期間を<br class="sp">夏季休業とさせていただきます。<br>&Lt;休業期間：2025年8月12日(火)～2025年8月14日(木)&Gt;<br><br>休業期間中のお問い合わせに関しましては、<br>2025年8月15日(金)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>-->
 
             <p class="text-nextday" style="font-size: 1.6em">次回更新予定⽇：<span id="nextDay"></span></p>
             <p class="btn mb50">
