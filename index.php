@@ -96,7 +96,6 @@ require "../cookie.php";
       <!-- / #noscript -->
     </noscript>
 
-
     <div class="page" id="pageID">
       <!-------- header ---------------------------------------------------------------->
       <script type="text/javascript">
@@ -125,17 +124,41 @@ require "../cookie.php";
         <!-- main visual -->
         <div class="main-visual">
           <ul class="slide-pc slides pctb">
-            <li class="slide01 on"><img src="img/mv01.jpg" alt=""><p class="cap">外観完成予想図</p></li>
-            <li class="slide02"><img src="img/mv03.jpg" alt=""><p class="cap">エントランスホール完成予想図</p></li>
+            <li class="slide01 on">
+              <img src="img/mv01.jpg" alt="" />
+              <p class="cap">外観完成予想図</p>
+            </li>
+            <li class="slide02">
+              <img src="img/mv03.jpg" alt="" />
+              <p class="cap">エントランスホール完成予想図</p>
+            </li>
           </ul>
           <ul class="slide-sp slides sp">
-            <li class="slide01 on"><img src="img/mv01-sp.jpg" alt=""><p class="cap">外観完成予想図</p></li>
-            <li class="slide02"><img src="img/mv03-sp.jpg" alt=""><p class="cap">エントランスホール完成予想図</p></li>
+            <li class="slide01 on">
+              <img src="img/mv01-sp.jpg" alt="" />
+              <p class="cap">外観完成予想図</p>
+            </li>
+            <li class="slide02">
+              <img src="img/mv03-sp.jpg" alt="" />
+              <p class="cap">エントランスホール完成予想図</p>
+            </li>
           </ul>
           <!-- <p class="txt-pc txt pctb"><img src="img/mv-text.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p>
           <p class="txt-sp txt sp"><img src="img/mv-text-sp.svg" alt="Sapporo NextVision 札幌駅前再開発エリアを目前に全66邸の都心ライフを描いていく。"></p> -->
-          <div class="bg"><img src="img/mv03.jpg" alt="" class="pctb
-          "><img src="img/mv03-sp.jpg" alt="" class="sp"></div>
+          <div class="bg"><img src="img/mv03.jpg" alt="" class="pctb" /><img src="img/mv03-sp.jpg" alt="" class="sp" /></div>
+        </div>
+
+        <div class="mv">
+          <div class="image"><img src="img/mv-sold.jpg" alt="" class="pctb" /><img src="img/mv-sold-sp.jpg" alt="" class="sp" /></div>
+        </div>
+
+        <div class="cancel">
+          <div class="bnr_cancel">
+            <a href="https://www.meiwajisyo.co.jp/form/waitinglist/?bunjo_number=2000233M2240130" target="_blank"><img src="img/bnr_cancel.png" alt="" /></a>
+          </div>
+          <div class="bnr_others">
+            <a href="https://www.meiwajisyo.co.jp/" target="_blank"><img src="img/bnr_others.jpg" alt="" /></a>
+          </div>
         </div>
 
         <!-- usp -->
@@ -148,7 +171,7 @@ require "../cookie.php";
         <!-- sec-information -->
         <section class="sec-information inner ac">
           <p class="caution mb40">※本物件に資料請求をいただくと、郵送ではなくスマートフォンやパソコンを利用しインターネット回線を介して閲覧いただく形になります。予めご了承ください。また、インターネット通信回線費はお客様ご負担となります。</p>
-<!--
+          <!--
           <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
@@ -158,38 +181,42 @@ require "../cookie.php";
             <h2 class="ttl CormorantGaramond">INFORMATION</h2>
             <!-- <p class="link"><a href="https://www.youtube.com/watch?v=0m9-vNEI0fs" target="_blank" class="gtm_click_trg" id="view_movie_kengaku"><span>[安心見学動画公開]</span><br><span>ご案内時の感染予防対策について</span></a></p> -->
             <p class="last">〜最終<span>1</span>邸～</p>
-          <p class="recommend"><!--<span class="recept">＜第3期1次販売住戸＞</span>-->明るい2面採光の2LDKプラン<br><span><span class="num">46</span>㎡超／<span class="num colored">4,600</span>万円台</span><sup>※100万円単位</sup></p>
-<!--
+            <p class="recommend">
+              <!--<span class="recept">＜第3期1次販売住戸＞</span>-->明るい2面採光の2LDKプラン<br /><span><span class="num">46</span>㎡超／<span class="num colored">4,600</span>万円台</span><sup>※100万円単位</sup>
+            </p>
+            <!--
             <div class="price">
             <img src="img/price.svg" alt="販売予定価格" / class="pc">
             <img src="img/price-sp.svg" alt="販売予定価格" / class="sp">
             </div>
 -->
             <div class="topic">
-<!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
-              <p class="txt-open02"><span class="line">建物内覧会開催中</span><br>～実際のお部屋を<br class="sp">ご覧いただけます～<br><span class="fs80">＜完全予約制＞</span></p>
+              <!--              <p class="txt-open">3/3(月)～3/8(土)限定</p>-->
+              <p class="txt-open02"><span class="line">建物内覧会開催中</span><br />～実際のお部屋を<br class="sp" />ご覧いただけます～<br /><span class="fs80">＜完全予約制＞</span></p>
               <p class="mini">※詳しくは係員までお問い合わせください。</p>
             </div>
             <div class="open">
               <p class="open-time">先着順申込受付中</p>
-              <p class="open-text">■申込受付場所／「クリオ ライフスタイルサロン札幌」<br>■申込受付時間／10:00～20:00<br><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br>前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span></p>
-<!--              <span class="line" style="width: 100%; display: block;"></span>-->
-             
-<!--             <p class="holiday"><span>冬季休業のお知らせ</span><br>誠に勝手ながら、下記の期間を<br class="sp">冬季休業とさせていただきます。<br><br>&Lt;休業期間：2025年12月29日(月)～2026年1月2日(金)&Gt;<br><br>休業期間中のお問い合わせに関しましては、<br>2026年1月3日(土)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>-->
-              
-<!--
+              <p class="open-text">
+                ■申込受付場所／「クリオ ライフスタイルサロン札幌」<br />■申込受付時間／10:00～20:00<br /><span class="mini">※お申込の際に申込証拠金5万円、源泉徴収票など<br />前年の年収を確認できるもの（コピー可）及び認印をご持参ください。</span>
+              </p>
+              <!--              <span class="line" style="width: 100%; display: block;"></span>-->
+
+              <!--             <p class="holiday"><span>冬季休業のお知らせ</span><br>誠に勝手ながら、下記の期間を<br class="sp">冬季休業とさせていただきます。<br><br>&Lt;休業期間：2025年12月29日(月)～2026年1月2日(金)&Gt;<br><br>休業期間中のお問い合わせに関しましては、<br>2026年1月3日(土)以降順次対応させていただきます。<br>予めご了承くださいますようお願い申し上げます。</p>-->
+
+              <!--
               <p class="open-time">登録申込住戸受付中</p>
               <p class="open-text">■登録受付場所／クリオ ライフスタイルサロン札幌<br>■登録受付時間／10:00～20:00 (最終日は正午まで)<br>■登録受付期間／2025年5月8日(木)～2025年8月23日(土)<br>■抽選日時／2025年8月24日(日)午後1時より<br>■抽選場所／明和地所株式会社 札幌支店<br><span class="mini">※登録の際には、認印と身分証明書（運転免許証、健康保険証等）をご持参ください。</span></p>
               <span class="line" style="width: 100%; display: block;"></span>
 -->
-              
-<!--
+
+              <!--
               <p class="open-time">第3期1次事前案内会開催</p>
               <p class="entend-time">「クリオ ライフスタイルサロン札幌」公開中</p>
               <p class="reserve-time"><span class="note d-block">＜完全予約制＞</span><br>①10:00～&nbsp;②13：00～&nbsp;③16：00～&nbsp;④19：00～</p>
 -->
             </div>
-<!--
+            <!--
              <div class="yokoku mt40">
               <p class="yokoku_ttl">＜年末年始休業のお知らせ＞</p>
               <p>誠に勝手ながら、下記の期間を年末年始休業とさせていただきます。<br>休業期間：2024年12月30日（月）～2025年1月3日（金）<br><br>休業期間中のお問い合わせに関しましては、2025年1月4日（土）以降順次対応させていただきます。
@@ -197,7 +224,7 @@ require "../cookie.php";
             </div> 
 -->
 
-<!--
+            <!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">｜予告広告｜</p>
               <p>
@@ -206,7 +233,7 @@ require "../cookie.php";
             </div>
 -->
             <!-- /yokoku -->
-<!--
+            <!--
             <div class="yokoku mt40">
               <p class="yokoku_ttl">【変更のお知らせ】</p>
               <p>販売予定時期につきまして、2025年7月下旬としておりましたが、2025年8月下旬に変更となりました。</p>
@@ -240,33 +267,24 @@ require "../cookie.php";
           </section>
           <!-- remote -->
 
-       <section class="guide">
-        <p class="title">STV札幌テレビ放送で放送中の<br class="pc">「どさんこワイド179」内のコーナー「岡崎和久のお家マニア」で、<br class="pc">クリオ札幌グランクラスが紹介されました。</p>
-        <div class="youtubeThumb">
-          <img src="img/bnr_tv.png" alt="" id="youtubeThumb">
-       </div>
-        <div id="youtubeModal" class="modal-overlay">
-          <div class="modal-content">
-           <span class="close-btn" id="closeBtn">&times;</span>
-           <iframe
-              id="youtubeIframe"
-              width="560"
-              height="315"
-              src=""
-              frameborder="0"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      </section><!-- guide -->
-      
-          
-        
+          <section class="guide">
+            <p class="title">STV札幌テレビ放送で放送中の<br class="pc" />「どさんこワイド179」内のコーナー「岡崎和久のお家マニア」で、<br class="pc" />クリオ札幌グランクラスが紹介されました。</p>
+            <div class="youtubeThumb">
+              <img src="img/bnr_tv.png" alt="" id="youtubeThumb" />
+            </div>
+            <div id="youtubeModal" class="modal-overlay">
+              <div class="modal-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <iframe id="youtubeIframe" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </section>
+          <!-- guide -->
+
           <div class="completion">
-            <img src="img/completion-merit.jpg" alt="完成物件のメリット">
+            <img src="img/completion-merit.jpg" alt="完成物件のメリット" />
           </div>
-          
+
           <!-- <div class="loan-merit">
             <div class="image"><img src="img/loan-bnr.jpg" alt="住宅ローン減税枠"></div>
             <p class="txt"><a href="https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk2_000017.html" target="_blank">参考：国土交通省HP</a></p>
@@ -276,7 +294,7 @@ require "../cookie.php";
             <h2 class="tokyo_ttl">首都圏にお住まいの方へ</h2>
             <div class="open">
               <p class="txt-open">
-                <span class="d-inline-block">「個別銀座ご案内会」開催<br>「個別横浜ご案内会」開催</span>
+                <span class="d-inline-block">「個別銀座ご案内会」開催<br />「個別横浜ご案内会」開催</span>
               </p>
               <p class="reserve-time mt15">
                 <span class="note d-block">〈ご案内時間〉</span><br />
@@ -285,13 +303,13 @@ require "../cookie.php";
               </p>
               <p class="reserve-time mt30">
                 <span class="note d-block">〈ご案内場所〉</span><br />
-                <span class="note d-block">クリオ ライフスタイルサロン銀座<br>クリオ ライフスタイルサロン横浜</span>
+                <span class="note d-block">クリオ ライフスタイルサロン銀座<br />クリオ ライフスタイルサロン横浜</span>
               </p>
             </div>
             <p class="btn tokyo_btn">
               <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve02" target="_blank">来場予約はこちら</a>
             </p>
-<!--
+            <!--
             <p class="btn tokyo_btn">
               <a href="https://www.meiwajisyo.co.jp/form/coming/?bunjo_number=2000233M2220050&type=yokohama" target="_blank" class="gtm_cv_reserve_trg" id="cv_reserve03" target="_blank">横浜会場 ご来場予約</a>
             </p>
@@ -300,26 +318,26 @@ require "../cookie.php";
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 1</h3>
                 <p>
-                  移住先をご検討中の<br class="pctb">
+                  移住先をご検討中の<br class="pctb" />
                   首都圏在住の方
                 </p>
               </li>
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 2</h3>
                 <p>
-                  ビジネス等で<br>
+                  ビジネス等で<br />
                   マルチ拠点をお探しの方
                 </p>
               </li>
               <li>
                 <h3 class="ttl"><span class="CormorantGaramond">case</span> 3</h3>
                 <p>
-                  投資対象として<br class="pctb">
+                  投資対象として<br class="pctb" />
                   お考えの方
                 </p>
               </li>
             </ul>
-<!--
+            <!--
             <div class="top-banner">
               <div class="bnrs cs15_bnr">
                 <a href="https://www.meiwajisyo.co.jp/sapporoclass/" target="_blank"><img src="img/bnr_bukken-01.jpg" alt="札幌でクリオに住まう" /></a>
@@ -575,12 +593,12 @@ require "../cookie.php";
           <div id="ls_bnr" class="bnrs cs15_bnr">
             <a href="" target="_blank"><img src="img/ls_banner.jpg" /></a>
           </div>
-<!--
+          <!--
           <div class="bnrs cs15_bnr">
             <a href="https://mansion.gallery/bunjo5/?utm_source=meiwa&utm_medium=banner&utm_campaign=hjfn2507" target="_blank"><img src="img/bnr_hokkaidou.jpg" /></a>
           </div>
 -->
-<!--
+          <!--
           <div class="bnrs cs15_bnr">
             <a href="https://www.meiwajisyo.co.jp/clio/921_Sapporo/" target="_blank"><img src="img/bnr_kitayon.png" /></a>
           </div>
@@ -596,29 +614,29 @@ require "../cookie.php";
             <h4 class="CormorantGaramond fade-in fade-in-up">Pick Up</h4>
             <div class="swiper-pickup fade-in fade-in-up">
               <div class="swiper-wrapper">
-               <div class="swiper-slide"> 
+                <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/clio/cp/clio_40th/" target="_blank" class="gtm_click_trg" id="view_40th">
-                  <div class="inner_card">
-                    <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/bnr_40th.jpg" alt="40th ANNIVERSARY"> </div>
-                    <div class="txtarea">
-                      <p class="ttl EBgaramond">40th ANNIVERSARY</p>
-                      <p class="more EBgaramond">view more</p>
+                    <div class="inner_card">
+                      <div class="imgBox"><img src="https://www.meiwajisyo.co.jp/clio/banner/bnr_40th.jpg" alt="40th ANNIVERSARY" /></div>
+                      <div class="txtarea">
+                        <p class="ttl EBgaramond">40th ANNIVERSARY</p>
+                        <p class="more EBgaramond">view more</p>
+                      </div>
                     </div>
-                  </div>
                   </a>
                 </div>
-               <div class="swiper-slide"> 
+                <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/clio/cp/anniversary1000/" target="_blank" class="gtm_click_trg" id="view_anniversary">
-                  <div class="inner_card">
-                    <div class="imgBox"> <img src="https://www.meiwajisyo.co.jp/clio/banner/clio1000_pc.jpg" alt="anniversary 1000"> </div>
-                    <div class="txtarea">
-                      <p class="ttl EBgaramond">anniversary 1000</p>
-                      <p class="more EBgaramond">view more</p>
+                    <div class="inner_card">
+                      <div class="imgBox"><img src="https://www.meiwajisyo.co.jp/clio/banner/clio1000_pc.jpg" alt="anniversary 1000" /></div>
+                      <div class="txtarea">
+                        <p class="ttl EBgaramond">anniversary 1000</p>
+                        <p class="more EBgaramond">view more</p>
+                      </div>
                     </div>
-                  </div>
                   </a>
-                </div> 
-<!--
+                </div>
+                <!--
                 <div class="swiper-slide">
                   <a href="https://www.meiwajisyo.co.jp/app/" target="_blank" class="gtm_click_trg" id="view_clioapp">
                     <div class="inner_card">
@@ -673,22 +691,19 @@ require "../cookie.php";
                   </a>
                 </div>
               </div>
-               <div class="swiper-scrollbar"></div> 
+              <div class="swiper-scrollbar"></div>
             </div>
           </div>
         </section>
         <section class="foot-caption inner">
-          <p>※1.4駅5路線とは、地下鉄東豊線・地下鉄南北線「さっぽろ」駅、地下鉄東豊線「北13条東」駅、地下鉄南北線「北12条」駅、JR函館本線・札沼線・千歳線「札幌」駅となります。
+          <p>
+            ※1.4駅5路線とは、地下鉄東豊線・地下鉄南北線「さっぽろ」駅、地下鉄東豊線「北13条東」駅、地下鉄南北線「北12条」駅、JR函館本線・札沼線・千歳線「札幌」駅となります。
             <!--<br>※2.2025年7月末時点 株式会社日本経済広告社調べ。
             <br>※3.サービス対象期間は鍵の引き渡しから15年間、当社アフターサービス期間を含みます。-->
-            <br>※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道
-            <br>※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合
-            <br>※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業
-            <br>※掲載の外観完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
-            <br>※掲載の完成予想図は全て、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
-            <br>※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
-            <br>※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン／分譲済）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。
-            <br>※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。</p>
+            <br />※北海道新幹線延伸・北海道新幹線札幌駅（2030年度開業予定）出典：新幹線札幌駅の概要について-JR北海道 <br />※北5西1・西2地区市街地再開発事業（2028年度竣工予定）出典：札幌駅交流拠点北5西1・西2地区市街地再開発準備組合 <br />※札幌駅南口北4西3地区第一種市街地再開発事業（2028年度竣工予定）出典：（仮称）札幌駅南口北4西3地区第一種市街地再開発事業 <br />※掲載の外観完成予想図は、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。
+            <br />※掲載の完成予想図は全て、設計段階の図面を基に描き起こしたもので、形状・色等は実際とは異なる場合があります。形状の細部、設備機器等は表現していません。表現されている植栽は設計段階のものであり、変更になる場合があります。また葉の色合いや枝ぶりや樹形は想定であり、竣工から生育期間を経た状態のものを描いています。また特定の季節状態を示すものではありません。敷地周辺の建物などについては簡略化しています。 <br />※掲載の航空写真は2021年10月に撮影したものに⼀部ＣＧ処理したもので、実際とは異なります。現地の光は位置を表すものであり、物件の⼤きさや⾼さを表したものではありません。
+            <br />※掲載のリビング・ダイニング・キッチン完成予想図（Aタイプ／有償設計変更プラン／分譲済）は、設計段階の図⾯を基に描き起こしたものに現地12階相当の眺望写真（2022年7⽉撮影）を合成したもので、形状・⾊等は実際とは異なる場合があります。⼀部施⼯上変更する場合がございます。形状の細部、設備機器等は表現していません。また、家具・調度品・有償オプション等は販売価格に含まれません。眺望については将来に渡って保証するものではありません。予めご了承ください。 <br />※表示の徒歩分数は1分＝80mで計算した概算であり、端数は切り上げています。
+          </p>
         </section>
       </section>
 
@@ -699,16 +714,15 @@ require "../cookie.php";
     </div>
     <!-- / .page -->
 
-    
     <div class="fixed-bnr">
-      <a href="compact/"><img src="img/bnr_conpact.jpg" class="pc"><img src="img/bnr_conpact-sp.jpg" class="sp"></a>
+      <a href="compact/"><img src="img/bnr_conpact.jpg" class="pc" /><img src="img/bnr_conpact-sp.jpg" class="sp" /></a>
       <span class="close"><img src="img/close.png" /></span>
     </div>
     <div class="fixed-bnr bnr02">
-      <a href="asset/"><img src="img/bnr_asset.jpg" class="pc"><img src="img/bnr_asset-sp.jpg" class="sp"></a>
+      <a href="asset/"><img src="img/bnr_asset.jpg" class="pc" /><img src="img/bnr_asset-sp.jpg" class="sp" /></a>
       <span class="close"><img src="img/close.png" /></span>
     </div>
-    
+
     <script type="text/javascript">
       //Cookie
       $(function () {

@@ -82,6 +82,7 @@
   z-index: 9999;
 }
 .tb-menu-nav_outer {
+  display: none;
   min-height: 82px;
 }
 .tb-menu-wrap .tb-menu-nav_wrap {
@@ -327,11 +328,12 @@
   border-left: 3px solid #4e6d77;
   vertical-align: bottom;
 }
-.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a ,.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.compact a
-{
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a,
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.compact a {
   display: flex;
 }
-.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a::before,.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.compact a::before {
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.asset a::before,
+.tb-menu-wrap .tb-menu-nav_wrap .tb-global-nav .inner .innerWrap .global-nav_Wrap .global-nav__in ul li.compact a::before {
   height: 24px;
   vertical-align: top;
 }
@@ -391,6 +393,7 @@
    共通pcハンバーガーメニュー 
 -------------------------------------------------------------------------------*/
 .pc-hamburger {
+  display: none;
   position: fixed;
   right: 35px;
   top: 20px;
@@ -658,6 +661,7 @@
 }
 
 .pc-menu-wrap .top_sholder-txt {
+  display: none;
   position: absolute;
   right: 115px;
   top: 20px;

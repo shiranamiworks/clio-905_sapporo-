@@ -16,6 +16,7 @@
 }
 
 .top-cv-btn {
+  display: none;
   position: fixed;
   top: 20vh;
   right: 0;
@@ -101,6 +102,25 @@ background-color: #79C266;
   border: 1px solid #79c266;
 }
 
+.cancel {
+  margin: 80px auto;
+  width: 85%;
+  text-align: center;
+}
+.cancel .bnr_cancel {
+  max-width: 460px;
+  margin: 0 auto 50px;
+}
+.cancel .bnr_others {
+  max-width: 380px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .cancel {
+    margin: 60px auto 70px;
+  }
+}
+
 #contentsWrap main {
   position: relative;
   height: 100vh;
@@ -108,10 +128,11 @@ background-color: #79C266;
   overflow: hidden;
 }
 #contentsWrap .main-visual {
+  display: none;
   position: relative;
   overflow: hidden;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 #contentsWrap .main-visual .txt {
   opacity: 0;
@@ -315,6 +336,7 @@ background-color: #79C266;
 }
 
 .uspWrap {
+  display: none;
   background: url(../common/imgs/sec-bg.png) bottom no-repeat;
   background-color: rgb(255, 255, 255);
   background-blend-mode: overlay;
@@ -416,6 +438,7 @@ background-color: #79C266;
 }
 
 .sec-information {
+  display: none;
   padding: 50px 0 160px;
 }
 
@@ -424,32 +447,32 @@ background-color: #79C266;
     padding: 40px 0 60px;
   }
 }
-.sec-information .price{
+.sec-information .price {
   margin: 0 auto 50px;
   max-width: 640px;
   text-align: center;
 }
-.sec-information .price .text{
+.sec-information .price .text {
   font-size: 22px;
   text-align: left;
   max-width: 370px;
   margin: auto;
 }
-.sec-information .price .text .mid{
+.sec-information .price .text .mid {
   font-size: 80%;
   text-align: center;
   display: block;
 }
-.sec-information .price .text .num{
+.sec-information .price .text .num {
   font-size: 120%;
-/*  color: #3C7A8F;*/
+  /*  color: #3C7A8F;*/
 }
-.sec-information .price .text .red{
+.sec-information .price .text .red {
   font-size: 140%;
   font-weight: 600;
   color: #952600;
 }
-.sec-information .price .text .mini{
+.sec-information .price .text .mini {
   font-size: 12px;
   text-align: center;
   display: block;
@@ -464,9 +487,9 @@ background-color: #79C266;
   .sec-information h2 {
     margin: 60px auto 30px;
   }
-  .sec-information .price .text{
+  .sec-information .price .text {
     font-size: 20px;
-}
+  }
 }
 .sec-information .link {
   font-size: 1.85em;
@@ -487,7 +510,7 @@ background-color: #79C266;
   line-height: 1.6;
   margin: 20px auto 50px;
 }
-.sec-information .open-text .mini{
+.sec-information .open-text .mini {
   font-size: 13px;
   line-height: 1.6;
   display: inline-block;
@@ -495,19 +518,19 @@ background-color: #79C266;
 }
 
 .sec-information .open .line {
-    position: relative;
-    padding-bottom: 20px;
+  position: relative;
+  padding-bottom: 20px;
 }
 .sec-information .open .line:after {
-    position: absolute;
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100px;
-    background: #000;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100px;
+  background: #000;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .sec-information .topic {
@@ -529,27 +552,27 @@ background-color: #79C266;
   padding-bottom: 10px;
 }
 .sec-information .topic .txt-open02 .line {
-  background:linear-gradient(transparent 70%, #b1ced8 70%);
+  background: linear-gradient(transparent 70%, #b1ced8 70%);
 }
 .sec-information .topic .txt-open02 .fs80 {
   font-size: 80%;
 }
-.sec-information .topic .mini{
+.sec-information .topic .mini {
   font-size: 12px;
 }
-.sec-information .topic .txt-open03 .red{
+.sec-information .topic .txt-open03 .red {
   font-size: 34px;
   color: #b30000;
 }
 .sec-information .topic .txt-open03 {
   font-size: 2.8em;
   font-weight: 500;
-  color: #B2A16A;
+  color: #b2a16a;
 }
-.sec-information .topic .txt-open03 .mini{
+.sec-information .topic .txt-open03 .mini {
   font-size: 12px;
 }
-.sec-information .topic .txt-open03 .mid{
+.sec-information .topic .txt-open03 .mid {
   font-size: 16px;
 }
 
@@ -558,28 +581,28 @@ background-color: #79C266;
     font-size: 23px;
   }
   .sec-information .open-text {
-      font-size: 15px;
-      margin: 20px auto 40px;
-    }
-.sec-information .open-text .mini{
-      font-size: 13px;
-    }
-.sec-information .topic .txt-open {
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 0 auto 5px;
-}
-.sec-information .topic .txt-open02 {
-  font-size: 20px;
-  line-height: 1.6;
-  padding-bottom: 10px;
-}
-.sec-information .topic .txt-open02 .fs90 {
-  font-size: 90%;
-}
-.sec-information .topic .mini{
-  font-size: 11px;
-}
+    font-size: 15px;
+    margin: 20px auto 40px;
+  }
+  .sec-information .open-text .mini {
+    font-size: 13px;
+  }
+  .sec-information .topic .txt-open {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 5px;
+  }
+  .sec-information .topic .txt-open02 {
+    font-size: 20px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+  }
+  .sec-information .topic .txt-open02 .fs90 {
+    font-size: 90%;
+  }
+  .sec-information .topic .mini {
+    font-size: 11px;
+  }
 }
 
 .sec-information .entend-time {
@@ -758,31 +781,31 @@ background-color: #79C266;
 .sec-information p.recommend span {
   font-size: 24px;
 }
-.sec-information p.recommend .num{
+.sec-information p.recommend .num {
   font-size: 36px;
 }
-.sec-information p.recommend .colored{
-  color: #A62A26;
+.sec-information p.recommend .colored {
+  color: #a62a26;
 }
 .sec-information p.recommend sup {
   display: block;
   font-size: 12px;
   text-align: center;
-/*  margin-right: 45px;*/
+  /*  margin-right: 45px;*/
 }
 
 @media (max-width: 640px) {
- .sec-information p.recommend {
+  .sec-information p.recommend {
     padding: 20px;
     font-size: 16px;
     line-height: 1.6;
   }
   .sec-information p.recommend sup {
-  margin-right: auto;
+    margin-right: auto;
   }
 }
 .sec-information .holiday {
-/*
+  /*
   display: inline-block;
   padding: 10px 16px;
   border: 1px solid;
@@ -850,7 +873,7 @@ background-color: #79C266;
   }
   .sec-information .holiday {
     font-size: 12px;
-}
+  }
   .sec-information .holiday span:before,
   .sec-information .holiday span:after {
     content: "";
@@ -1082,15 +1105,15 @@ background-color: #79C266;
   }
 }
 
-.guide{
+.guide {
   max-width: 800px;
   padding: 50px 5%;
   margin: 0 auto 100px;
-  border: 30px solid #D6D6D6;
+  border: 30px solid #d6d6d6;
   background: #fff;
 }
 
-.guide .title{
+.guide .title {
   max-width: 600px;
   margin: 0 auto 30px;
   font-size: 16px;
@@ -1151,52 +1174,51 @@ background-color: #79C266;
 }
 
 @media (max-width: 640px) {
-  .guide{
+  .guide {
     padding: 25px 5%;
     margin: 0 auto 50px;
-    border: 15px solid #D6D6D6;
+    border: 15px solid #d6d6d6;
   }
-  .guide .title{
+  .guide .title {
     text-align: left;
   }
 }
 
 .completion {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto 100px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 100px;
 }
 .loan-merit {
-    max-width: 800px;
-    margin: 100px auto;
-    background: #D6D6D6;
-    padding: 30px 0;
+  max-width: 800px;
+  margin: 100px auto;
+  background: #d6d6d6;
+  padding: 30px 0;
 }
 @media (max-width: 640px) {
   .loan-merit {
     margin: 50px auto;
   }
 }
-.loan-merit .image{
-    max-width: 753px;
-    margin: auto;
+.loan-merit .image {
+  max-width: 753px;
+  margin: auto;
 }
-.loan-merit .txt{
-    font-size: 14px;
-    margin-top: 15px;
+.loan-merit .txt {
+  font-size: 14px;
+  margin-top: 15px;
 }
-.loan-merit .txt a{
+.loan-merit .txt a {
   text-decoration: none;
 }
-.loan-merit .txt a:hover{
+.loan-merit .txt a:hover {
   text-decoration: underline;
 }
-
 
 @media (max-width: 640px) {
   .sec-information .infotokyo_con h2.tokyo_ttl {
     font-size: 14px;
-/*    margin-bottom: -20px;*/
+    /*    margin-bottom: -20px;*/
   }
 
   .sec-information .infotokyo_con h2.tokyo_ttl::before {
@@ -1244,10 +1266,10 @@ background-color: #79C266;
     width: 100%;
     margin: 0 auto 50px;
   }
-  .loan-merit .image{
+  .loan-merit .image {
     width: 94%;
     margin: auto;
-}
+  }
 }
 
 .sec-into {
@@ -1420,7 +1442,9 @@ background-color: #79C266;
     padding: 40px 0;
   }
 }
-
+.sec-vision2 {
+  display: none;
+}
 .sec-vision2 .video .view-bg {
   display: block;
   width: 100%;
@@ -1540,6 +1564,7 @@ background-color: #79C266;
 
 .sec-access,
 .sec-plan {
+  display: none;
   position: relative;
   box-sizing: border-box;
   margin: 100px 0 0;
@@ -1691,6 +1716,10 @@ background-color: #79C266;
   display: inline-block;
   margin: 40px auto 20px;
   width: 65%;
+}
+
+.sec-location {
+  display: none;
 }
 
 @media (max-width: 640px) {
@@ -1892,6 +1921,7 @@ background-color: #79C266;
 /*sec-menu*/
 
 .sec-menu {
+  display: none;
   padding: 180px 0 60px;
 }
 
@@ -2402,6 +2432,7 @@ background-color: #79C266;
 }
 
 .top-banner.loan {
+  display: none;
   margin: 50px auto;
   max-width: 640px;
   width: 94%;
@@ -2418,9 +2449,10 @@ background-color: #79C266;
 }
 
 .sec-pickup {
+  display: none;
   padding: 80px 0 60px;
 }
-.sec-pickup .inner{
+.sec-pickup .inner {
   max-width: none;
 }
 @media (max-width: 640px) {
@@ -2501,23 +2533,21 @@ background-color: #79C266;
 }
 .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.text {
   width: 100%;
-font-size: 1.4em;
-text-align: left;
+  font-size: 1.4em;
+  text-align: left;
 }
 
 @media (max-width: 640px) {
-.sec-pickup h4 {
-font-size: 30px;
-}
-.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.ttl {
-font-size: 13px;
-padding-bottom: 5px;
-}    
-.sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.more {
-font-size: 12px;
-
-}    
-      
+  .sec-pickup h4 {
+    font-size: 30px;
+  }
+  .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.ttl {
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+  .sec-pickup .swiper-pickup .swiper-wrapper .swiper-slide a .txtarea p.more {
+    font-size: 12px;
+  }
 }
 .foot-caption {
   padding: 80px 0;
@@ -2533,47 +2563,48 @@ font-size: 12px;
   display: none !important;
 }
 
-.fixed-bnr{
+.fixed-bnr {
+  display: none;
   position: fixed;
   width: 200px;
   bottom: 50px;
   left: 50px;
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 0.6s,transform 0.6s;
+  transition: opacity 0.6s, transform 0.6s;
   z-index: 10;
 }
-.fixed-bnr.bnr02{
+.fixed-bnr.bnr02 {
   position: fixed;
   left: 270px;
 }
-.fixed-bnr.fade_on{
+.fixed-bnr.fade_on {
   transform: translateY(0);
   opacity: 1;
 }
-.fixed-bnr.fade_off{
+.fixed-bnr.fade_off {
   transform: translateY(100px);
   opacity: 0;
 }
-.fixed-bnr .close{
+.fixed-bnr .close {
   position: absolute;
   width: 24px;
   right: -12px;
   top: -12px;
 }
 @media (max-width: 640px) {
-  .fixed-bnr{ 
+  .fixed-bnr {
     width: 94%;
     left: 3%;
     bottom: 10%;
   }
-  .fixed-bnr.bnr02{ 
+  .fixed-bnr.bnr02 {
     left: 3%;
     bottom: 0;
   }
-  .fixed-bnr .close{
-  width: 20px;
-  right: -10px;
-  top: -10px;
-}
+  .fixed-bnr .close {
+    width: 20px;
+    right: -10px;
+    top: -10px;
+  }
 }
