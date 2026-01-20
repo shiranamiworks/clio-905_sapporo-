@@ -127,6 +127,9 @@ background-color: #79C266;
   max-height: 980px;
   overflow: hidden;
 }
+#contentsWrap .mv {
+  position: relative;
+}
 #contentsWrap .main-visual {
   display: none;
   position: relative;
